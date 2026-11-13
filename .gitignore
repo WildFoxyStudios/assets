@@ -1,0 +1,12 @@
+# Excluir proyecto del juego segun instruccion del usuario
+SocialWorld_Godot_Rust_Engine/
+SocialWorl_Godot_rust_Engine/
+
+# Excluir mapas binarios compilados de Unreal Engine (>500MB cada uno, rechazados por GitHub)
+Levels/
+
+# Excluir paquetes binarios brutos de Wwise (>100MB; todo el audio ya esta convertido en Sounds/ como .ogg)
+WwiseAudio/
+
+# Excluir fuentes crudas >100MB no compatibles con limites de GitHub
+UI/Fonts/Noto/CJK/NotoSansCJK.ufont
