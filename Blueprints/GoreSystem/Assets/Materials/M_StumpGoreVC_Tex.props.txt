@@ -1,0 +1,96 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_D.T_Meat02_D'
+    ReferencedTextures[1] = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_N.T_Meat02_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Specular }
+                    ParameterInfos[2] = { Name=Tiling }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=BaseColor }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 0.3, 0.4, 1 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_N.T_Meat02_N'
+            TextureValues[1] = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_D.T_Meat02_D'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[1] = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_D.T_Meat02_D'
+        ReferencedTextures[2] = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_N.T_Meat02_N'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_N.T_Meat02_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_D.T_Meat02_D'
+        Name = BaseColor
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0.3, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.4, Name=Specular, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Tiling, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Meat02_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Meat02_N
+    }
+}
