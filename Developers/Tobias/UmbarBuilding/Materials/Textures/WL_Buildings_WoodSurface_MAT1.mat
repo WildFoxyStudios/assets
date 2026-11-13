@@ -1,0 +1,5 @@
+Diffuse=WL_Buildings_WoodSurface_INST1_basecolor
+Normal=WL_Buildings_WoodSurface_INST_normal
+Other[0]=WL_Buildings_WoodSurface_INST_metallic
+Other[1]=WL_Buildings_WoodSurface_INST_roughness
+Other[2]=WL_Buildings_WoodSurface_INST_ambientocclusion

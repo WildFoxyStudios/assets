@@ -1,0 +1,227 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Developers/Tobias/T_Default_Mask.T_Default_Mask'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Blank_Albedo.Blank_Albedo'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Blank_Normal.Blank_Normal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=DirtRoughness }
+                    ParameterInfos[1] = { Name=UpVector Sharpness }
+                    ParameterInfos[2] = { Name=Normal_3 Intensity }
+                    ParameterInfos[3] = { Name=Wear }
+                    ParameterInfos[4] = { Name=Normal_2 Intensity }
+                    ParameterInfos[5] = { Name=Normal_Scale }
+                    ParameterInfos[6] = { Name=Dirt }
+                    ParameterInfos[7] = { Name=UV_scale_Up }
+                    ParameterInfos[8] = { Name=Upvector Bias }
+                    ParameterInfos[9] = { Name=UV_scale_2 }
+                    ParameterInfos[10] = { Name=Normal Intensity }
+                    ParameterInfos[11] = { Name=UV_scale_3 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Dirt_color }
+                    ParameterInfos[1] = { Name=Albedo_up_Tint }
+                    ParameterInfos[2] = { Name=Wear_color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=Albedo_3 }
+                    ParameterInfos[1] = { Name=Normal_3 }
+                    ParameterInfos[2] = { Name=RGBMask }
+                    ParameterInfos[3] = { Name=RGB_up (RAOH) }
+                    ParameterInfos[4] = { Name=Normal_2 }
+                    ParameterInfos[5] = { Name=RAOH_3 }
+                    ParameterInfos[6] = { Name=Normal_up }
+                    ParameterInfos[7] = { Name=Albedo_2 }
+                    ParameterInfos[8] = { Name=Albedo_up }
+                    ParameterInfos[9] = { Name=RAOH_2 }
+                    ParameterInfos[10] = { Name=Normal_Base }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] = { 0, 50, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0.184262, G=0.355844, B=0.744792, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0.744792, G=0.167545, B=0.684625, A=1 }
+        }
+        TextureValues[11] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Blank_Albedo.Blank_Albedo'
+            TextureValues[1] = Texture2D'Textures/Environment/Blank_Normal.Blank_Normal'
+            TextureValues[2] = Texture2D'Developers/Tobias/T_Default_Mask.T_Default_Mask'
+            TextureValues[3] = Texture2D'Developers/Tobias/T_Default_Mask.T_Default_Mask'
+            TextureValues[4] = Texture2D'Textures/Environment/Blank_Normal.Blank_Normal'
+            TextureValues[5] = Texture2D'Developers/Tobias/T_Default_Mask.T_Default_Mask'
+            TextureValues[6] = Texture2D'Textures/Environment/Blank_Normal.Blank_Normal'
+            TextureValues[7] = Texture2D'Textures/Environment/Blank_Albedo.Blank_Albedo'
+            TextureValues[8] = Texture2D'Textures/Environment/Blank_Albedo.Blank_Albedo'
+            TextureValues[9] = Texture2D'Developers/Tobias/T_Default_Mask.T_Default_Mask'
+            TextureValues[10] = Texture2D'Textures/Environment/Blank_Normal.Blank_Normal'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'Developers/Tobias/T_Default_Mask.T_Default_Mask'
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Blank_Normal.Blank_Normal'
+        ReferencedTextures[2] = Texture2D'Textures/Environment/Blank_Albedo.Blank_Albedo'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[11] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Blank_Albedo.Blank_Albedo'
+        Name = Albedo_3
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/Blank_Normal.Blank_Normal'
+        Name = Normal_3
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Developers/Tobias/T_Default_Mask.T_Default_Mask'
+        Name = RGBMask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Developers/Tobias/T_Default_Mask.T_Default_Mask'
+        Name = RGB_up (RAOH)
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'Textures/Environment/Blank_Normal.Blank_Normal'
+        Name = Normal_2
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'Developers/Tobias/T_Default_Mask.T_Default_Mask'
+        Name = RAOH_3
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'Textures/Environment/Blank_Normal.Blank_Normal'
+        Name = Normal_up
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'Textures/Environment/Blank_Albedo.Blank_Albedo'
+        Name = Albedo_2
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'Textures/Environment/Blank_Albedo.Blank_Albedo'
+        Name = Albedo_up
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'Developers/Tobias/T_Default_Mask.T_Default_Mask'
+        Name = RAOH_2
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'Textures/Environment/Blank_Normal.Blank_Normal'
+        Name = Normal_Base
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=DirtRoughness, Group=None }
+    CollectedScalarParameters[1] = { Value=50, Name=UpVector Sharpness, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Normal_3 Intensity, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Wear, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Normal_2 Intensity, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Normal_Scale, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Dirt, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=UV_scale_Up, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Upvector Bias, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=UV_scale_2, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Normal Intensity, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=UV_scale_3, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.184262, G=0.355844, B=0.744792, A=1 }
+        Name = Dirt_color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Albedo_up_Tint
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.744792, G=0.167545, B=0.684625, A=1 }
+        Name = Wear_color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Blank_Albedo
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Blank_Normal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Default_Mask
+    }
+}

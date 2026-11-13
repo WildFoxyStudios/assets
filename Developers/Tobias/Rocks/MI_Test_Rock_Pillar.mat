@@ -1,0 +1,11 @@
+Diffuse=T_Rock_Surface_Rough_A_BC
+Normal=T_Rock_Surface_Rough_A_N
+Other[0]=T_Rock_Surface_Rough_A_RAOH
+Other[1]=WL_RockPillar02_B_BC1
+Other[2]=WL_RockPillar02_INST_RGB
+Other[3]=T_Default_Mask
+Other[4]=WL_Moss_INST_basecolor
+Other[5]=WL_Moss_INST_normal
+Other[6]=WL_Lichen_INST_AOMR
+Other[7]=Blank_Albedo
+Other[8]=Blank_Normal
