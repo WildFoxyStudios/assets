@@ -1,0 +1,8 @@
+Diffuse=Body1_BaseColor
+Normal=Bol_Pents1_Normal
+Other[0]=Bol_Pents1_BaseColor
+Other[1]=Bol_Pents1_OcclusionRoughnessMetallic
+Other[2]=Body1_Height
+Other[3]=Body1_Metallic
+Other[4]=Body1_Normal
+Other[5]=Body1_Roughness

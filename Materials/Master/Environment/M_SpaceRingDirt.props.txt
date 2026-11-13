@@ -1,0 +1,211 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Architecture/fireplace_lp_03___Default_Emissive.fireplace_lp_03___Default_Emissive'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Architecture/T_A047_Body_BaseColor.T_A047_Body_BaseColor'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Architecture/T_A047_Body_Normal.T_A047_Body_Normal'
+    ReferencedTextures[3] = Texture2D'Textures/Environment/Architecture/T_A047_Body_OcclusionRoughnessMetallic.T_A047_Body_OcclusionRoughnessMetallic'
+    ReferencedTextures[4] = Texture2D'Textures/Environment/Ground/T_ground_dirt_canyon_C_AOHR.T_ground_dirt_canyon_C_AOHR'
+    ReferencedTextures[5] = Texture2D'Textures/Environment/Ground/T_ground_dirt_canyon_C_BC.T_ground_dirt_canyon_C_BC'
+    ReferencedTextures[6] = Texture2D'Textures/Environment/Ground/T_ground_dirt_canyon_C_N.T_ground_dirt_canyon_C_N'
+    ReferencedTextures[7] = Texture2D'Textures/Environment/T_clouds_C_MK.T_clouds_C_MK'
+    ReferencedTextures[8] = Texture2D'Textures/FX/T_Smoke_Tiled_D.T_Smoke_Tiled_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Wind Intensity }
+                    ParameterInfos[1] = { Name=DirtC_RoughnessMultiplier }
+                    ParameterInfos[2] = { Name=DirtAlpha_Sharpness }
+                    ParameterInfos[3] = { Name=Specular }
+                    ParameterInfos[4] = { Name=UV_Offset }
+                    ParameterInfos[5] = { Name=DirtAlpha_Multiplier }
+                    ParameterInfos[6] = { Name=DirtAlpha_Size }
+                    ParameterInfos[7] = { Name=UV_Multiplier }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=AO/Metallic/Rougness }
+                    ParameterInfos[1] = { Name=Normal_Soil_c }
+                    ParameterInfos[2] = { Name=Emissiv }
+                    ParameterInfos[3] = { Name=Normal }
+                    ParameterInfos[4] = { Name=Attribute_Soil_c }
+                    ParameterInfos[5] = { Name=Color_Soil_c }
+                    ParameterInfos[6] = { Name=BaseColor }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 1, 15, 0.8, 0.1, 0, 0.75, 1000, 1 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Architecture/T_A047_Body_OcclusionRoughnessMetallic.T_A047_Body_OcclusionRoughnessMetallic'
+            TextureValues[1] = Texture2D'Textures/Environment/Ground/T_ground_dirt_canyon_C_N.T_ground_dirt_canyon_C_N'
+            TextureValues[2] = Texture2D'Textures/Environment/Architecture/fireplace_lp_03___Default_Emissive.fireplace_lp_03___Default_Emissive'
+            TextureValues[3] = Texture2D'Textures/Environment/Architecture/T_A047_Body_Normal.T_A047_Body_Normal'
+            TextureValues[4] = Texture2D'Textures/Environment/Ground/T_ground_dirt_canyon_C_AOHR.T_ground_dirt_canyon_C_AOHR'
+            TextureValues[5] = Texture2D'Textures/Environment/Ground/T_ground_dirt_canyon_C_BC.T_ground_dirt_canyon_C_BC'
+            TextureValues[6] = Texture2D'Textures/Environment/Architecture/T_A047_Body_BaseColor.T_A047_Body_BaseColor'
+        }
+    }
+    ReferencedTextures[12] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Environment/Architecture/T_A047_Body_BaseColor.T_A047_Body_BaseColor'
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Architecture/T_A047_Body_OcclusionRoughnessMetallic.T_A047_Body_OcclusionRoughnessMetallic'
+        ReferencedTextures[2] = Texture2D'Textures/Environment/Architecture/T_A047_Body_Normal.T_A047_Body_Normal'
+        ReferencedTextures[4] = Texture2D'Textures/Environment/Architecture/fireplace_lp_03___Default_Emissive.fireplace_lp_03___Default_Emissive'
+        ReferencedTextures[5] = Texture2D'Textures/FX/T_Smoke_Tiled_D.T_Smoke_Tiled_D'
+        ReferencedTextures[6] = Texture2D'Textures/Environment/Ground/T_ground_dirt_canyon_C_BC.T_ground_dirt_canyon_C_BC'
+        ReferencedTextures[7] = Texture2D'Textures/Environment/Ground/T_ground_dirt_canyon_C_N.T_ground_dirt_canyon_C_N'
+        ReferencedTextures[8] = Texture2D'Textures/Environment/Ground/T_ground_dirt_canyon_C_AOHR.T_ground_dirt_canyon_C_AOHR'
+        ReferencedTextures[11] = Texture2D'Textures/Environment/T_clouds_C_MK.T_clouds_C_MK'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Architecture/T_A047_Body_OcclusionRoughnessMetallic.T_A047_Body_OcclusionRoughnessMetallic'
+        Name = AO/Metallic/Rougness
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/Ground/T_ground_dirt_canyon_C_N.T_ground_dirt_canyon_C_N'
+        Name = Normal_Soil_c
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Environment/Architecture/fireplace_lp_03___Default_Emissive.fireplace_lp_03___Default_Emissive'
+        Name = Emissiv
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/Environment/Architecture/T_A047_Body_Normal.T_A047_Body_Normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'Textures/Environment/Ground/T_ground_dirt_canyon_C_AOHR.T_ground_dirt_canyon_C_AOHR'
+        Name = Attribute_Soil_c
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'Textures/Environment/Ground/T_ground_dirt_canyon_C_BC.T_ground_dirt_canyon_C_BC'
+        Name = Color_Soil_c
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'Textures/Environment/Architecture/T_A047_Body_BaseColor.T_A047_Body_BaseColor'
+        Name = BaseColor
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Wind Intensity, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 15
+        Name = DirtC_RoughnessMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0.8, Name=DirtAlpha_Sharpness, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=Specular, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=UV_Offset, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0.75
+        Name = DirtAlpha_Multiplier
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=1000, Name=DirtAlpha_Size, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=UV_Multiplier, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = EmissiveColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[6] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_A047_Body_BaseColor
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_A047_Body_Normal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_A047_Body_OcclusionRoughnessMetallic
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_ground_dirt_canyon_C_AOHR
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_ground_dirt_canyon_C_BC
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_ground_dirt_canyon_C_N
+    }
+}

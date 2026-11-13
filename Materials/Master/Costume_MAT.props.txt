@@ -1,0 +1,216 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Blank_NORM.Blank_NORM'
+    ReferencedTextures[1] = Texture2D'Textures/Blank_TEX.Blank_TEX'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=03. Texture Rotation }
+                    ParameterInfos[1] = { Name=09. Subsurface Intensity }
+                    ParameterInfos[2] = { Name=07. Subtract Diffuse }
+                    ParameterInfos[3] = { Name=04. Specular }
+                    ParameterInfos[4] = { Name=08. Roughness Texture Influence }
+                    ParameterInfos[5] = { Name=06. Metal Texture Influence }
+                    ParameterInfos[6] = { Name=05. Metallic }
+                    ParameterInfos[7] = { Name=09. Fuzzy Shading Strength }
+                    ParameterInfos[8] = { Name=07. Roughness }
+                    ParameterInfos[9] = { Name=10. Bump Offset Intensity }
+                    ParameterInfos[10] = { Name=03. Normal Intensity }
+                    ParameterInfos[11] = { Name=08. Desaturation }
+                    ParameterInfos[12] = { Name=01. Fresnel Power }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=02. Texture Movement }
+                    ParameterInfos[1] = { Name=01. Texture Tile Size }
+                    ParameterInfos[2] = { Name=02. Fresnel Color Variation }
+                    ParameterInfos[3] = { Name=06. Alpha Color Variation }
+                    ParameterInfos[4] = { Name=04. Texture Color Variation }
+                    ParameterInfos[5] = { Name=10. Subsurface Color Variation }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=01. Diffuse Texture }
+                    ParameterInfos[1] = { Name=04. Bump Offset Texture }
+                    ParameterInfos[2] = { Name=Opacity Texture }
+                    ParameterInfos[3] = { Name=03. Roughness Texture }
+                    ParameterInfos[4] = { Name=02. Normal Texture }
+                    ParameterInfos[5] = { Name=05. Metal Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] = { 0, 0.2, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1 }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0.1, G=0.1, B=0, A=1 }
+            VectorValues[2] = { R=0.039546, G=0.039546, B=0.039546, A=1 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'Textures/Blank_TEX.Blank_TEX'
+            TextureValues[1] = Texture2D'Textures/Blank_TEX.Blank_TEX'
+            TextureValues[2] = Texture2D'Textures/Blank_TEX.Blank_TEX'
+            TextureValues[3] = Texture2D'Textures/Blank_TEX.Blank_TEX'
+            TextureValues[4] = Texture2D'Textures/Blank_NORM.Blank_NORM'
+            TextureValues[5] = Texture2D'Textures/Blank_TEX.Blank_TEX'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Blank_TEX.Blank_TEX'
+        ReferencedTextures[1] = Texture2D'Textures/Blank_NORM.Blank_NORM'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Blank_TEX.Blank_TEX'
+        Name = 01. Diffuse Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Blank_TEX.Blank_TEX'
+        Name = 04. Bump Offset Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Blank_TEX.Blank_TEX'
+        Name = Opacity Texture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/Blank_TEX.Blank_TEX'
+        Name = 03. Roughness Texture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'Textures/Blank_NORM.Blank_NORM'
+        Name = 02. Normal Texture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'Textures/Blank_TEX.Blank_TEX'
+        Name = 05. Metal Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=03. Texture Rotation, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.2
+        Name = 09. Subsurface Intensity
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0, Name=07. Subtract Diffuse, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=04. Specular, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0
+        Name = 08. Roughness Texture Influence
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0
+        Name = 06. Metal Texture Influence
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=0, Name=05. Metallic, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0
+        Name = 09. Fuzzy Shading Strength
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=1, Name=07. Roughness, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0
+        Name = 10. Bump Offset Intensity
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=1, Name=03. Normal Intensity, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=08. Desaturation, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=01. Fresnel Power, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = 02. Texture Movement
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.1, G=0.1, B=0, A=1 }
+        Name = 01. Texture Tile Size
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.039546, G=0.039546, B=0.039546, A=1 }
+        Name = 02. Fresnel Color Variation
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = 06. Alpha Color Variation
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = 04. Texture Color Variation
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = 10. Subsurface Color Variation
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

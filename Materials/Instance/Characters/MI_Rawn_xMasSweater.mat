@@ -1,0 +1,7 @@
+Diffuse=XMASSweater_tm
+Normal=XMASSweater_nm
+Other[0]=XMASSweater_sm
+Other[1]=fireplace_lp_03___Default_Emissive
+Other[2]=T_A047_Body_BaseColor
+Other[3]=T_A047_Body_Normal
+Other[4]=T_A047_Body_OcclusionRoughnessMetallic

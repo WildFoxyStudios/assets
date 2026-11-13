@@ -1,0 +1,346 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/FX/Jungle/WaterfallNoise_basecolor_02.WaterfallNoise_basecolor_02'
+    ReferencedTextures[1] = Texture2D'Textures/FX/OffsetNoiseDistanceFields_ForNormals.OffsetNoiseDistanceFields_ForNormals'
+    ReferencedTextures[2] = Texture2D'Textures/FX/T_Water_N.T_Water_N'
+    ReferencedTextures[3] = Texture2D'Textures/FX/water_normal_normal.water_normal_normal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[41] =
+                {
+                    ParameterInfos[0] = { Name=TessellationHeightMax (S) }
+                    ParameterInfos[1] = { Name=NormalIntenseOnDistanceFieldZero }
+                    ParameterInfos[2] = { Name=LerpNormal1Normal2 }
+                    ParameterInfos[3] = { Name=UvDistortion }
+                    ParameterInfos[4] = { Name=FlowSpeedTesselation }
+                    ParameterInfos[5] = { Name=WaterOP }
+                    ParameterInfos[6] = { Name=TextureScale }
+                    ParameterInfos[7] = { Name=WaterHeightBeforeObstacle }
+                    ParameterInfos[8] = { Name=ObstacleFoamIntensity }
+                    ParameterInfos[9] = { Name=BorderHeightOffset }
+                    ParameterInfos[10] = { Name=DistortionFlowSpeed }
+                    ParameterInfos[11] = { Name=smoothobstacleGradient }
+                    ParameterInfos[12] = { Name=Anisotropy }
+                    ParameterInfos[13] = { Name=DistortionTextureScale }
+                    ParameterInfos[14] = { Name=DistanceFlowmapNone (S) }
+                    ParameterInfos[15] = { Name=PDO }
+                    ParameterInfos[16] = { Name=Normal1Speed }
+                    ParameterInfos[17] = { Name=Texture Distortion Anount }
+                    ParameterInfos[18] = { Name=DistanceTessellationFull (S) }
+                    ParameterInfos[19] = { Name=Tesselation Multiplier }
+                    ParameterInfos[20] = { Name=WaterFoamMax }
+                    ParameterInfos[21] = { Name=FoamOPExp }
+                    ParameterInfos[22] = { Name=Normal2Speed }
+                    ParameterInfos[23] = { Name=MacroChaos }
+                    ParameterInfos[24] = { Name=DistanceFlowMapFull (S) }
+                    ParameterInfos[25] = { Name=Gradient smoothnes }
+                    ParameterInfos[26] = { Name=ObstacleFoamPower }
+                    ParameterInfos[27] = { Name=FoamChaos }
+                    ParameterInfos[28] = { Name=Tesselation Noise Scale }
+                    ParameterInfos[29] = { Name=NormalIntense }
+                    ParameterInfos[30] = { Name=WaterHeightAfterObstacle }
+                    ParameterInfos[31] = { Name=Normal1Chaos }
+                    ParameterInfos[32] = { Name=CenterHeightOffset }
+                    ParameterInfos[33] = { Name=FoamOP }
+                    ParameterInfos[34] = { Name=RefractionAmplifier }
+                    ParameterInfos[35] = { Name=DistanceTessellationNone (S) }
+                    ParameterInfos[36] = { Name=Gradient smoothnes Flow }
+                    ParameterInfos[37] = { Name=FoamScale }
+                    ParameterInfos[38] = { Name=FlowSpeed }
+                    ParameterInfos[39] = { Name=Normal2Chaos }
+                    ParameterInfos[40] = { Name=MacroScale }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Absorption }
+                    ParameterInfos[1] = { Name=Scattering }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=T_Macro }
+                    ParameterInfos[1] = { Name=T_Normal1 }
+                    ParameterInfos[2] = { Name=T_Normal2 }
+                    ParameterInfos[3] = { Name=T_Foam }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[41] =
+        {
+            ScalarValues[0] = 200
+            ScalarValues[1] = 0.309524
+            ScalarValues[2] = 0.561906
+            ScalarValues[3] = 0.10084
+            ScalarValues[4] = 0.2
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0.1
+            ScalarValues[7] = 1.5
+            ScalarValues[8] = 1024
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0.15
+            ScalarValues[11] = 5.48342
+            ScalarValues[12] = 0.1
+            ScalarValues[13] = 1.42857
+            ScalarValues[14] = 13569.6
+            ScalarValues[15] = 5000
+            ScalarValues[16] = 1.5
+            ScalarValues[17] = -0.047619
+            ScalarValues[18] = 2000
+            ScalarValues[19] = 65
+            ScalarValues[20] = 1
+            ScalarValues[21] = 2
+            ScalarValues[22] = 1.5
+            ScalarValues[23] = 0.580952
+            ScalarValues[24] = 6786.75
+            ScalarValues[25] = 40
+            ScalarValues[26] = 0.4
+            ScalarValues[27] = 0.295238
+            ScalarValues[28] = 5
+            ScalarValues[29] = 1
+            ScalarValues[30] = -0.410545
+            ScalarValues[31] = 0.5
+            ScalarValues[32] = 0
+            ScalarValues[33] = 10
+            ScalarValues[34] = 1
+            ScalarValues[35] = 5000
+            ScalarValues[36] = 415
+            ScalarValues[37] = 0.254285
+            ScalarValues[38] = 0.25
+            ScalarValues[39] = 0.85
+            ScalarValues[40] = 1.04286
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=8, B=20, A=50 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0.1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'Textures/FX/Jungle/WaterfallNoise_basecolor_02.WaterfallNoise_basecolor_02'
+            TextureValues[1] = Texture2D'Textures/FX/water_normal_normal.water_normal_normal'
+            TextureValues[2] = Texture2D'Textures/FX/T_Water_N.T_Water_N'
+            TextureValues[3] = Texture2D'Textures/FX/Jungle/WaterfallNoise_basecolor_02.WaterfallNoise_basecolor_02'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[2] = Texture2D'Textures/FX/water_normal_normal.water_normal_normal'
+        ReferencedTextures[3] = Texture2D'Textures/FX/T_Water_N.T_Water_N'
+        ReferencedTextures[4] = Texture2D'Textures/FX/Jungle/WaterfallNoise_basecolor_02.WaterfallNoise_basecolor_02'
+        ReferencedTextures[5] = Texture2D'Textures/FX/OffsetNoiseDistanceFields_ForNormals.OffsetNoiseDistanceFields_ForNormals'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/FX/Jungle/WaterfallNoise_basecolor_02.WaterfallNoise_basecolor_02'
+        Name = T_Macro
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/FX/water_normal_normal.water_normal_normal'
+        Name = T_Normal1
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/FX/T_Water_N.T_Water_N'
+        Name = T_Normal2
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/FX/Jungle/WaterfallNoise_basecolor_02.WaterfallNoise_basecolor_02'
+        Name = T_Foam
+        Group = None
+    }
+}
+CollectedScalarParameters[41] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 200
+        Name = TessellationHeightMax (S)
+        Group = None
+    }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.309524
+        Name = NormalIntenseOnDistanceFieldZero
+        Group = None
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.561906
+        Name = LerpNormal1Normal2
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=0.10084, Name=UvDistortion, Group=None }
+    CollectedScalarParameters[4] = { Value=0.2, Name=FlowSpeedTesselation, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=WaterOP, Group=None }
+    CollectedScalarParameters[6] = { Value=0.1, Name=TextureScale, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 1.5
+        Name = WaterHeightBeforeObstacle
+        Group = None
+    }
+    CollectedScalarParameters[8] =
+    {
+        Value = 1024
+        Name = ObstacleFoamIntensity
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=0, Name=BorderHeightOffset, Group=None }
+    CollectedScalarParameters[10] = { Value=0.15, Name=DistortionFlowSpeed, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 5.48342
+        Name = smoothobstacleGradient
+        Group = None
+    }
+    CollectedScalarParameters[12] = { Value=0.1, Name=Anisotropy, Group=None }
+    CollectedScalarParameters[13] =
+    {
+        Value = 1.42857
+        Name = DistortionTextureScale
+        Group = None
+    }
+    CollectedScalarParameters[14] =
+    {
+        Value = 13569.6
+        Name = DistanceFlowmapNone (S)
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=5000, Name=PDO, Group=None }
+    CollectedScalarParameters[16] = { Value=1.5, Name=Normal1Speed, Group=None }
+    CollectedScalarParameters[17] =
+    {
+        Value = -0.047619
+        Name = Texture Distortion Anount
+        Group = None
+    }
+    CollectedScalarParameters[18] =
+    {
+        Value = 2000
+        Name = DistanceTessellationFull (S)
+        Group = None
+    }
+    CollectedScalarParameters[19] =
+    {
+        Value = 65
+        Name = Tesselation Multiplier
+        Group = None
+    }
+    CollectedScalarParameters[20] = { Value=1, Name=WaterFoamMax, Group=None }
+    CollectedScalarParameters[21] = { Value=2, Name=FoamOPExp, Group=None }
+    CollectedScalarParameters[22] = { Value=1.5, Name=Normal2Speed, Group=None }
+    CollectedScalarParameters[23] = { Value=0.580952, Name=MacroChaos, Group=None }
+    CollectedScalarParameters[24] =
+    {
+        Value = 6786.75
+        Name = DistanceFlowMapFull (S)
+        Group = None
+    }
+    CollectedScalarParameters[25] = { Value=40, Name=Gradient smoothnes, Group=None }
+    CollectedScalarParameters[26] = { Value=0.4, Name=ObstacleFoamPower, Group=None }
+    CollectedScalarParameters[27] = { Value=0.295238, Name=FoamChaos, Group=None }
+    CollectedScalarParameters[28] =
+    {
+        Value = 5
+        Name = Tesselation Noise Scale
+        Group = None
+    }
+    CollectedScalarParameters[29] = { Value=1, Name=NormalIntense, Group=None }
+    CollectedScalarParameters[30] =
+    {
+        Value = -0.410545
+        Name = WaterHeightAfterObstacle
+        Group = None
+    }
+    CollectedScalarParameters[31] = { Value=0.5, Name=Normal1Chaos, Group=None }
+    CollectedScalarParameters[32] = { Value=0, Name=CenterHeightOffset, Group=None }
+    CollectedScalarParameters[33] = { Value=10, Name=FoamOP, Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=RefractionAmplifier, Group=None }
+    CollectedScalarParameters[35] =
+    {
+        Value = 5000
+        Name = DistanceTessellationNone (S)
+        Group = None
+    }
+    CollectedScalarParameters[36] =
+    {
+        Value = 415
+        Name = Gradient smoothnes Flow
+        Group = None
+    }
+    CollectedScalarParameters[37] = { Value=0.254285, Name=FoamScale, Group=None }
+    CollectedScalarParameters[38] = { Value=0.25, Name=FlowSpeed, Group=None }
+    CollectedScalarParameters[39] = { Value=0.85, Name=Normal2Chaos, Group=None }
+    CollectedScalarParameters[40] = { Value=1.04286, Name=MacroScale, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=8, B=20, A=50 }
+        Name = Absorption
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0.1 }
+        Name = Scattering
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.703125
+        UVChannelIndex = 0
+        TextureName = OffsetNoiseDistanceFields_ForNormals
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Water_N
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 10
+        UVChannelIndex = 0
+        TextureName = water_normal_normal
+    }
+}

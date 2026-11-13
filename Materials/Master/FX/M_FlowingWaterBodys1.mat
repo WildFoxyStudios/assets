@@ -1,0 +1,4 @@
+Normal=water_normal_normal
+Other[0]=WaterfallNoise_basecolor_02
+Other[1]=OffsetNoiseDistanceFields_ForNormals
+Other[2]=T_Water_N

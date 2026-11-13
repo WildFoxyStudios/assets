@@ -1,0 +1,6 @@
+Diffuse=WolfSkullSimple_BaseColor
+Normal=WolfSkullSimple_Normal
+Other[0]=WolfSkullSimple_RoughnessMetalicAO
+Other[1]=AlienSimple_BaseColor
+Other[2]=AlienSimple_Normal
+Other[3]=AlienSimple_RoughnessMetalicAO

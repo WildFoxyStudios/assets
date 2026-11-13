@@ -1,0 +1,7 @@
+Diffuse=T_teak_leafs_diffuse
+Normal=T_teak_leafs_normal
+SpecPower=T_teak_leafs_masks
+Other[0]=T_coconut_leaves_diffuse
+Other[1]=T_coconut_leaves_masks
+Other[2]=T_coconut_leaves_normal
+Other[3]=T_WindAnimation

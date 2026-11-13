@@ -1,0 +1,7 @@
+Diffuse=T_Cloth_01_Mask
+Normal=T_Empty_normal
+Other[0]=T_Cloth_Mask_01
+Other[1]=T_Empty_BaseColor
+Other[2]=T_Empty_OcclusionRoughnessHeight
+Other[3]=T_UV
+Other[4]=T_Waves

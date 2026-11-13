@@ -1,0 +1,115 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Foliage/T_Grass_BC.T_Grass_BC'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Foliage/T_Grass_N.T_Grass_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=LandscapeColors_Intensity }
+                    ParameterInfos[1] = { Name=WindWeight }
+                    ParameterInfos[2] = { Name=LandscapeColors_Offset }
+                    ParameterInfos[3] = { Name=WPO_FadeOut_Distance }
+                    ParameterInfos[4] = { Name=WindIntensity }
+                    ParameterInfos[5] = { Name=LandscapeColors_Scale }
+                    ParameterInfos[6] = { Name=HeightMultiplier (S) }
+                    ParameterInfos[7] = { Name=WindSpeed }
+                    ParameterInfos[8] = { Name=WPO_FadeOut_Length }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=WindScale }
+                    ParameterInfos[1] = { Name=Color }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=LandscapeColors_RVTTextureAsset }
+                }
+            }
+        }
+        ScalarValues[9] = { 1, 0.3, 0, 4000, 0.3, 20, -0.5, 0.3, 1000 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0.572917, G=0.363621, B=0.317759, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Environment/Foliage/T_Grass_BC.T_Grass_BC'
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Foliage/T_Grass_N.T_Grass_N'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 1
+        Name = LandscapeColors_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0.3, Name=WindWeight, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=LandscapeColors_Offset, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 4000
+        Name = WPO_FadeOut_Distance
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0.3, Name=WindIntensity, Group=None }
+    CollectedScalarParameters[5] = { Value=20, Name=LandscapeColors_Scale, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = -0.5
+        Name = HeightMultiplier (S)
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=0.3, Name=WindSpeed, Group=None }
+    CollectedScalarParameters[8] = { Value=1000, Name=WPO_FadeOut_Length, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = WindScale
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.572917, G=0.363621, B=0.317759, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

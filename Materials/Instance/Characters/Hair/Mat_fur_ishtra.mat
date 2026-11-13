@@ -1,0 +1,5 @@
+Diffuse=hair_whiteOrange_wip
+Opacity=hairAlphaP
+Other[0]=ShiftTexture
+Other[1]=DiffuseTexture
+Other[2]=GlitterTexture

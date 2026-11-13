@@ -1,0 +1,226 @@
+Parent = Material3'Materials/Master/Eye_MAT.Eye_MAT'
+ScalarParameterValues[24] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=DepthScale }
+        ParameterValue = 1.7
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=FlattenNormal }
+        ParameterValue = 0.899636
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=IoR }
+        ParameterValue = 1.00029
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Iris Concavity Power }
+        ParameterValue = 1.40734
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Iris Concavity Scale }
+        ParameterValue = 1.79816
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Iris UV Radius }
+        ParameterValue = 0.149174
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=IrisBRightness }
+        ParameterValue = 0.542857
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=IrisRoughness }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=LimbusDarkScale }
+        ParameterValue = 2.31055
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=LimbusPow }
+        ParameterValue = 5.72677
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=LimbusUVWidthColor }
+        ParameterValue = 0.04
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=LimbusUVWidthShading }
+        ParameterValue = 0.045
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=PupilScale }
+        ParameterValue = 0.84
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Refraction On/Off }
+        ParameterValue = 0.431192
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=ScaleByCenter }
+        ParameterValue = 1.1
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=ScleraBrightness }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=ScleraRougness }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=ShadowHardness }
+        ParameterValue = 0.137615
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=ShadowRadius }
+        ParameterValue = 0.489183
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=Spec_Rim }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=SpecularityIris }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=SpecularityScelera }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=Iris_Bright }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=IrisColor }
+        ParameterValue = Texture2D'Textures/Characters/Eye/eyeCol_Dneutral.eyeCol_Dneutral'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=EyeCornerDarknessColor }
+        ParameterValue = { R=0.58, G=0.429403, B=0.377, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Iris_Shadow }
+        ParameterValue = { R=0, G=0.134667, B=0.145833, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseEyeBuldge }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = EYE_NORMALS
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.90625
+        UVChannelIndex = 0
+        TextureName = EyeScleraBaseColor_Example_2
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.421875
+        UVChannelIndex = 0
+        TextureName = T_Eye_Wet_Normal
+    }
+}

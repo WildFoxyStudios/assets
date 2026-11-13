@@ -1,0 +1,119 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Assets/T_Empty_BaseColor.T_Empty_BaseColor'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Assets/T_Empty_LinearRGB.T_Empty_LinearRGB'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Assets/T_Empty_normal.T_Empty_normal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Bump_Offset_Ratio }
+                    ParameterInfos[1] = { Name=Desaturation }
+                    ParameterInfos[2] = { Name=Specular }
+                    ParameterInfos[3] = { Name=X_Tile }
+                    ParameterInfos[4] = { Name=Min AO }
+                    ParameterInfos[5] = { Name=Scale }
+                    ParameterInfos[6] = { Name=Y_Tile }
+                    ParameterInfos[7] = { Name=Roughness Multiply }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Base_Color_Multiply }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Base Color }
+                    ParameterInfos[1] = { Name=Occlusion Roughness Height }
+                    ParameterInfos[2] = { Name=Normal Map }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0, 0, 0.5, 1, 0, 1, 1, 1 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Assets/T_Empty_BaseColor.T_Empty_BaseColor'
+            TextureValues[1] = Texture2D'Textures/Environment/Assets/T_Empty_LinearRGB.T_Empty_LinearRGB'
+            TextureValues[2] = Texture2D'Textures/Environment/Assets/T_Empty_normal.T_Empty_normal'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Assets/T_Empty_BaseColor.T_Empty_BaseColor'
+        ReferencedTextures[2] = Texture2D'Textures/Environment/Assets/T_Empty_normal.T_Empty_normal'
+        ReferencedTextures[3] = Texture2D'Textures/Environment/Assets/T_Empty_LinearRGB.T_Empty_LinearRGB'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Assets/T_Empty_BaseColor.T_Empty_BaseColor'
+        Name = Base Color
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/Assets/T_Empty_LinearRGB.T_Empty_LinearRGB'
+        Name = Occlusion Roughness Height
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Environment/Assets/T_Empty_normal.T_Empty_normal'
+        Name = Normal Map
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Bump_Offset_Ratio, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Desaturation, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=X_Tile, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Min AO, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Scale, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Y_Tile, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Roughness Multiply, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Base_Color_Multiply
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

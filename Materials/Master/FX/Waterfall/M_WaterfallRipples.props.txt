@@ -1,0 +1,101 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/FX/Jungle/T_Water_EdgeNormals.T_Water_EdgeNormals'
+    ReferencedTextures[1] = Texture2D'Textures/FX/Jungle/WaterfallNoise_basecolor_02.WaterfallNoise_basecolor_02'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=FoamScaleY }
+                    ParameterInfos[1] = { Name=BorderMaskThreshold }
+                    ParameterInfos[2] = { Name=FoamScaleX_02 }
+                    ParameterInfos[3] = { Name=FadeDistance }
+                    ParameterInfos[4] = { Name=FoamScaleX }
+                    ParameterInfos[5] = { Name=BorderMaskOffset }
+                    ParameterInfos[6] = { Name=Normal Intensity }
+                    ParameterInfos[7] = { Name=FoamScaleY_02 }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] =
+        {
+            ScalarValues[0] = 0.664175
+            ScalarValues[1] = 0.754722
+            ScalarValues[2] = 0.043229
+            ScalarValues[3] = 50
+            ScalarValues[4] = 0.095238
+            ScalarValues[5] = 0.246692
+            ScalarValues[6] = -5
+            ScalarValues[7] = 1.57343
+        }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/FX/Jungle/WaterfallNoise_basecolor_02.WaterfallNoise_basecolor_02'
+        ReferencedTextures[1] = Texture2D'Textures/FX/Jungle/T_Water_EdgeNormals.T_Water_EdgeNormals'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0.664175, Name=FoamScaleY, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.754722
+        Name = BorderMaskThreshold
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0.043229, Name=FoamScaleX_02, Group=None }
+    CollectedScalarParameters[3] = { Value=50, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[4] = { Value=0.095238, Name=FoamScaleX, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0.246692
+        Name = BorderMaskOffset
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=-5, Name=Normal Intensity, Group=None }
+    CollectedScalarParameters[7] = { Value=1.57343, Name=FoamScaleY_02, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.09375
+        UVChannelIndex = 0
+        TextureName = T_Water_EdgeNormals
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.046875
+        UVChannelIndex = 0
+        TextureName = WaterfallNoise_basecolor_02
+    }
+}

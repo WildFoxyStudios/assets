@@ -1,0 +1,6 @@
+Diffuse=Clouds_A
+Normal=T_leather_generic_A_N
+Opacity=Clouds_A
+Other[0]=T_leather_generic_A_AOHR
+Other[1]=T_leather_generic_A_BC
+Other[2]=T_clouds_B_MK

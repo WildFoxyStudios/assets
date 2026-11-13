@@ -1,0 +1,8 @@
+Diffuse=textur_slave_male_v2_BaseColor
+Normal=textur_slave_male_v2_Normal
+Emissive=textur_slave_male_v2_Emissive
+Other[0]=textur_slave_male_v2_OcclusionRoughnessMetallic
+Other[1]=fireplace_lp_03___Default_Emissive
+Other[2]=T_A047_Body_BaseColor
+Other[3]=T_A047_Body_Normal
+Other[4]=T_A047_Body_OcclusionRoughnessMetallic

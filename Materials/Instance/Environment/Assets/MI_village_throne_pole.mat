@@ -1,0 +1,8 @@
+Diffuse=T_blank_AOHR
+Normal=T_blank_N
+Emissive=T_blank_E
+Other[0]=T_villagethrone_pole_AORH
+Other[1]=T_villagethrone_pole_BC
+Other[2]=T_villagethrone_pole_N
+Other[3]=T_blank_BC
+Other[4]=T_Perlin_Noise_M

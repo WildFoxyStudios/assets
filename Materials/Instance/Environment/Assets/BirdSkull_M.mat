@@ -1,0 +1,7 @@
+Diffuse=bird_skull_default_AlbedoTransparency_T
+Normal=bird_skull_default_Normal_T
+Other[0]=bird_skull_default_Glossiness_T
+Other[1]=BoneAmulet_diff_T
+Other[2]=BoneAmulet_gloss_T
+Other[3]=BoneAmulet_metall_T
+Other[4]=BoneAmulet_normal_T

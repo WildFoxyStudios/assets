@@ -1,0 +1,6 @@
+Diffuse=DeerSkullSimple_BaseColor
+Normal=DeerSkullSimple_Normal
+Other[0]=DeerSkullSimple_RoughnessMetalicAO
+Other[1]=AlienSimple_BaseColor
+Other[2]=AlienSimple_Normal
+Other[3]=AlienSimple_RoughnessMetalicAO

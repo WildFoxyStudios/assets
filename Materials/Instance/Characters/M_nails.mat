@@ -1,0 +1,8 @@
+Diffuse=1004_BaseColor
+Normal=nails_nm
+Emissive=base_black_d
+Other[0]=Blank_Albedo
+Other[1]=fireplace_lp_03___Default_Emissive
+Other[2]=T_A047_Body_BaseColor
+Other[3]=T_A047_Body_Normal
+Other[4]=T_A047_Body_OcclusionRoughnessMetallic

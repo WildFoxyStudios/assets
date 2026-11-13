@@ -1,0 +1,5 @@
+Diffuse=hair_white_tm2
+Opacity=mediumFancy
+Other[0]=ShiftTexture
+Other[1]=DiffuseTexture
+Other[2]=GlitterTexture

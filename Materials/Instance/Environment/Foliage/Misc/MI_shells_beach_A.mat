@@ -1,0 +1,10 @@
+Diffuse=T_village_shells_BC
+Normal=T_village_shells_N
+Emissive=T_village_shell_pretty_M
+Other[0]=T_village_shells_AORH
+Other[1]=T_WindAnimation
+Other[2]=T_clouds_D_MK
+Other[3]=T_blank_AOHR
+Other[4]=T_blank_BC
+Other[5]=T_blank_E
+Other[6]=T_blank_N

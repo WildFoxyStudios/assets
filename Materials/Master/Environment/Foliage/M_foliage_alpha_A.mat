@@ -1,0 +1,6 @@
+Diffuse=T_clouds_D_MK
+Normal=T_blank_N
+Emissive=T_blank_E
+Other[0]=T_WindAnimation
+Other[1]=T_blank_AOHR
+Other[2]=T_blank_BC

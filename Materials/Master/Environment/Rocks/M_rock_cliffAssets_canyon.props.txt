@@ -1,0 +1,223 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_D_BC.T_ground_gravel_canyon_D_BC'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_D_N.T_ground_gravel_canyon_D_N'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Rocks/T_Cliff1_N.T_Cliff1_N'
+    ReferencedTextures[3] = Texture2D'Textures/Environment/Rocks/T_Cliff_A.T_Cliff_A'
+    ReferencedTextures[4] = Texture2D'Textures/Environment/Rocks/T_Cliff_N.T_Cliff_N'
+    ReferencedTextures[5] = Texture2D'Textures/Environment/Rocks/T_Macro2_N.T_Macro2_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Height }
+                    ParameterInfos[2] = { Name=DetailScale }
+                    ParameterInfos[3] = { Name=Specular }
+                    ParameterInfos[4] = { Name=Base_Tiling }
+                    ParameterInfos[5] = { Name=ProjectFallOff }
+                    ParameterInfos[6] = { Name=MaskScaleX }
+                    ParameterInfos[7] = { Name=AO }
+                    ParameterInfos[8] = { Name=Detail_Intensity }
+                    ParameterInfos[9] = { Name=MaskPower }
+                    ParameterInfos[10] = { Name=ZMaterial_Size }
+                    ParameterInfos[11] = { Name=MaskScaleY }
+                    ParameterInfos[12] = { Name=ProjectPower }
+                    ParameterInfos[13] = { Name=MaskFallOff }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Base_TintColor }
+                    ParameterInfos[1] = { Name=ZMaterial_TintColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=ZMaterial_Normal }
+                    ParameterInfos[1] = { Name=Detail_Diffuse }
+                    ParameterInfos[2] = { Name=Base_Diffuse }
+                    ParameterInfos[3] = { Name=ZMaterial_Diffuse }
+                    ParameterInfos[4] = { Name=Base_AOHR }
+                    ParameterInfos[5] = { Name=Base_Normal }
+                    ParameterInfos[6] = { Name=Noise Mask }
+                    ParameterInfos[7] = { Name=Secondary_Detail_Normal }
+                    ParameterInfos[8] = { Name=Detail_Normal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0.5
+            ScalarValues[4] = 1
+            ScalarValues[5] = 90
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 1
+            ScalarValues[11] = 1
+            ScalarValues[12] = 13.001
+            ScalarValues[13] = 1
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[9] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_D_N.T_ground_gravel_canyon_D_N'
+            TextureValues[1] = Texture2D'Textures/Environment/Rocks/T_Cliff_A.T_Cliff_A'
+            TextureValues[2] = Texture2D'Textures/Environment/Rocks/T_Cliff_A.T_Cliff_A'
+            TextureValues[3] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_D_BC.T_ground_gravel_canyon_D_BC'
+            TextureValues[5] = Texture2D'Textures/Environment/Rocks/T_Cliff1_N.T_Cliff1_N'
+            TextureValues[7] = Texture2D'Textures/Environment/Rocks/T_Cliff_N.T_Cliff_N'
+            TextureValues[8] = Texture2D'Textures/Environment/Rocks/T_Macro2_N.T_Macro2_N'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Environment/Rocks/T_Cliff_A.T_Cliff_A'
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Rocks/T_Cliff1_N.T_Cliff1_N'
+        ReferencedTextures[3] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_D_BC.T_ground_gravel_canyon_D_BC'
+        ReferencedTextures[6] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_D_N.T_ground_gravel_canyon_D_N'
+        ReferencedTextures[7] = Texture2D'Textures/Environment/Rocks/T_Macro2_N.T_Macro2_N'
+        ReferencedTextures[8] = Texture2D'Textures/Environment/Rocks/T_Cliff_N.T_Cliff_N'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_D_N.T_ground_gravel_canyon_D_N'
+        Name = ZMaterial_Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/Rocks/T_Cliff_A.T_Cliff_A'
+        Name = Detail_Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Environment/Rocks/T_Cliff_A.T_Cliff_A'
+        Name = Base_Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_D_BC.T_ground_gravel_canyon_D_BC'
+        Name = ZMaterial_Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[4] = { Texture=None, Name=Base_AOHR, Group=None }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'Textures/Environment/Rocks/T_Cliff1_N.T_Cliff1_N'
+        Name = Base_Normal
+        Group = None
+    }
+    CollectedTextureParameters[6] = { Texture=None, Name=Noise Mask, Group=None }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'Textures/Environment/Rocks/T_Cliff_N.T_Cliff_N'
+        Name = Secondary_Detail_Normal
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'Textures/Environment/Rocks/T_Macro2_N.T_Macro2_N'
+        Name = Detail_Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Height, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=DetailScale, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Base_Tiling, Group=None }
+    CollectedScalarParameters[5] = { Value=90, Name=ProjectFallOff, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=MaskScaleX, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=AO, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Detail_Intensity, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=MaskPower, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=ZMaterial_Size, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=MaskScaleY, Group=None }
+    CollectedScalarParameters[12] = { Value=13.001, Name=ProjectPower, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=MaskFallOff, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Base_TintColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ZMaterial_TintColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Cliff1_N
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Cliff_A
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.0625
+        UVChannelIndex = 0
+        TextureName = T_ground_gravel_canyon_D_BC
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Macro2_N
+    }
+}

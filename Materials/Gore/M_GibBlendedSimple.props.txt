@@ -1,0 +1,126 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_D.T_Meat02_D'
+    ReferencedTextures[1] = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_N.T_Meat02_N'
+    ReferencedTextures[2] = Texture2D'Textures/Characters/Male/skin_nm.skin_nm'
+    ReferencedTextures[3] = Texture2D'Textures/Characters/Male/skin_tm.skin_tm'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Gore_Roughness }
+                    ParameterInfos[1] = { Name=Gore_Specular }
+                    ParameterInfos[2] = { Name=Body_Roughness }
+                    ParameterInfos[3] = { Name=Body_Specular }
+                    ParameterInfos[4] = { Name=GoreTiling }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Body_Normal }
+                    ParameterInfos[1] = { Name=Body_BaseColor }
+                    ParameterInfos[2] = { Name=Gore_BaseColor }
+                    ParameterInfos[3] = { Name=Gore_Normal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 0.3, 0.5, 0.7, 0.2, 1 }
+        VectorValues[0] = {}
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'Textures/Characters/Male/skin_nm.skin_nm'
+            TextureValues[1] = Texture2D'Textures/Characters/Male/skin_tm.skin_tm'
+            TextureValues[2] = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_D.T_Meat02_D'
+            TextureValues[3] = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_N.T_Meat02_N'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Characters/Male/skin_tm.skin_tm'
+        ReferencedTextures[1] = Texture2D'Textures/Characters/Male/skin_nm.skin_nm'
+        ReferencedTextures[2] = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_D.T_Meat02_D'
+        ReferencedTextures[3] = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_N.T_Meat02_N'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Characters/Male/skin_nm.skin_nm'
+        Name = Body_Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Characters/Male/skin_tm.skin_tm'
+        Name = Body_BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_D.T_Meat02_D'
+        Name = Gore_BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Blueprints/GoreSystem/Assets/Textures/T_Meat02_N.T_Meat02_N'
+        Name = Gore_Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0.3, Name=Gore_Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=Gore_Specular, Group=None }
+    CollectedScalarParameters[2] = { Value=0.7, Name=Body_Roughness, Group=None }
+    CollectedScalarParameters[3] = { Value=0.2, Name=Body_Specular, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=GoreTiling, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = skin_nm
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = T_Meat02_D
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = T_Meat02_N
+    }
+}

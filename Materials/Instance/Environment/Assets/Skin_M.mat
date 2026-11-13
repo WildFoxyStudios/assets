@@ -1,0 +1,10 @@
+Diffuse=StonesNSkins_StonesNSkinn_color_T
+Normal=StonesNSkins_StonesNSkinn_nmap_T
+Other[0]=StonesNSkins_StonesNSkinn_gloss_T
+Other[1]=straw_bed_diff_T
+Other[2]=straw_bed_normal_T
+Other[3]=straw_bed_gloss_T
+Other[4]=all_details_details_AlbedoTransparency2_T
+Other[5]=all_details_details_Glossiness_T
+Other[6]=all_details_details_MetallicSmoothness_T
+Other[7]=all_details_details_Normal_T

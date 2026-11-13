@@ -1,0 +1,328 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Foliage/TEX_BF_RGBMaskA_msk.TEX_BF_RGBMaskA_msk'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Foliage/TEX_BF_RGBMaskB_msk.TEX_BF_RGBMaskB_msk'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_Checker.TEX_MW_Temp_Checker'
+    ReferencedTextures[3] = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_col.TEX_MW_Temp_col'
+    ReferencedTextures[4] = Texture2D'Textures/Environment/Foliage/TEX_MW_Winter_msk.TEX_MW_Winter_msk'
+    ReferencedTextures[5] = Texture2D'Textures/Environment/Foliage/TEX_MW_Winter_msk2.TEX_MW_Winter_msk2'
+    ReferencedTextures[6] = Texture2D'Textures/Environment/Foliage/TEX_MW_Winter_nrm.TEX_MW_Winter_nrm'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[36] =
+                {
+                    ParameterInfos[0] = { Name=MW_BaseColorSaturation }
+                    ParameterInfos[1] = { Name=MW_SnowWorldUVSize }
+                    ParameterInfos[2] = { Name=MW_SpecularPower }
+                    ParameterInfos[3] = { Name=MW_BaseColorVarMin }
+                    ParameterInfos[4] = { Name=MW_CameraFadeRange }
+                    ParameterInfos[5] = { Name=MW_WinterWorldMaskUVSize }
+                    ParameterInfos[6] = { Name=MW_WindSpeedMultiplier }
+                    ParameterInfos[7] = { Name=MW_WindLowAmpSpeedMultiplier }
+                    ParameterInfos[8] = { Name=MW_SpecularMix }
+                    ParameterInfos[9] = { Name=MW_WindIntensityMultiplier }
+                    ParameterInfos[10] = { Name=MW_SnowDisplacementMultiplier }
+                    ParameterInfos[11] = { Name=MW_RoughnessMultiplier }
+                    ParameterInfos[12] = { Name=MW_SnowZContrast }
+                    ParameterInfos[13] = { Name=MW_CameraFadeOffset }
+                    ParameterInfos[14] = { Name=MW_WindWorldMaskSpeedMultiplier }
+                    ParameterInfos[15] = { Name=MW_WorldAlignedUVSize }
+                    ParameterInfos[16] = { Name=MW_PixelDepthDither }
+                    ParameterInfos[17] = { Name=MW_ZMaskEdgeBlendMultiplier }
+                    ParameterInfos[18] = { Name=MW_WindWorldIntensity }
+                    ParameterInfos[19] = { Name=MW_AmbOccMin }
+                    ParameterInfos[20] = { Name=MW_SnowZPowerMultiplier }
+                    ParameterInfos[21] = { Name=MW_BaseColorPower }
+                    ParameterInfos[22] = { Name=MW_SpecularMultiplier }
+                    ParameterInfos[23] = { Name=MW_ZMaskMultiplier }
+                    ParameterInfos[24] = { Name=MW_WinterSparkleShift }
+                    ParameterInfos[25] = { Name=MW_NormalMultiplier }
+                    ParameterInfos[26] = { Name=MW_WinterSparkleMultiplier }
+                    ParameterInfos[27] = { Name=MW_SpecularExponent }
+                    ParameterInfos[28] = { Name=MW_SnowFlakeUVScale }
+                    ParameterInfos[29] = { Name=MW_RoughnessPower }
+                    ParameterInfos[30] = { Name=MW_WinterSparkleScale }
+                    ParameterInfos[31] = { Name=MW_PixelDepthDitherNearFade }
+                    ParameterInfos[32] = { Name=MW_WindLowAmpIntensityMultiplier }
+                    ParameterInfos[33] = { Name=MW_SnowLandscapeMaskMultiplier }
+                    ParameterInfos[34] = { Name=MW_ZMaskPower }
+                    ParameterInfos[35] = { Name=MW_WindWorldMaskUVSize }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=MW_WinterSnowSubsurfaceColor }
+                    ParameterInfos[1] = { Name=MW_SubsurfaceColor }
+                    ParameterInfos[2] = { Name=MW_AutumnBaseColor }
+                    ParameterInfos[3] = { Name=MW_SnowSubSurfaceColor }
+                    ParameterInfos[4] = { Name=MW_BaseColorCorrection }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=MW_TextureBaseColor }
+                    ParameterInfos[1] = { Name=MW_TextureWindWorldMask }
+                    ParameterInfos[2] = { Name=MW_TextureNormal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[36] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 2048
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 5000
+            ScalarValues[5] = 4096
+            ScalarValues[6] = 0.2
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 0.2
+            ScalarValues[10] = 1
+            ScalarValues[11] = 1
+            ScalarValues[12] = 2
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0.01
+            ScalarValues[15] = 384
+            ScalarValues[16] = 10
+            ScalarValues[17] = 1
+            ScalarValues[18] = 2
+            ScalarValues[19] = 0.2
+            ScalarValues[20] = 3
+            ScalarValues[21] = 1
+            ScalarValues[22] = 1
+            ScalarValues[23] = 1.1
+            ScalarValues[24] = 0.01
+            ScalarValues[25] = 1
+            ScalarValues[26] = 100
+            ScalarValues[27] = 2
+            ScalarValues[28] = 16
+            ScalarValues[29] = 1
+            ScalarValues[30] = 2
+            ScalarValues[31] = 256
+            ScalarValues[32] = 100
+            ScalarValues[33] = 1
+            ScalarValues[34] = 10
+            ScalarValues[35] = 16384
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0.25, G=0.625, B=1, A=1 }
+            VectorValues[1] = { R=4, G=4, B=4, A=1 }
+            VectorValues[2] = { R=2, G=0.8, B=0.4, A=1 }
+            VectorValues[3] = { R=0.5, G=0.166667, B=0, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_col.TEX_MW_Temp_col'
+            TextureValues[1] = Texture2D'Textures/Environment/Foliage/TEX_BF_RGBMaskB_msk.TEX_BF_RGBMaskB_msk'
+            TextureValues[2] = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_Checker.TEX_MW_Temp_Checker'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Foliage/TEX_BF_RGBMaskA_msk.TEX_BF_RGBMaskA_msk'
+        ReferencedTextures[2] = Texture2D'Textures/Environment/Foliage/TEX_MW_Winter_msk2.TEX_MW_Winter_msk2'
+        ReferencedTextures[3] = Texture2D'Textures/Environment/Foliage/TEX_MW_Winter_msk.TEX_MW_Winter_msk'
+        ReferencedTextures[4] = Texture2D'Textures/Environment/Foliage/TEX_MW_Winter_nrm.TEX_MW_Winter_nrm'
+        ReferencedTextures[6] = Texture2D'Textures/Environment/Foliage/TEX_BF_RGBMaskB_msk.TEX_BF_RGBMaskB_msk'
+        ReferencedTextures[7] = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_Checker.TEX_MW_Temp_Checker'
+        ReferencedTextures[8] = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_col.TEX_MW_Temp_col'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.6666
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_col.TEX_MW_Temp_col'
+        Name = MW_TextureBaseColor
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/TEX_BF_RGBMaskB_msk.TEX_BF_RGBMaskB_msk'
+        Name = MW_TextureWindWorldMask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_Checker.TEX_MW_Temp_Checker'
+        Name = MW_TextureNormal
+        Group = None
+    }
+}
+CollectedScalarParameters[36] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=MW_BaseColorSaturation, Group=None }
+    CollectedScalarParameters[1] = { Value=2048, Name=MW_SnowWorldUVSize, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=MW_SpecularPower, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=MW_BaseColorVarMin, Group=None }
+    CollectedScalarParameters[4] = { Value=5000, Name=MW_CameraFadeRange, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 4096
+        Name = MW_WinterWorldMaskUVSize
+        Group = None
+    }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0.2
+        Name = MW_WindSpeedMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[7] =
+    {
+        Value = 1
+        Name = MW_WindLowAmpSpeedMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0.5, Name=MW_SpecularMix, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.2
+        Name = MW_WindIntensityMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[10] =
+    {
+        Value = 1
+        Name = MW_SnowDisplacementMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=1, Name=MW_RoughnessMultiplier, Group=None }
+    CollectedScalarParameters[12] = { Value=2, Name=MW_SnowZContrast, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=MW_CameraFadeOffset, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0.01
+        Name = MW_WindWorldMaskSpeedMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = 384
+        Name = MW_WorldAlignedUVSize
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=10, Name=MW_PixelDepthDither, Group=None }
+    CollectedScalarParameters[17] =
+    {
+        Value = 1
+        Name = MW_ZMaskEdgeBlendMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[18] = { Value=2, Name=MW_WindWorldIntensity, Group=None }
+    CollectedScalarParameters[19] = { Value=0.2, Name=MW_AmbOccMin, Group=None }
+    CollectedScalarParameters[20] =
+    {
+        Value = 3
+        Name = MW_SnowZPowerMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[21] = { Value=1, Name=MW_BaseColorPower, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=MW_SpecularMultiplier, Group=None }
+    CollectedScalarParameters[23] = { Value=1.1, Name=MW_ZMaskMultiplier, Group=None }
+    CollectedScalarParameters[24] =
+    {
+        Value = 0.01
+        Name = MW_WinterSparkleShift
+        Group = None
+    }
+    CollectedScalarParameters[25] = { Value=1, Name=MW_NormalMultiplier, Group=None }
+    CollectedScalarParameters[26] =
+    {
+        Value = 100
+        Name = MW_WinterSparkleMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[27] = { Value=2, Name=MW_SpecularExponent, Group=None }
+    CollectedScalarParameters[28] = { Value=16, Name=MW_SnowFlakeUVScale, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=MW_RoughnessPower, Group=None }
+    CollectedScalarParameters[30] = { Value=2, Name=MW_WinterSparkleScale, Group=None }
+    CollectedScalarParameters[31] =
+    {
+        Value = 256
+        Name = MW_PixelDepthDitherNearFade
+        Group = None
+    }
+    CollectedScalarParameters[32] =
+    {
+        Value = 100
+        Name = MW_WindLowAmpIntensityMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[33] =
+    {
+        Value = 1
+        Name = MW_SnowLandscapeMaskMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[34] = { Value=10, Name=MW_ZMaskPower, Group=None }
+    CollectedScalarParameters[35] =
+    {
+        Value = 16384
+        Name = MW_WindWorldMaskUVSize
+        Group = None
+    }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.25, G=0.625, B=1, A=1 }
+        Name = MW_WinterSnowSubsurfaceColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=4, G=4, B=4, A=1 }
+        Name = MW_SubsurfaceColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=2, G=0.8, B=0.4, A=1 }
+        Name = MW_AutumnBaseColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.5, G=0.166667, B=0, A=1 }
+        Name = MW_SnowSubSurfaceColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = MW_BaseColorCorrection
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

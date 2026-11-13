@@ -1,0 +1,10 @@
+Diffuse=T_fungus_base_BC
+Normal=T_fungus_base_N
+Emissive=T_fungus_E
+Other[0]=T_fungus_base_AOHR
+Other[1]=T_WindAnimation
+Other[2]=T_clouds_D_MK
+Other[3]=T_blank_AOHR
+Other[4]=T_blank_BC
+Other[5]=T_blank_E
+Other[6]=T_blank_N

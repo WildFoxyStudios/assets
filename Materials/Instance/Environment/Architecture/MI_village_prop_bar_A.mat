@@ -1,0 +1,10 @@
+Diffuse=T_blank_AOHR
+Normal=T_blank_N
+Emissive=T_bar_atlas_Emissive
+Other[0]=T_bar_atlas_AOHR
+Other[1]=T_bar_atlas_BC
+Other[2]=T_bar_atlas_N
+Other[3]=T_bar_atlas_AO
+Other[4]=T_blank_BC
+Other[5]=T_blank_E
+Other[6]=T_Perlin_Noise_M

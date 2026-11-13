@@ -1,0 +1,8 @@
+Diffuse=T_URockB_BC
+Normal=T_URockB_N
+Other[0]=T_RockDetail_N
+Other[1]=T_RockDetail_BC
+Other[2]=T_URockB_R
+Other[3]=T_URockA_BC
+Other[4]=T_URockA_N
+Other[5]=T_URockA_R

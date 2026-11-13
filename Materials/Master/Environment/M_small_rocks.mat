@@ -1,0 +1,5 @@
+Diffuse=T_forest_rock_moss_d
+Normal=T_forest_rock_moss_n
+Opacity=T_forest_rock_moss_alpha
+Other[0]=T_ground_sm_rocks_a_d
+Other[1]=T_ground_sm_rocks_a_n

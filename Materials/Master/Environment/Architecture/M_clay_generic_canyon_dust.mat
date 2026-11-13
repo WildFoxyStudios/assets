@@ -1,0 +1,7 @@
+Diffuse=T_clay_generic_canyon_A_AOHR
+Normal=T_clay_generic_canyon_A_N
+Opacity=Clouds_A
+Other[0]=T_clay_generic_canyon_A_BC
+Other[1]=T_clay_generic_canyon_B_AOHR
+Other[2]=T_clay_generic_canyon_B_BC
+Other[3]=T_clay_generic_canyon_B_N

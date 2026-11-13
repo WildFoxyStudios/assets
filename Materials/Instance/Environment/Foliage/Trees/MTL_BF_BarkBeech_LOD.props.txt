@@ -1,0 +1,104 @@
+Parent = MaterialInstanceConstant'Materials/Instance/Environment/Foliage/Trees/MTL_BF_BarkBeech.MTL_BF_BarkBeech'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=MW_TextureBaseColor }
+        ParameterValue = Texture2D'Textures/Environment/Foliage/TEX_BF_BarkBeech_col.TEX_BF_BarkBeech_col'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=MW_TextureMask }
+        ParameterValue = Texture2D'Textures/Environment/Foliage/TEX_BF_BarkBeech_msk.TEX_BF_BarkBeech_msk'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=MW_TextureNormal }
+        ParameterValue = Texture2D'Textures/Environment/Foliage/TEX_BF_BarkBeech_nrm.TEX_BF_BarkBeech_nrm'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=MW_UseDetail }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=MW_UseMoss }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = false
+            ParameterInfo = { Name=MW_UseTopLayer }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = TEX_BF_BarkBeech_col
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = TEX_BF_BarkBeech_msk
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = TEX_BF_BarkBeech_nrm
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = TEX_BF_Detail_MossA
+    }
+}

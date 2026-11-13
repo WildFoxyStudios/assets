@@ -1,0 +1,141 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Fabric/T_cloth_generic_A_AOHR.T_cloth_generic_A_AOHR'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Fabric/T_cloth_generic_A_BC.T_cloth_generic_A_BC'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Fabric/T_cloth_generic_A_N.T_cloth_generic_A_N'
+    ReferencedTextures[3] = Texture2D'Textures/Environment/T_clouds_B_MK.T_clouds_B_MK'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=UV_Scale }
+                    ParameterInfos[1] = { Name=Roughness_Multiplier }
+                    ParameterInfos[2] = { Name=Stains_Opacity }
+                    ParameterInfos[3] = { Name=UV_Offset }
+                    ParameterInfos[4] = { Name=Stains_Scale }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color_A }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=AOHR }
+                    ParameterInfos[2] = { Name=BaseColor }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 1, 3, 0.7, 0, 3 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=0.731771, B=0.463542, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Fabric/T_cloth_generic_A_N.T_cloth_generic_A_N'
+            TextureValues[1] = Texture2D'Textures/Environment/Fabric/T_cloth_generic_A_AOHR.T_cloth_generic_A_AOHR'
+            TextureValues[2] = Texture2D'Textures/Environment/Fabric/T_cloth_generic_A_BC.T_cloth_generic_A_BC'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Environment/Fabric/T_cloth_generic_A_N.T_cloth_generic_A_N'
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Fabric/T_cloth_generic_A_AOHR.T_cloth_generic_A_AOHR'
+        ReferencedTextures[2] = Texture2D'Textures/Environment/Fabric/T_cloth_generic_A_BC.T_cloth_generic_A_BC'
+        ReferencedTextures[3] = Texture2D'Textures/Environment/T_clouds_B_MK.T_clouds_B_MK'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Fabric/T_cloth_generic_A_N.T_cloth_generic_A_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/Fabric/T_cloth_generic_A_AOHR.T_cloth_generic_A_AOHR'
+        Name = AOHR
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Environment/Fabric/T_cloth_generic_A_BC.T_cloth_generic_A_BC'
+        Name = BaseColor
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=UV_Scale, Group=None }
+    CollectedScalarParameters[1] = { Value=3, Name=Roughness_Multiplier, Group=None }
+    CollectedScalarParameters[2] = { Value=0.7, Name=Stains_Opacity, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=UV_Offset, Group=None }
+    CollectedScalarParameters[4] = { Value=3, Name=Stains_Scale, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.731771, B=0.463542, A=1 }
+        Name = Color_A
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_cloth_generic_A_AOHR
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_cloth_generic_A_BC
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_cloth_generic_A_N
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.328125
+        UVChannelIndex = 0
+        TextureName = T_clouds_B_MK
+    }
+}

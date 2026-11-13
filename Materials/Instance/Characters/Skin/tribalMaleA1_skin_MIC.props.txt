@@ -1,0 +1,362 @@
+Parent = Material3'Materials/Master/SkinLite_MAT.SkinLite_MAT'
+ScalarParameterValues[19] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=AODiffuse }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=ContrastColor }
+        ParameterValue = 0.003
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=ContrastSaturation }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=DetailNormalScale }
+        ParameterValue = 90
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=DetailNormalScale2 }
+        ParameterValue = 90
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=GenitalMoisture }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=PoreBaseWeight }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=PoreNormalWeight }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=PoreNormalWeight2 }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=RoughMax }
+        ParameterValue = 0.9
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=RoughMin }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=RoughnessRim }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=SkinMoisture }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Specular }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=Specular_Rim }
+        ParameterValue = 0.02
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=EyeShadowColorVariation }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=LipstickColorVariation }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=TanMaskInfluence }
+        ParameterValue = 0.15
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[8] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=AO }
+        ParameterValue = Texture2D'Textures/Characters/Female/skin_female_ao2.skin_female_ao2'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseColorAlphaRoughness }
+        ParameterValue = Texture2D'Textures/Characters/Male/skin_tribalmale_tm.skin_tribalmale_tm'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normal }
+        ParameterValue = Texture2D'Textures/Characters/Male/skin_tribalmale_nm.skin_tribalmale_nm'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = Texture2D'Textures/Characters/Male/skin_male_roughness2.skin_male_roughness2'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=EyeLinerTexture }
+        ParameterValue = Texture2D'Textures/SkinDecals/skindecal_empty.skindecal_empty'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=EyeShadowTexture }
+        ParameterValue = Texture2D'Textures/SkinDecals/skindecal_empty.skindecal_empty'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=LipstickTexture }
+        ParameterValue = Texture2D'Textures/SkinDecals/skindecal_empty.skindecal_empty'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=TanMask }
+        ParameterValue = Texture2D'Textures/Characters/TanMasks/tanmask_handsfeet.tanmask_handsfeet'
+        ParameterName = None
+    }
+}
+VectorParameterValues[10] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=AO_Multiply }
+        ParameterValue = { R=0.046875, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseColorMul }
+        ParameterValue = { R=0.45, G=0.4212, B=0.42168, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=PeachFuzz }
+        ParameterValue = { R=0.01, G=0.01, B=0.01, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=PoresColor01 }
+        ParameterValue = { R=0.785, G=0.243873, B=0.0942, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=PoresColor02 }
+        ParameterValue = { R=1.1, G=1.1, B=1.1, A=1.1 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=EyeLinerColor }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=EyeShadowColorA }
+        ParameterValue = { R=0.15445, G=0.08952, B=0.15625, A=0.85 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=EyeShadowColorB }
+        ParameterValue = { R=0.15918, G=0.05697, B=0.3125, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=LipstickColorA }
+        ParameterValue = { R=0.19608, G=0.03922, B=0.03922, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[9] =
+    {
+        ParameterInfo = { Name=LipstickColorB }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[17] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = blackColor
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = genitalWetnessMaskMale_AM
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 89.957
+        UVChannelIndex = 0
+        TextureName = HumanSkinPores_N
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 89.9805
+        UVChannelIndex = 0
+        TextureName = skin02_N
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = skin_female_ao2
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = skin_male_roughness2
+    }
+    TextureStreamingData[7] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = skin_tribalmale_nm
+    }
+    TextureStreamingData[8] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = skin_tribalmale_tm
+    }
+    TextureStreamingData[9] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = skindecal_empty
+    }
+    TextureStreamingData[10] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = sking_dmg_albedo
+    }
+    TextureStreamingData[11] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = sking_dmg_normal
+    }
+    TextureStreamingData[12] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = sking_dmg_rough
+    }
+    TextureStreamingData[13] =
+    {
+        SamplingScale = 19.9932
+        UVChannelIndex = 0
+        TextureName = slime2_nm
+    }
+    TextureStreamingData[14] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_NoiseNormal_39
+    }
+    TextureStreamingData[15] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_real_female_wrinkleMask
+    }
+    TextureStreamingData[16] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = tanmask_handsfeet
+    }
+}

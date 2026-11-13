@@ -1,0 +1,10 @@
+Diffuse=T_weapon_handgun_partB_BC
+Normal=T_weapon_handgun_partB_N
+Other[0]=T_weapon_handgun_partB_AO
+Other[1]=T_weapon_handgun_partB_M
+Other[2]=T_weapon_handgun_partB_RGS
+Other[3]=T_weapon_handgun_partA_AO
+Other[4]=T_weapon_handgun_partA_BC
+Other[5]=T_weapon_handgun_partA_M
+Other[6]=T_weapon_handgun_partA_N
+Other[7]=T_weapon_handgun_partA_RGS

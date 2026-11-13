@@ -1,0 +1,181 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Blank_Albedo.Blank_Albedo'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Blank_Compact.Blank_Compact'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Blank_Normal.Blank_Normal'
+    ReferencedTextures[3] = Texture2D'Textures/Environment/Clouds.Clouds'
+    ReferencedTextures[4] = Texture2D'Textures/Environment/Clouds_A.Clouds_A'
+    ReferencedTextures[5] = Texture2D'Textures/Environment/Foliage/MediumBushFrond_A.MediumBushFrond_A'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=Overcast Darkness }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=WindWeight }
+                    ParameterInfos[3] = { Name=Brightness }
+                    ParameterInfos[4] = { Name=Desaturation }
+                    ParameterInfos[5] = { Name=Specular }
+                    ParameterInfos[6] = { Name=Vertex AO strength }
+                    ParameterInfos[7] = { Name=ColorVariation_Scale }
+                    ParameterInfos[8] = { Name=WindIntensity }
+                    ParameterInfos[9] = { Name=Overcast Specular }
+                    ParameterInfos[10] = { Name=SSS }
+                    ParameterInfos[11] = { Name=WindSpeed }
+                    ParameterInfos[12] = { Name=ColorVariation_Opacity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=WindScale }
+                    ParameterInfos[1] = { Name=Tint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Compact }
+                    ParameterInfos[2] = { Name=BaseColor }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] =
+        {
+            ScalarValues[0] = 0.439781
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0.3
+            ScalarValues[3] = 0.5
+            ScalarValues[4] = 0.2
+            ScalarValues[5] = 0.198165
+            ScalarValues[6] = 1
+            ScalarValues[7] = 10
+            ScalarValues[8] = 0.3
+            ScalarValues[9] = 0.053044
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0.3
+            ScalarValues[12] = 0.658486
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Blank_Normal.Blank_Normal'
+            TextureValues[1] = Texture2D'Textures/Environment/Blank_Compact.Blank_Compact'
+            TextureValues[2] = Texture2D'Textures/Environment/Blank_Albedo.Blank_Albedo'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Environment/Blank_Normal.Blank_Normal'
+        ReferencedTextures[3] = Texture2D'Textures/Environment/Foliage/MediumBushFrond_A.MediumBushFrond_A'
+        ReferencedTextures[4] = Texture2D'Textures/Environment/Clouds_A.Clouds_A'
+        ReferencedTextures[5] = Texture2D'Textures/Environment/Blank_Albedo.Blank_Albedo'
+        ReferencedTextures[6] = Texture2D'Textures/Environment/Blank_Compact.Blank_Compact'
+        ReferencedTextures[7] = Texture2D'Textures/Environment/Clouds.Clouds'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Blank_Normal.Blank_Normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/Blank_Compact.Blank_Compact'
+        Name = Compact
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Environment/Blank_Albedo.Blank_Albedo'
+        Name = BaseColor
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.439781
+        Name = Overcast Darkness
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=0.3, Name=WindWeight, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=Brightness, Group=None }
+    CollectedScalarParameters[4] = { Value=0.2, Name=Desaturation, Group=None }
+    CollectedScalarParameters[5] = { Value=0.198165, Name=Specular, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Vertex AO strength, Group=None }
+    CollectedScalarParameters[7] = { Value=10, Name=ColorVariation_Scale, Group=None }
+    CollectedScalarParameters[8] = { Value=0.3, Name=WindIntensity, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.053044
+        Name = Overcast Specular
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=1, Name=SSS, Group=None }
+    CollectedScalarParameters[11] = { Value=0.3, Name=WindSpeed, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0.658486
+        Name = ColorVariation_Opacity
+        Group = None
+    }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = WindScale
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Tint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Blank_Albedo
+    }
+}

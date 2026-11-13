@@ -1,0 +1,4 @@
+Diffuse=DiffuseTexture
+Opacity=indraHair_alpha
+Other[0]=ShiftTexture
+Other[1]=GlitterTexture

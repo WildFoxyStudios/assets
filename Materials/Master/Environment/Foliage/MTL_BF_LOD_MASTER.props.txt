@@ -1,0 +1,136 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_Checker.TEX_MW_Temp_Checker'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_col.TEX_MW_Temp_col'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Foliage/TEX_MW_Winter_msk.TEX_MW_Winter_msk'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=MW_WinterSnowPower }
+                    ParameterInfos[1] = { Name=MW_Roughness }
+                    ParameterInfos[2] = { Name=MW_CameraFadeRange }
+                    ParameterInfos[3] = { Name=MW_Specular }
+                    ParameterInfos[4] = { Name=MW_WindLowAmpSpeedMultiplier }
+                    ParameterInfos[5] = { Name=MW_CameraFadeOffset }
+                    ParameterInfos[6] = { Name=MW_NormalMultiplier }
+                    ParameterInfos[7] = { Name=MW_WinterSnowMultiplier }
+                    ParameterInfos[8] = { Name=MW_WindLowAmpIntensityMultiplier }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=MW_SubsurfaceColor }
+                    ParameterInfos[1] = { Name=MW_AutumnBaseColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=MW_TextureBaseColor }
+                    ParameterInfos[1] = { Name=MW_TextureNormal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 3, 0.8, 5000, 0.5, 1, 0, 1, 1.4, 100 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=4, G=4, B=4, A=1 }
+            VectorValues[1] = { R=2, G=0.8, B=0.4, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_col.TEX_MW_Temp_col'
+            TextureValues[1] = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_Checker.TEX_MW_Temp_Checker'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_Checker.TEX_MW_Temp_Checker'
+        ReferencedTextures[2] = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_col.TEX_MW_Temp_col'
+        ReferencedTextures[4] = Texture2D'Textures/Environment/Foliage/TEX_MW_Winter_msk.TEX_MW_Winter_msk'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.7
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_col.TEX_MW_Temp_col'
+        Name = MW_TextureBaseColor
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/TEX_MW_Temp_Checker.TEX_MW_Temp_Checker'
+        Name = MW_TextureNormal
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=MW_WinterSnowPower, Group=None }
+    CollectedScalarParameters[1] = { Value=0.8, Name=MW_Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=5000, Name=MW_CameraFadeRange, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=MW_Specular, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = MW_WindLowAmpSpeedMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0, Name=MW_CameraFadeOffset, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=MW_NormalMultiplier, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 1.4
+        Name = MW_WinterSnowMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[8] =
+    {
+        Value = 100
+        Name = MW_WindLowAmpIntensityMultiplier
+        Group = None
+    }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=4, G=4, B=4, A=1 }
+        Name = MW_SubsurfaceColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=2, G=0.8, B=0.4, A=1 }
+        Name = MW_AutumnBaseColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

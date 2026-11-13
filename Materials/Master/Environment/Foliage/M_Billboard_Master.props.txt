@@ -1,0 +1,91 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Foliage/T_BB_Filao01_BaseColor.T_BB_Filao01_BaseColor'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Foliage/T_BB_Filao01_Normal.T_BB_Filao01_Normal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=SS BaseColor Power }
+                    ParameterInfos[1] = { Name=BaseColor Power }
+                    ParameterInfos[2] = { Name=BaseColor Desaturation }
+                    ParameterInfos[3] = { Name=Normal Strength }
+                    ParameterInfos[4] = { Name=SS BaseColor Desaturation }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=BaseColor }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 1.5, 1.5, 0, 1, 0 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Foliage/T_BB_Filao01_Normal.T_BB_Filao01_Normal'
+            TextureValues[1] = Texture2D'Textures/Environment/Foliage/T_BB_Filao01_BaseColor.T_BB_Filao01_BaseColor'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Environment/Foliage/T_BB_Filao01_Normal.T_BB_Filao01_Normal'
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Foliage/T_BB_Filao01_BaseColor.T_BB_Filao01_BaseColor'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/T_BB_Filao01_Normal.T_BB_Filao01_Normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/T_BB_Filao01_BaseColor.T_BB_Filao01_BaseColor'
+        Name = BaseColor
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=1.5, Name=SS BaseColor Power, Group=None }
+    CollectedScalarParameters[1] = { Value=1.5, Name=BaseColor Power, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=BaseColor Desaturation, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Normal Strength, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0
+        Name = SS BaseColor Desaturation
+        Group = None
+    }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

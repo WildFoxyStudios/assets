@@ -1,0 +1,112 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Items/Bones/cow_leg_01/t_cow_leg_01_ao.t_cow_leg_01_ao'
+    ReferencedTextures[1] = Texture2D'Textures/Items/Bones/cow_leg_01/t_cow_leg_01_d.t_cow_leg_01_d'
+    ReferencedTextures[2] = Texture2D'Textures/Items/Bones/cow_leg_01/t_cow_leg_01_n.t_cow_leg_01_n'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Brightness }
+                    ParameterInfos[2] = { Name=Contrast }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Diffuse }
+                    ParameterInfos[1] = { Name=Normal }
+                    ParameterInfos[2] = { Name=AO }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 0.1, 0.5, 0 }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'Textures/Items/Bones/cow_leg_01/t_cow_leg_01_d.t_cow_leg_01_d'
+            TextureValues[1] = Texture2D'Textures/Items/Bones/cow_leg_01/t_cow_leg_01_n.t_cow_leg_01_n'
+            TextureValues[2] = Texture2D'Textures/Items/Bones/cow_leg_01/t_cow_leg_01_ao.t_cow_leg_01_ao'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[1] = Texture2D'Textures/Items/Bones/cow_leg_01/t_cow_leg_01_n.t_cow_leg_01_n'
+        ReferencedTextures[2] = Texture2D'Textures/Items/Bones/cow_leg_01/t_cow_leg_01_ao.t_cow_leg_01_ao'
+        ReferencedTextures[3] = Texture2D'Textures/Items/Bones/cow_leg_01/t_cow_leg_01_d.t_cow_leg_01_d'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Items/Bones/cow_leg_01/t_cow_leg_01_d.t_cow_leg_01_d'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Items/Bones/cow_leg_01/t_cow_leg_01_n.t_cow_leg_01_n'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Items/Bones/cow_leg_01/t_cow_leg_01_ao.t_cow_leg_01_ao'
+        Name = AO
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=Brightness, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Contrast, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = t_cow_leg_01_ao
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = t_cow_leg_01_d
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = t_cow_leg_01_n
+    }
+}

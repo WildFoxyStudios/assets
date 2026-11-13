@@ -1,0 +1,10 @@
+Diffuse=T_plant_jungle_medium_D_tentacles_A_BC
+Normal=T_plant_jungle_medium_D_tentacles_A_N
+Emissive=T_plant_jungle_medium_D_tentacles_A_E
+Other[0]=T_plant_jungle_medium_D_tentacles_A_AOHR
+Other[1]=T_WindAnimation
+Other[2]=T_clouds_D_MK
+Other[3]=T_blank_AOHR
+Other[4]=T_blank_BC
+Other[5]=T_blank_E
+Other[6]=T_blank_N

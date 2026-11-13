@@ -1,0 +1,13 @@
+Diffuse=T_Cliff_Material_Clean_A1_H
+Normal=DefaultMaterial_Normal_OpenGL
+Other[0]=T_Cliff_Skirt_01_AORC
+Other[1]=BaseColor_Modify
+Other[2]=T_Cliff_Material_Clean_A1_N
+Other[3]=T_ground_gravel_canyon_A_BC
+Other[4]=T_ground_gravel_canyon_A_N
+Other[5]=T_Cliff_Material_Clean_A1_BC
+Other[6]=T_Rock_v07_AORC
+Other[7]=T_Rock_V07_BC
+Other[8]=T_Rock_V07_N
+Other[9]=T_ground_gravel_canyon_D_BC
+Other[10]=T_ground_gravel_canyon_D_N

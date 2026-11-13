@@ -1,0 +1,4 @@
+Diffuse=DiffuseTexture
+Opacity=hair_opacityA
+Other[0]=ShiftTexture
+Other[1]=GlitterTexture

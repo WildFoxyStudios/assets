@@ -1,0 +1,91 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Foliage/T_seaweed_generic_A2_BC.T_seaweed_generic_A2_BC'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Foliage/T_seaweed_generic_A2_M.T_seaweed_generic_A2_M'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Foliage/T_seaweed_generic_A2_N.T_seaweed_generic_A2_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Param_1 }
+                    ParameterInfos[1] = { Name=Param }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.802083, G=0.802083, B=0.802083, A=0 }
+            VectorValues[1] = { R=0.260417, G=0.208017, B=0.094944, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Environment/Foliage/T_seaweed_generic_A2_N.T_seaweed_generic_A2_N'
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Foliage/T_seaweed_generic_A2_M.T_seaweed_generic_A2_M'
+        ReferencedTextures[2] = Texture2D'Textures/Environment/Foliage/T_seaweed_generic_A2_BC.T_seaweed_generic_A2_BC'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.802083, G=0.802083, B=0.802083, A=0 }
+        Name = Param_1
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.260417, G=0.208017, B=0.094944, A=1 }
+        Name = Param
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_seaweed_generic_A2_BC
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_seaweed_generic_A2_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_seaweed_generic_A2_N
+    }
+}

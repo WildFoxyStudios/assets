@@ -1,0 +1,196 @@
+Parent = Material3'Materials/Master/Environment/Foliage/MTL_BF_General_MASTER.MTL_BF_General_MASTER'
+ScalarParameterValues[13] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=MW_BaseColorVarMin }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=MW_DetailColorContrast }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=MW_DetailNormalIntensity }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=MW_DisplacementMultiplier }
+        ParameterValue = 0.125
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=MW_ZMaskMultiplier }
+        ParameterValue = 1.2
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=MW_ZMaskPower }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=MW_MossBase }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=MW_MossEdgeIntensity }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=MW_WindLowAmpIntensityMultiplier }
+        ParameterValue = 2.5
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=MW_SnowDisplacementMultiplier }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=MW_SnowZContrast }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=MW_SnowZPowerMultiplier }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=MW_TextureDetail }
+        ParameterValue = Texture2D'Textures/Environment/Foliage/TEX_BF_Detail_BarkBeech.TEX_BF_Detail_BarkBeech'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=MW_TextureTopBaseColor }
+        ParameterValue = Texture2D'Textures/Environment/Foliage/TEX_BF_Leaves_col.TEX_BF_Leaves_col'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=MW_TextureTopMask }
+        ParameterValue = Texture2D'Textures/Environment/Foliage/TEX_BF_Leaves_msk.TEX_BF_Leaves_msk'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=MW_TextureTopNormal }
+        ParameterValue = Texture2D'Textures/Environment/Foliage/TEX_BF_Leaves_nrm.TEX_BF_Leaves_nrm'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=MW_DetailUVChannel(0)Tile }
+        ParameterValue = { R=3, G=3, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[4] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=MW_UseMoss }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=MW_UseTopLayer }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = false
+            ParameterInfo = { Name=MW_UseTopLayerVariation }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=MW_UseWindLowAmp }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = TEX_BF_Detail_BarkBeech
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.328125
+        UVChannelIndex = 0
+        TextureName = TEX_BF_Leaves_col
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.328125
+        UVChannelIndex = 0
+        TextureName = TEX_BF_Leaves_msk
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.328125
+        UVChannelIndex = 0
+        TextureName = TEX_BF_Leaves_nrm
+    }
+}

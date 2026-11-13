@@ -1,0 +1,101 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Characters/Costumes/stockings_alpha2.stockings_alpha2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Metallic }
+                    ParameterInfos[2] = { Name=Specular }
+                    ParameterInfos[3] = { Name=AlphaOffset }
+                    ParameterInfos[4] = { Name=AlphaMult }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=AlphaTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 0.5, 0, 0.1, 0, 1 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'Textures/Characters/Costumes/stockings_alpha2.stockings_alpha2'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Characters/Costumes/stockings_alpha2.stockings_alpha2'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Characters/Costumes/stockings_alpha2.stockings_alpha2'
+        Name = AlphaTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Metallic, Group=None }
+    CollectedScalarParameters[2] = { Value=0.1, Name=Specular, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=AlphaOffset, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=AlphaMult, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = stockings_alpha2
+    }
+}

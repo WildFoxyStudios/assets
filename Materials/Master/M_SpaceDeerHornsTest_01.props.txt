@@ -1,0 +1,162 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/FX/Ballistics/TilingNoise06_N.TilingNoise06_N'
+    ReferencedTextures[1] = Texture2D'Textures/FX/T_TilingFire2.T_TilingFire2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=FlatttenNormal }
+                    ParameterInfos[1] = { Name=SSD }
+                    ParameterInfos[2] = { Name=ColorFresnelExp }
+                    ParameterInfos[3] = { Name=RoughnessTextureSize }
+                    ParameterInfos[4] = { Name=PDO }
+                    ParameterInfos[5] = { Name=BumpOffsetInnerDetailHeight }
+                    ParameterInfos[6] = { Name=GlowAlphaMul }
+                    ParameterInfos[7] = { Name=GlowAlphaCenterOutFalloff }
+                    ParameterInfos[8] = { Name=RoughnessMax }
+                    ParameterInfos[9] = { Name=NormalSize }
+                    ParameterInfos[10] = { Name=SSFresnelExp }
+                    ParameterInfos[11] = { Name=SSSIntensity }
+                    ParameterInfos[12] = { Name=InnerGlowIntensity }
+                    ParameterInfos[13] = { Name=RoughnessMin }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Color 1 }
+                    ParameterInfos[1] = { Name=Color 2 }
+                    ParameterInfos[2] = { Name=SSC }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] =
+        {
+            ScalarValues[0] = 0.790476
+            ScalarValues[1] = 0.8
+            ScalarValues[2] = 0.568278
+            ScalarValues[3] = 12.6274
+            ScalarValues[4] = 0.586287
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0.586287
+            ScalarValues[7] = 4.42714
+            ScalarValues[8] = 0.613427
+            ScalarValues[9] = 3
+            ScalarValues[10] = 1.7986
+            ScalarValues[11] = 11.6069
+            ScalarValues[12] = 0.293836
+            ScalarValues[13] = 0.5
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0.000271, G=0.052083, B=0.027183, A=0 }
+            VectorValues[1] = { R=0, G=0.048394, B=0.104167, A=0 }
+            VectorValues[2] = { R=1.875, G=3.07969, B=5, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/FX/T_TilingFire2.T_TilingFire2'
+        ReferencedTextures[2] = Texture2D'Textures/FX/Ballistics/TilingNoise06_N.TilingNoise06_N'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=0.790476, Name=FlatttenNormal, Group=None }
+    CollectedScalarParameters[1] = { Value=0.8, Name=SSD, Group=None }
+    CollectedScalarParameters[2] = { Value=0.568278, Name=ColorFresnelExp, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 12.6274
+        Name = RoughnessTextureSize
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0.586287, Name=PDO, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 1
+        Name = BumpOffsetInnerDetailHeight
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=0.586287, Name=GlowAlphaMul, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 4.42714
+        Name = GlowAlphaCenterOutFalloff
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0.613427, Name=RoughnessMax, Group=None }
+    CollectedScalarParameters[9] = { Value=3, Name=NormalSize, Group=None }
+    CollectedScalarParameters[10] = { Value=1.7986, Name=SSFresnelExp, Group=None }
+    CollectedScalarParameters[11] = { Value=11.6069, Name=SSSIntensity, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0.293836
+        Name = InnerGlowIntensity
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0.5, Name=RoughnessMin, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.000271, G=0.052083, B=0.027183, A=0 }
+        Name = Color 1
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0.048394, B=0.104167, A=0 }
+        Name = Color 2
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1.875, G=3.07969, B=5, A=1 }
+        Name = SSC
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.015625
+        UVChannelIndex = 1
+        TextureName = T_TilingFire2
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = TilingNoise06_N
+    }
+}

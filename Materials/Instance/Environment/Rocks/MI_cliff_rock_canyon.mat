@@ -1,0 +1,14 @@
+Diffuse=T_ground_gravel_canyon_B_AOHR
+Normal=T_ground_gravel_canyon_B_N
+Other[0]=T_ground_gravel_canyon_B_BC
+Other[1]=T_cliff_rock_canyon_A_AOHR
+Other[2]=T_cliff_rock_canyon_A_BC
+Other[3]=T_cliff_rock_canyon_A_N
+Other[4]=T_cliff_rock_canyon_B_AOHR
+Other[5]=T_cliff_rock_canyon_B_BC
+Other[6]=T_cliff_rock_canyon_B_N
+Other[7]=T_cliff_rock_canyon_C_AOHR
+Other[8]=T_cliff_rock_canyon_C_BC
+Other[9]=T_cliff_rock_canyon_C_N
+Other[10]=T_clouds_A_MK
+Other[11]=T_clouds_B_MK

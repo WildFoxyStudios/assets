@@ -1,0 +1,7 @@
+Diffuse=TEX_BF_RGBMaskA_msk
+Normal=TEX_MW_Winter_nrm
+Other[0]=TEX_BF_RGBMaskB_msk
+Other[1]=TEX_MW_Temp_Checker
+Other[2]=TEX_MW_Temp_col
+Other[3]=TEX_MW_Winter_msk
+Other[4]=TEX_MW_Winter_msk2

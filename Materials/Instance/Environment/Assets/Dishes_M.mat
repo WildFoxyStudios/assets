@@ -1,0 +1,11 @@
+Diffuse=Dishes_diff_T
+Normal=Dishes_normal_T
+Other[0]=Dishes_metall_T
+Other[1]=Dishes_gloss_T
+Other[2]=bird_skull_default_AlbedoTransparency_T
+Other[3]=bird_skull_default_Normal_T
+Other[4]=bird_skull_default_Glossiness_T
+Other[5]=BoneAmulet_diff_T
+Other[6]=BoneAmulet_gloss_T
+Other[7]=BoneAmulet_metall_T
+Other[8]=BoneAmulet_normal_T

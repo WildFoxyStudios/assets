@@ -1,0 +1,5 @@
+Diffuse=T_thatch_A_AO
+Normal=T_thatch_A_N
+Other[0]=T_thatch_A_BC
+Other[1]=T_thatch_A_H
+Other[2]=T_thatch_A_MTSR

@@ -1,0 +1,6 @@
+Diffuse=bag_D
+Normal=bag_N
+Other[0]=bag_SRM
+Other[1]=base_black_d
+Other[2]=base_flat_n
+Other[3]=base_gray_d

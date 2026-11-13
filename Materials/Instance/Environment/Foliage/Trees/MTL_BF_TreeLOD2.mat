@@ -1,0 +1,7 @@
+Diffuse=TEXBF_TreeLOD2_atlas_col
+Normal=TEXBF_TreeLOD2_atlas_nrm
+Other[0]=TEXBF_TreeLOD1_atlas_col
+Other[1]=TEXBF_TreeLOD1_atlas_nrm
+Other[2]=TEX_MW_Temp_Checker
+Other[3]=TEX_MW_Temp_col
+Other[4]=TEX_MW_Winter_msk

@@ -1,0 +1,5 @@
+Diffuse=T_Smoke_Tiled_D
+Normal=T_A047_Body_Normal
+Emissive=fireplace_lp_03___Default_Emissive
+Other[0]=T_A047_Body_BaseColor
+Other[1]=T_A047_Body_OcclusionRoughnessMetallic

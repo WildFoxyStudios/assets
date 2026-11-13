@@ -1,0 +1,6 @@
+Normal=T_HeatTile3_N
+SpecPower=T_SplashDisc_A
+Opacity=T_SplashDisc_A
+Other[0]=T_SplashDisc_N
+Other[1]=T_TilingNoise11
+Other[2]=CubeNearEntrance

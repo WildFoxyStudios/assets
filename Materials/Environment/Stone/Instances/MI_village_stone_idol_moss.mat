@@ -1,0 +1,11 @@
+Diffuse=Rock_Surface_Rough_INST_basecolor
+Normal=T_village_stone_idol_N
+Other[0]=T_village_stone_idol_AOHR
+Other[1]=T_ground_moss_jungle_A_BC
+Other[2]=T_Rock_Block_Small_A_Normal
+Other[3]=T_Rock_Block_Small_A_RAH
+Other[4]=T_ground_moss_jungle_A_N
+Other[5]=Rock_Surface_Rough_INST_normal
+Other[6]=Rock_Surface_Rough_INST_RAH
+Other[7]=T_Perlin_Noise_M
+Other[8]=blank_RAH

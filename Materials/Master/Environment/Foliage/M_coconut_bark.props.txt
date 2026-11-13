@@ -1,0 +1,215 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Foliage/T_coconut_bark_diffuse.T_coconut_bark_diffuse'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Foliage/T_coconut_bark_masks.T_coconut_bark_masks'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Foliage/T_coconut_bark_normal.T_coconut_bark_normal'
+    ReferencedTextures[3] = Texture2D'Textures/Environment/Foliage/T_WindAnimation.T_WindAnimation'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[18] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Per Leaf Strength }
+                    ParameterInfos[2] = { Name=Wind Speed }
+                    ParameterInfos[3] = { Name=ParallaxOcclusion Max Steps }
+                    ParameterInfos[4] = { Name=Specular }
+                    ParameterInfos[5] = { Name=AO Strength }
+                    ParameterInfos[6] = { Name=Max Expensive Steps Debug Color }
+                    ParameterInfos[7] = { Name=Edge Deformation }
+                    ParameterInfos[8] = { Name=Time Offset }
+                    ParameterInfos[9] = { Name=ParallaxOcclusion Height Ratio }
+                    ParameterInfos[10] = { Name=normal_strengh }
+                    ParameterInfos[11] = { Name=BaseColor Power }
+                    ParameterInfos[12] = { Name=Wind Strength }
+                    ParameterInfos[13] = { Name=BaseColor Desaturation }
+                    ParameterInfos[14] = { Name=ParallaxOcclusion Shadwos Steps }
+                    ParameterInfos[15] = { Name=Variation Intensity }
+                    ParameterInfos[16] = { Name=ParallaxOcclusion Shadow Penumbra }
+                    ParameterInfos[17] = { Name=ParallaxOcclusion Min Steps }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=ParallaxOcclusion Heightmap Channel }
+                    ParameterInfos[1] = { Name=Main Bending Offset }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=R: Rough; G: AO,  B: Spec }
+                    ParameterInfos[1] = { Name=Diffuse }
+                    ParameterInfos[2] = { Name=Normal }
+                    ParameterInfos[3] = { Name=ParallaxOcclusion Heightmap }
+                    ParameterInfos[4] = { Name=Wind Animation Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[18] =
+        {
+            ScalarValues[0] = 0.6
+            ScalarValues[1] = 1.3
+            ScalarValues[2] = 0.1
+            ScalarValues[3] = 70
+            ScalarValues[4] = 0.3
+            ScalarValues[5] = 1
+            ScalarValues[6] = 32
+            ScalarValues[7] = 6
+            ScalarValues[8] = 0.3
+            ScalarValues[9] = 0.004
+            ScalarValues[10] = 1
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0
+            ScalarValues[14] = 32
+            ScalarValues[15] = 1
+            ScalarValues[16] = 1
+            ScalarValues[17] = 32
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Foliage/T_coconut_bark_masks.T_coconut_bark_masks'
+            TextureValues[1] = Texture2D'Textures/Environment/Foliage/T_coconut_bark_diffuse.T_coconut_bark_diffuse'
+            TextureValues[2] = Texture2D'Textures/Environment/Foliage/T_coconut_bark_normal.T_coconut_bark_normal'
+            TextureValues[3] = Texture2D'Textures/Environment/Foliage/T_coconut_bark_masks.T_coconut_bark_masks'
+            TextureValues[4] = Texture2D'Textures/Environment/Foliage/T_WindAnimation.T_WindAnimation'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[2] = Texture2D'Textures/Environment/Foliage/T_WindAnimation.T_WindAnimation'
+        ReferencedTextures[3] = Texture2D'Textures/Environment/Foliage/T_coconut_bark_masks.T_coconut_bark_masks'
+        ReferencedTextures[4] = Texture2D'Textures/Environment/Foliage/T_coconut_bark_diffuse.T_coconut_bark_diffuse'
+        ReferencedTextures[5] = Texture2D'Textures/Environment/Foliage/T_coconut_bark_normal.T_coconut_bark_normal'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/T_coconut_bark_masks.T_coconut_bark_masks'
+        Name = R: Rough; G: AO,  B: Spec
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/T_coconut_bark_diffuse.T_coconut_bark_diffuse'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/T_coconut_bark_normal.T_coconut_bark_normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/T_coconut_bark_masks.T_coconut_bark_masks'
+        Name = ParallaxOcclusion Heightmap
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/T_WindAnimation.T_WindAnimation'
+        Name = Wind Animation Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=0.6, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1.3, Name=Per Leaf Strength, Group=None }
+    CollectedScalarParameters[2] = { Value=0.1, Name=Wind Speed, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 70
+        Name = ParallaxOcclusion Max Steps
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0.3, Name=Specular, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=AO Strength, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 32
+        Name = Max Expensive Steps Debug Color
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=6, Name=Edge Deformation, Group=None }
+    CollectedScalarParameters[8] = { Value=0.3, Name=Time Offset, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.004
+        Name = ParallaxOcclusion Height Ratio
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=1, Name=normal_strengh, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=BaseColor Power, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Wind Strength, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=BaseColor Desaturation, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 32
+        Name = ParallaxOcclusion Shadwos Steps
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=1, Name=Variation Intensity, Group=None }
+    CollectedScalarParameters[16] =
+    {
+        Value = 1
+        Name = ParallaxOcclusion Shadow Penumbra
+        Group = None
+    }
+    CollectedScalarParameters[17] =
+    {
+        Value = 32
+        Name = ParallaxOcclusion Min Steps
+        Group = None
+    }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = ParallaxOcclusion Heightmap Channel
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Main Bending Offset
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

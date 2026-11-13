@@ -1,0 +1,8 @@
+Diffuse=T_clothindra_BC
+Normal=T_clothindra_N
+Emissive=T_clothindra_E
+Other[0]=T_clothindra_ORM
+Other[1]=fireplace_lp_03___Default_Emissive
+Other[2]=T_A047_Body_BaseColor
+Other[3]=T_A047_Body_Normal
+Other[4]=T_A047_Body_OcclusionRoughnessMetallic

@@ -1,0 +1,245 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[20] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_B_AOHR.T_ground_gravel_canyon_B_AOHR'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_B_BC.T_ground_gravel_canyon_B_BC'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_B_N.T_ground_gravel_canyon_B_N'
+    ReferencedTextures[3] = Texture2D'Textures/Environment/Rock/T_cave_rock_canyon_A_AOHR.T_cave_rock_canyon_A_AOHR'
+    ReferencedTextures[4] = Texture2D'Textures/Environment/Rock/T_cave_rock_canyon_A_BC.T_cave_rock_canyon_A_BC'
+    ReferencedTextures[5] = Texture2D'Textures/Environment/Rock/T_cave_rock_canyon_A_N.T_cave_rock_canyon_A_N'
+    ReferencedTextures[6] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_A_AOHR.T_cliff_rock_canyon_A_AOHR'
+    ReferencedTextures[7] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_A_BC.T_cliff_rock_canyon_A_BC'
+    ReferencedTextures[8] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_A_N.T_cliff_rock_canyon_A_N'
+    ReferencedTextures[9] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_B_AOHR.T_cliff_rock_canyon_B_AOHR'
+    ReferencedTextures[10] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_B_BC.T_cliff_rock_canyon_B_BC'
+    ReferencedTextures[11] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_B_N.T_cliff_rock_canyon_B_N'
+    ReferencedTextures[12] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_C_AOHR.T_cliff_rock_canyon_C_AOHR'
+    ReferencedTextures[13] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_C_BC.T_cliff_rock_canyon_C_BC'
+    ReferencedTextures[14] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_C_N.T_cliff_rock_canyon_C_N'
+    ReferencedTextures[15] = Texture2D'Textures/Environment/Rock/T_ground_bedrock_canyon_A_AOHR.T_ground_bedrock_canyon_A_AOHR'
+    ReferencedTextures[16] = Texture2D'Textures/Environment/Rock/T_ground_bedrock_canyon_A_BC.T_ground_bedrock_canyon_A_BC'
+    ReferencedTextures[17] = Texture2D'Textures/Environment/Rock/T_ground_bedrock_canyon_A_N.T_ground_bedrock_canyon_A_N'
+    ReferencedTextures[18] = Texture2D'Textures/Environment/T_clouds_A_MK.T_clouds_A_MK'
+    ReferencedTextures[19] = Texture2D'Textures/Environment/T_clouds_B_MK.T_clouds_B_MK'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=HeightMultiplier }
+                    ParameterInfos[1] = { Name=TessellationMultiplier }
+                    ParameterInfos[2] = { Name=GravelB_Desaturation }
+                    ParameterInfos[3] = { Name=UvScalingX }
+                    ParameterInfos[4] = { Name=GravelB_RoughnessMultiplier }
+                    ParameterInfos[5] = { Name=GravelB_UV_Multiplier }
+                    ParameterInfos[6] = { Name=Scale }
+                    ParameterInfos[7] = { Name=RoughnessMultiplier }
+                    ParameterInfos[8] = { Name=ZProjectPower }
+                    ParameterInfos[9] = { Name=Exp3 }
+                    ParameterInfos[10] = { Name=Exp2 }
+                    ParameterInfos[11] = { Name=ZProjectFallOff }
+                    ParameterInfos[12] = { Name=GravelB_DiffuseAmount }
+                    ParameterInfos[13] = { Name=UvScalingY }
+                    ParameterInfos[14] = { Name=Exp1 }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Attributes }
+                    ParameterInfos[1] = { Name=Color_Gravel_b }
+                    ParameterInfos[2] = { Name=Normal_Gravel_b }
+                    ParameterInfos[3] = { Name=Normal }
+                    ParameterInfos[4] = { Name=Color }
+                    ParameterInfos[5] = { Name=Attribute_Gravel_b }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[15] =
+        {
+            ScalarValues[0] = 10
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1
+            ScalarValues[4] = 15
+            ScalarValues[5] = 3
+            ScalarValues[6] = 2000
+            ScalarValues[7] = 4
+            ScalarValues[8] = 5
+            ScalarValues[9] = 0.3
+            ScalarValues[10] = 1
+            ScalarValues[11] = 4
+            ScalarValues[12] = 0.75
+            ScalarValues[13] = 0.5
+            ScalarValues[14] = 1
+        }
+        VectorValues[0] = {}
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_A_AOHR.T_cliff_rock_canyon_A_AOHR'
+            TextureValues[1] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_B_BC.T_ground_gravel_canyon_B_BC'
+            TextureValues[2] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_B_N.T_ground_gravel_canyon_B_N'
+            TextureValues[3] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_A_N.T_cliff_rock_canyon_A_N'
+            TextureValues[4] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_A_BC.T_cliff_rock_canyon_A_BC'
+            TextureValues[5] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_B_AOHR.T_ground_gravel_canyon_B_AOHR'
+        }
+    }
+    ReferencedTextures[24] =
+    {
+        ReferencedTextures[4] = Texture2D'Textures/Environment/Rock/T_cave_rock_canyon_A_N.T_cave_rock_canyon_A_N'
+        ReferencedTextures[5] = Texture2D'Textures/Environment/Rock/T_cave_rock_canyon_A_BC.T_cave_rock_canyon_A_BC'
+        ReferencedTextures[6] = Texture2D'Textures/Environment/Rock/T_cave_rock_canyon_A_AOHR.T_cave_rock_canyon_A_AOHR'
+        ReferencedTextures[7] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_A_BC.T_cliff_rock_canyon_A_BC'
+        ReferencedTextures[8] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_A_AOHR.T_cliff_rock_canyon_A_AOHR'
+        ReferencedTextures[9] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_A_N.T_cliff_rock_canyon_A_N'
+        ReferencedTextures[10] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_B_N.T_cliff_rock_canyon_B_N'
+        ReferencedTextures[11] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_B_BC.T_cliff_rock_canyon_B_BC'
+        ReferencedTextures[12] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_B_AOHR.T_cliff_rock_canyon_B_AOHR'
+        ReferencedTextures[13] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_C_N.T_cliff_rock_canyon_C_N'
+        ReferencedTextures[14] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_C_BC.T_cliff_rock_canyon_C_BC'
+        ReferencedTextures[15] = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_C_AOHR.T_cliff_rock_canyon_C_AOHR'
+        ReferencedTextures[16] = Texture2D'Textures/Environment/T_clouds_A_MK.T_clouds_A_MK'
+        ReferencedTextures[17] = Texture2D'Textures/Environment/T_clouds_B_MK.T_clouds_B_MK'
+        ReferencedTextures[18] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_B_BC.T_ground_gravel_canyon_B_BC'
+        ReferencedTextures[19] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_B_N.T_ground_gravel_canyon_B_N'
+        ReferencedTextures[20] = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_B_AOHR.T_ground_gravel_canyon_B_AOHR'
+        ReferencedTextures[21] = Texture2D'Textures/Environment/Rock/T_ground_bedrock_canyon_A_BC.T_ground_bedrock_canyon_A_BC'
+        ReferencedTextures[22] = Texture2D'Textures/Environment/Rock/T_ground_bedrock_canyon_A_N.T_ground_bedrock_canyon_A_N'
+        ReferencedTextures[23] = Texture2D'Textures/Environment/Rock/T_ground_bedrock_canyon_A_AOHR.T_ground_bedrock_canyon_A_AOHR'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_A_AOHR.T_cliff_rock_canyon_A_AOHR'
+        Name = Attributes
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_B_BC.T_ground_gravel_canyon_B_BC'
+        Name = Color_Gravel_b
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_B_N.T_ground_gravel_canyon_B_N'
+        Name = Normal_Gravel_b
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_A_N.T_cliff_rock_canyon_A_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'Textures/Environment/Rock/T_cliff_rock_canyon_A_BC.T_cliff_rock_canyon_A_BC'
+        Name = Color
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'Textures/Environment/Ground/T_ground_gravel_canyon_B_AOHR.T_ground_gravel_canyon_B_AOHR'
+        Name = Attribute_Gravel_b
+        Group = None
+    }
+}
+CollectedScalarParameters[15] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=HeightMultiplier, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=TessellationMultiplier, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=GravelB_Desaturation, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=UvScalingX, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 15
+        Name = GravelB_RoughnessMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=3, Name=GravelB_UV_Multiplier, Group=None }
+    CollectedScalarParameters[6] = { Value=2000, Name=Scale, Group=None }
+    CollectedScalarParameters[7] = { Value=4, Name=RoughnessMultiplier, Group=None }
+    CollectedScalarParameters[8] = { Value=5, Name=ZProjectPower, Group=None }
+    CollectedScalarParameters[9] = { Value=0.3, Name=Exp3, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Exp2, Group=None }
+    CollectedScalarParameters[11] = { Value=4, Name=ZProjectFallOff, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0.75
+        Name = GravelB_DiffuseAmount
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0.5, Name=UvScalingY, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Exp1, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[7] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_clouds_A_MK
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 5
+        UVChannelIndex = 0
+        TextureName = T_ground_bedrock_canyon_A_AOHR
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 5
+        UVChannelIndex = 0
+        TextureName = T_ground_bedrock_canyon_A_BC
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 5
+        UVChannelIndex = 0
+        TextureName = T_ground_bedrock_canyon_A_N
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 15
+        UVChannelIndex = 0
+        TextureName = T_ground_gravel_canyon_B_AOHR
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 15
+        UVChannelIndex = 0
+        TextureName = T_ground_gravel_canyon_B_BC
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 15
+        UVChannelIndex = 0
+        TextureName = T_ground_gravel_canyon_B_N
+    }
+}

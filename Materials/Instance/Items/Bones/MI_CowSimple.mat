@@ -1,0 +1,6 @@
+Diffuse=CowSkullSimple_BaseColor
+Normal=CowSkullSimple_Normal
+Other[0]=CowSkullSimple_RoughnessMetalicAO
+Other[1]=AlienSimple_BaseColor
+Other[2]=AlienSimple_Normal
+Other[3]=AlienSimple_RoughnessMetalicAO

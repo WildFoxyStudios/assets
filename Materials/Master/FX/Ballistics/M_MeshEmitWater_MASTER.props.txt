@@ -1,0 +1,148 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/FX/Ballistics/T_HeatTile3_N.T_HeatTile3_N'
+    ReferencedTextures[1] = Texture2D'Textures/FX/Ballistics/T_SplashDisc_A.T_SplashDisc_A'
+    ReferencedTextures[2] = Texture2D'Textures/FX/Ballistics/T_SplashDisc_N.T_SplashDisc_N'
+    ReferencedTextures[3] = Texture2D'Textures/FX/Ballistics/T_TilingNoise11.T_TilingNoise11'
+    ReferencedTextures[4] = TextureCube4'Textures/FX/Ballistics/CubeNearEntrance.CubeNearEntrance'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Tiling }
+                    ParameterInfos[1] = { Name=RefractScale }
+                    ParameterInfos[2] = { Name=Opacity }
+                    ParameterInfos[3] = { Name=RefractFresnelExponent }
+                    ParameterInfos[4] = { Name=CubeMapBrightness }
+                    ParameterInfos[5] = { Name=ColorFresnelExponent }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=BaseColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=UseColorTexture }
+                    ParameterInfos[1] = { Name=NormalMap }
+                    ParameterInfos[2] = { Name=DetailNormal_0 }
+                    ParameterInfos[3] = { Name=AlphaMask }
+                    ParameterInfos[4] = { Name=Cubemap }
+                    ParameterInfos[5] = { Name=DetailNormal_1 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 8, 1.25, 1, 1.25, 1, 0.2 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.5, G=0.5, B=0.5, A=1 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'Textures/FX/Ballistics/T_TilingNoise11.T_TilingNoise11'
+            TextureValues[1] = Texture2D'Textures/FX/Ballistics/T_SplashDisc_N.T_SplashDisc_N'
+            TextureValues[2] = Texture2D'Textures/FX/Ballistics/T_HeatTile3_N.T_HeatTile3_N'
+            TextureValues[3] = Texture2D'Textures/FX/Ballistics/T_SplashDisc_A.T_SplashDisc_A'
+            TextureValues[4] = TextureCube4'Textures/FX/Ballistics/CubeNearEntrance.CubeNearEntrance'
+            TextureValues[5] = Texture2D'Textures/FX/Ballistics/T_HeatTile3_N.T_HeatTile3_N'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/FX/Ballistics/T_SplashDisc_A.T_SplashDisc_A'
+        ReferencedTextures[1] = Texture2D'Textures/FX/Ballistics/T_SplashDisc_N.T_SplashDisc_N'
+        ReferencedTextures[2] = Texture2D'Textures/FX/Ballistics/T_HeatTile3_N.T_HeatTile3_N'
+        ReferencedTextures[3] = TextureCube4'Textures/FX/Ballistics/CubeNearEntrance.CubeNearEntrance'
+        ReferencedTextures[4] = Texture2D'Textures/FX/Ballistics/T_TilingNoise11.T_TilingNoise11'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/FX/Ballistics/T_TilingNoise11.T_TilingNoise11'
+        Name = UseColorTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/FX/Ballistics/T_SplashDisc_N.T_SplashDisc_N'
+        Name = NormalMap
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/FX/Ballistics/T_HeatTile3_N.T_HeatTile3_N'
+        Name = DetailNormal_0
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/FX/Ballistics/T_SplashDisc_A.T_SplashDisc_A'
+        Name = AlphaMask
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = TextureCube4'Textures/FX/Ballistics/CubeNearEntrance.CubeNearEntrance'
+        Name = Cubemap
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'Textures/FX/Ballistics/T_HeatTile3_N.T_HeatTile3_N'
+        Name = DetailNormal_1
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=8, Name=Tiling, Group=None }
+    CollectedScalarParameters[1] = { Value=1.25, Name=RefractScale, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 1.25
+        Name = RefractFresnelExponent
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=1, Name=CubeMapBrightness, Group=None }
+    CollectedScalarParameters[5] = { Value=0.2, Name=ColorFresnelExponent, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

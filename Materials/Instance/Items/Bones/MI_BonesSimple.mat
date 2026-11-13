@@ -1,0 +1,6 @@
+Diffuse=BonesSimple_BaseColor
+Normal=BonesSimple_Normal
+Other[0]=BonesSimple_RoughnessMetalicAO
+Other[1]=AlienSimple_BaseColor
+Other[2]=AlienSimple_Normal
+Other[3]=AlienSimple_RoughnessMetalicAO

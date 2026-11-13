@@ -1,0 +1,104 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Animal/T_Fish_Large.T_Fish_Large'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Max_Turn }
+                    ParameterInfos[2] = { Name=Max_Speed }
+                    ParameterInfos[3] = { Name=Metallic }
+                    ParameterInfos[4] = { Name=Time_Manual }
+                    ParameterInfos[5] = { Name=Wave_Intensity }
+                    ParameterInfos[6] = { Name=Fins_Wave }
+                    ParameterInfos[7] = { Name=Tail_Movement }
+                    ParameterInfos[8] = { Name=Rotate_Intensity }
+                    ParameterInfos[9] = { Name=Tail_Wave }
+                    ParameterInfos[10] = { Name=Flap_Speed }
+                    ParameterInfos[11] = { Name=Fins_Intensity }
+                    ParameterInfos[12] = { Name=Flap_Intensity }
+                    ParameterInfos[13] = { Name=Time_Override }
+                    ParameterInfos[14] = { Name=Tail_Turn }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[15] =
+        {
+            ScalarValues[0] = 0.5
+            ScalarValues[1] = 0.25
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0
+            ScalarValues[5] = 2
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0.015
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0.25
+            ScalarValues[10] = 1.25
+            ScalarValues[11] = 0.5
+            ScalarValues[12] = 2
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+        }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Animal/T_Fish_Large.T_Fish_Large'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[15] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.25, Name=Max_Turn, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Max_Speed, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Metallic, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Time_Manual, Group=None }
+    CollectedScalarParameters[5] = { Value=2, Name=Wave_Intensity, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Fins_Wave, Group=None }
+    CollectedScalarParameters[7] = { Value=0.015, Name=Tail_Movement, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Rotate_Intensity, Group=None }
+    CollectedScalarParameters[9] = { Value=0.25, Name=Tail_Wave, Group=None }
+    CollectedScalarParameters[10] = { Value=1.25, Name=Flap_Speed, Group=None }
+    CollectedScalarParameters[11] = { Value=0.5, Name=Fins_Intensity, Group=None }
+    CollectedScalarParameters[12] = { Value=2, Name=Flap_Intensity, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Time_Override, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Tail_Turn, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Fish_Large
+    }
+}

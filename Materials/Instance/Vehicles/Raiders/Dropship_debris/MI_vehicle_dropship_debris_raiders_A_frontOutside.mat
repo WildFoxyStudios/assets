@@ -1,0 +1,9 @@
+Diffuse=T_blank_AOHR
+Normal=T_blank_N
+Emissive=T_vehicle_dropship_debris_raiders_A_frontOutside_E
+Other[0]=T_vehicle_dropship_debris_raiders_A_frontOutside_AOMR
+Other[1]=T_vehicle_dropship_debris_raiders_A_frontOutside_BC
+Other[2]=T_vehicle_dropship_debris_raiders_A_frontOutside_N
+Other[3]=T_blank_BC
+Other[4]=T_blank_E
+Other[5]=T_Perlin_Noise_M

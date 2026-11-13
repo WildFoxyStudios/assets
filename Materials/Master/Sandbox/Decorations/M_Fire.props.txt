@@ -1,0 +1,86 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Sandbox/Decorations/T_Fire_BC_O.T_Fire_BC_O'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Emissive_Strength }
+                    ParameterInfos[1] = { Name=WindSpeed (S) }
+                    ParameterInfos[2] = { Name=Sine Strength }
+                    ParameterInfos[3] = { Name=WindIntensity (S) }
+                    ParameterInfos[4] = { Name=WindSize }
+                    ParameterInfos[5] = { Name=WindWeight (S) }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=AdditionalWPO (V3) }
+                    ParameterInfos[1] = { Name=FlameColor }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 2, 1, 0.04, 1, 1, 1 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0.991102, G=0.241098, B=0.012064, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Sandbox/Decorations/T_Fire_BC_O.T_Fire_BC_O'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=Emissive_Strength, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=WindSpeed (S), Group=None }
+    CollectedScalarParameters[2] = { Value=0.04, Name=Sine Strength, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=WindIntensity (S), Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=WindSize, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=WindWeight (S), Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = AdditionalWPO (V3)
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.991102, G=0.241098, B=0.012064, A=1 }
+        Name = FlameColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

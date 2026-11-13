@@ -1,0 +1,9 @@
+Diffuse=T_ground_dirt_canyon_C_AOHR
+Normal=T_A047_Body_Normal
+Emissive=fireplace_lp_03___Default_Emissive
+Other[0]=T_A047_Body_BaseColor
+Other[1]=T_A047_Body_OcclusionRoughnessMetallic
+Other[2]=T_ground_dirt_canyon_C_BC
+Other[3]=T_ground_dirt_canyon_C_N
+Other[4]=T_clouds_C_MK
+Other[5]=T_Smoke_Tiled_D

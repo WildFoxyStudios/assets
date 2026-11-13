@@ -1,0 +1,99 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Assets/bone_generic_A/T_bone_generic_A_AO.T_bone_generic_A_AO'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Assets/bone_generic_A/T_bone_generic_A_BC.T_bone_generic_A_BC'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Assets/bone_generic_A/T_bone_generic_A_H.T_bone_generic_A_H'
+    ReferencedTextures[3] = Texture2D'Textures/Environment/Assets/bone_generic_A/T_bone_generic_A_MTSR.T_bone_generic_A_MTSR'
+    ReferencedTextures[4] = Texture2D'Textures/Environment/Assets/bone_generic_A/T_bone_generic_A_N.T_bone_generic_A_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=HeightMultiplier }
+                    ParameterInfos[1] = { Name=TessellationMultiplier }
+                    ParameterInfos[2] = { Name=RoughnessMultiplier }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 0.542857, 0.3, 3 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Environment/Assets/bone_generic_A/T_bone_generic_A_BC.T_bone_generic_A_BC'
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Assets/bone_generic_A/T_bone_generic_A_MTSR.T_bone_generic_A_MTSR'
+        ReferencedTextures[2] = Texture2D'Textures/Environment/Assets/bone_generic_A/T_bone_generic_A_N.T_bone_generic_A_N'
+        ReferencedTextures[3] = Texture2D'Textures/Environment/Assets/bone_generic_A/T_bone_generic_A_AO.T_bone_generic_A_AO'
+        ReferencedTextures[4] = Texture2D'Textures/Environment/Assets/bone_generic_A/T_bone_generic_A_H.T_bone_generic_A_H'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.542857
+        Name = HeightMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.3
+        Name = TessellationMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=3, Name=RoughnessMultiplier, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_bone_generic_A_AO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_bone_generic_A_BC
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_bone_generic_A_MTSR
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_bone_generic_A_N
+    }
+}

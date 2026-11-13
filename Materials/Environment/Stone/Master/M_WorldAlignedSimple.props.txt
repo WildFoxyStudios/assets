@@ -1,0 +1,262 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Stone/Generic/Rock_Cliff_Sharp_INST_basecolor.Rock_Cliff_Sharp_INST_basecolor'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Stone/Generic/Rock_Cliff_Sharp_INST_normal.Rock_Cliff_Sharp_INST_normal'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Stone/Generic/Rock_Cliff_Sharp_INST_RAH.Rock_Cliff_Sharp_INST_RAH'
+    ReferencedTextures[3] = Texture2D'Textures/Environment/T_forest_rock_moss_d.T_forest_rock_moss_d'
+    ReferencedTextures[4] = Texture2D'Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+    ReferencedTextures[5] = Texture2D'Textures/Utility/blank_RAH.blank_RAH'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[26] =
+                {
+                    ParameterInfos[0] = { Name=RoughMax }
+                    ParameterInfos[1] = { Name=BlendWithRVT_Contrast }
+                    ParameterInfos[2] = { Name=BlendWithRVT_Offset }
+                    ParameterInfos[3] = { Name=MossBorderBoost }
+                    ParameterInfos[4] = { Name=VColCurvature }
+                    ParameterInfos[5] = { Name=Contrast }
+                    ParameterInfos[6] = { Name=BlendWithRVT_Scale }
+                    ParameterInfos[7] = { Name=MossBorderOpacity }
+                    ParameterInfos[8] = { Name=ColorMultContrast }
+                    ParameterInfos[9] = { Name=MossMaskNormal }
+                    ParameterInfos[10] = { Name=BlendWithRVT_EdgeNoise_TilingMultiplier }
+                    ParameterInfos[11] = { Name=Spec }
+                    ParameterInfos[12] = { Name=Size }
+                    ParameterInfos[13] = { Name=BlendWithRVT_Exponent }
+                    ParameterInfos[14] = { Name=MossContrast }
+                    ParameterInfos[15] = { Name=MossBorderOffset }
+                    ParameterInfos[16] = { Name=BlendWithRVT_CutVerticalFaces_Contrast }
+                    ParameterInfos[17] = { Name=BlendWithRVT_CutVerticalFaces_Mul }
+                    ParameterInfos[18] = { Name=BlendWithRVT_DistanceFieldContrast }
+                    ParameterInfos[19] = { Name=RoughMin }
+                    ParameterInfos[20] = { Name=MossBorderContrast }
+                    ParameterInfos[21] = { Name=BlendWithRVT_DistanceFieldExponent }
+                    ParameterInfos[22] = { Name=MossOpacity }
+                    ParameterInfos[23] = { Name=BlendWithRVT_DistanceFieldMultiplier }
+                    ParameterInfos[24] = { Name=NormalFlatness }
+                    ParameterInfos[25] = { Name=BlendWithRVT_EdgeNoise_Contrast }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=MossColMult }
+                    ParameterInfos[1] = { Name=ColorMult }
+                    ParameterInfos[2] = { Name=GlobalColorMult }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Moss }
+                    ParameterInfos[2] = { Name=BaseColor }
+                    ParameterInfos[3] = { Name=RAH }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=BlendWithRVT_RVTHeightAsset }
+                }
+            }
+        }
+        ScalarValues[26] =
+        {
+            ScalarValues[0] = 0.9
+            ScalarValues[1] = 0
+            ScalarValues[2] = 5
+            ScalarValues[3] = 10
+            ScalarValues[4] = 0.5
+            ScalarValues[5] = 1
+            ScalarValues[6] = 15
+            ScalarValues[7] = 0.8
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0.7
+            ScalarValues[10] = 400
+            ScalarValues[11] = 0.5
+            ScalarValues[12] = 200
+            ScalarValues[13] = 1
+            ScalarValues[14] = 2
+            ScalarValues[15] = 0.2
+            ScalarValues[16] = 0
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0
+            ScalarValues[19] = 0.7
+            ScalarValues[20] = 0
+            ScalarValues[21] = 1
+            ScalarValues[22] = 0.4
+            ScalarValues[23] = 1
+            ScalarValues[24] = 0.2
+            ScalarValues[25] = 5
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+            VectorValues[1] = { R=0.604167, G=0.5622, B=0.504659, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Stone/Generic/Rock_Cliff_Sharp_INST_normal.Rock_Cliff_Sharp_INST_normal'
+            TextureValues[1] = Texture2D'Textures/Environment/T_forest_rock_moss_d.T_forest_rock_moss_d'
+            TextureValues[2] = Texture2D'Textures/Environment/Stone/Generic/Rock_Cliff_Sharp_INST_basecolor.Rock_Cliff_Sharp_INST_basecolor'
+            TextureValues[3] = Texture2D'Textures/Environment/Stone/Generic/Rock_Cliff_Sharp_INST_RAH.Rock_Cliff_Sharp_INST_RAH'
+        }
+    }
+    ReferencedTextures[16] =
+    {
+        ReferencedTextures[5] = Texture2D'Textures/Utility/blank_RAH.blank_RAH'
+        ReferencedTextures[7] = Texture2D'Textures/Environment/Stone/Generic/Rock_Cliff_Sharp_INST_basecolor.Rock_Cliff_Sharp_INST_basecolor'
+        ReferencedTextures[8] = Texture2D'Textures/Environment/Stone/Generic/Rock_Cliff_Sharp_INST_normal.Rock_Cliff_Sharp_INST_normal'
+        ReferencedTextures[9] = Texture2D'Textures/Environment/Stone/Generic/Rock_Cliff_Sharp_INST_RAH.Rock_Cliff_Sharp_INST_RAH'
+        ReferencedTextures[10] = Texture2D'Textures/Environment/T_forest_rock_moss_d.T_forest_rock_moss_d'
+        ReferencedTextures[15] = Texture2D'Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Stone/Generic/Rock_Cliff_Sharp_INST_normal.Rock_Cliff_Sharp_INST_normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/T_forest_rock_moss_d.T_forest_rock_moss_d'
+        Name = Moss
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Environment/Stone/Generic/Rock_Cliff_Sharp_INST_basecolor.Rock_Cliff_Sharp_INST_basecolor'
+        Name = BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/Environment/Stone/Generic/Rock_Cliff_Sharp_INST_RAH.Rock_Cliff_Sharp_INST_RAH'
+        Name = RAH
+        Group = None
+    }
+}
+CollectedScalarParameters[26] =
+{
+    CollectedScalarParameters[0] = { Value=0.9, Name=RoughMax, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=BlendWithRVT_Contrast, Group=None }
+    CollectedScalarParameters[2] = { Value=5, Name=BlendWithRVT_Offset, Group=None }
+    CollectedScalarParameters[3] = { Value=10, Name=MossBorderBoost, Group=None }
+    CollectedScalarParameters[4] = { Value=0.5, Name=VColCurvature, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Contrast, Group=None }
+    CollectedScalarParameters[6] = { Value=15, Name=BlendWithRVT_Scale, Group=None }
+    CollectedScalarParameters[7] = { Value=0.8, Name=MossBorderOpacity, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=ColorMultContrast, Group=None }
+    CollectedScalarParameters[9] = { Value=0.7, Name=MossMaskNormal, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 400
+        Name = BlendWithRVT_EdgeNoise_TilingMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=0.5, Name=Spec, Group=None }
+    CollectedScalarParameters[12] = { Value=200, Name=Size, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=BlendWithRVT_Exponent, Group=None }
+    CollectedScalarParameters[14] = { Value=2, Name=MossContrast, Group=None }
+    CollectedScalarParameters[15] = { Value=0.2, Name=MossBorderOffset, Group=None }
+    CollectedScalarParameters[16] =
+    {
+        Value = 0
+        Name = BlendWithRVT_CutVerticalFaces_Contrast
+        Group = None
+    }
+    CollectedScalarParameters[17] =
+    {
+        Value = 1
+        Name = BlendWithRVT_CutVerticalFaces_Mul
+        Group = None
+    }
+    CollectedScalarParameters[18] =
+    {
+        Value = 0
+        Name = BlendWithRVT_DistanceFieldContrast
+        Group = None
+    }
+    CollectedScalarParameters[19] = { Value=0.7, Name=RoughMin, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=MossBorderContrast, Group=None }
+    CollectedScalarParameters[21] =
+    {
+        Value = 1
+        Name = BlendWithRVT_DistanceFieldExponent
+        Group = None
+    }
+    CollectedScalarParameters[22] = { Value=0.4, Name=MossOpacity, Group=None }
+    CollectedScalarParameters[23] =
+    {
+        Value = 1
+        Name = BlendWithRVT_DistanceFieldMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[24] = { Value=0.2, Name=NormalFlatness, Group=None }
+    CollectedScalarParameters[25] =
+    {
+        Value = 5
+        Name = BlendWithRVT_EdgeNoise_Contrast
+        Group = None
+    }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = MossColMult
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.604167, G=0.5622, B=0.504659, A=0 }
+        Name = ColorMult
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = GlobalColorMult
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.484375
+        UVChannelIndex = 0
+        TextureName = T_forest_rock_moss_d
+    }
+}

@@ -1,0 +1,7 @@
+Diffuse=skullmask_tm
+Normal=skullmask_nm
+Emissive=T_blank_E
+Other[0]=fireplace_lp_03___Default_Emissive
+Other[1]=T_A047_Body_BaseColor
+Other[2]=T_A047_Body_Normal
+Other[3]=T_A047_Body_OcclusionRoughnessMetallic

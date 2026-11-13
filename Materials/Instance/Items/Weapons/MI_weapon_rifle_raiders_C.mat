@@ -1,0 +1,8 @@
+Diffuse=T_blank_AOHR
+Normal=T_blank_N
+Emissive=T_blank_E
+Other[0]=T_weapon_rifle_raider_C_ORM
+Other[1]=T_weapon_rifle_raider_C_BC
+Other[2]=T_weapon_rifle_raider_C_N
+Other[3]=T_blank_BC
+Other[4]=T_Perlin_Noise_M

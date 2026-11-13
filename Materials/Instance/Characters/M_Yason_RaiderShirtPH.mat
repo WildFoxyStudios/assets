@@ -1,0 +1,6 @@
+Diffuse=Body1_BaseColor
+Normal=Body1_Normal
+Other[0]=undershirt_tm
+Other[1]=Body1_Height
+Other[2]=Body1_Metallic
+Other[3]=Body1_Roughness

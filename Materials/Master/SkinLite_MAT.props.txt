@@ -1,0 +1,794 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[21] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Blank_GS.Blank_GS'
+    ReferencedTextures[1] = Texture2D'Textures/Blank_NORM.Blank_NORM'
+    ReferencedTextures[2] = Texture2D'Textures/Characters/Female/blackColor.blackColor'
+    ReferencedTextures[3] = Texture2D'Textures/Characters/Female/femaleBody_nm1.femaleBody_nm1'
+    ReferencedTextures[4] = Texture2D'Textures/Characters/Female/real_female_D.real_female_D'
+    ReferencedTextures[5] = Texture2D'Textures/Characters/Female/real_female_M.real_female_M'
+    ReferencedTextures[6] = Texture2D'Textures/Characters/Female/skin_female_ao2.skin_female_ao2'
+    ReferencedTextures[7] = Texture2D'Textures/Characters/Hair/pubicOverlayNone.pubicOverlayNone'
+    ReferencedTextures[8] = Texture2D'Textures/Characters/Male/genitalWetnessMaskMale_AM.genitalWetnessMaskMale_AM'
+    ReferencedTextures[9] = Texture2D'Textures/Characters/Male/sking_dmg_albedo.sking_dmg_albedo'
+    ReferencedTextures[10] = Texture2D'Textures/Characters/Male/sking_dmg_normal.sking_dmg_normal'
+    ReferencedTextures[11] = Texture2D'Textures/Characters/Male/sking_dmg_rough.sking_dmg_rough'
+    ReferencedTextures[12] = Texture2D'Textures/Characters/Skin/HumanSkinPores_N.HumanSkinPores_N'
+    ReferencedTextures[13] = Texture2D'Textures/Characters/Skin/HumanSkinPores_S.HumanSkinPores_S'
+    ReferencedTextures[14] = Texture2D'Textures/Characters/Skin/skin02_N.skin02_N'
+    ReferencedTextures[15] = Texture2D'Textures/Characters/Skin/T_real_female_wrinkleMask.T_real_female_wrinkleMask'
+    ReferencedTextures[16] = Texture2D'Textures/FX/slime2_nm.slime2_nm'
+    ReferencedTextures[17] = Texture2D'Textures/FX/T_NoiseNormal_39.T_NoiseNormal_39'
+    ReferencedTextures[18] = Texture2D'Textures/FX/T_Water_droplets_01_4K3.T_Water_droplets_01_4K3'
+    ReferencedTextures[19] = Texture2D'Textures/SkinDecals/skindecal_empty.skindecal_empty'
+    ReferencedTextures[20] = Texture2D'Textures/T_blank_BC.T_blank_BC'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[60] =
+                {
+                    ParameterInfos[0] = { Name=RoughMax }
+                    ParameterInfos[1] = { Name=LeftMouthWrinkles }
+                    ParameterInfos[2] = { Name=EyeShadowSpecMod }
+                    ParameterInfos[3] = { Name=MaxBuldge }
+                    ParameterInfos[4] = { Name=PoreRoughWeight }
+                    ParameterInfos[5] = { Name=DebugView }
+                    ParameterInfos[6] = { Name=BacklightMultiplier }
+                    ParameterInfos[7] = { Name=EyeShadowColorBScaleFactor }
+                    ParameterInfos[8] = { Name=AODiffuse }
+                    ParameterInfos[9] = { Name=GradientSoftness }
+                    ParameterInfos[10] = { Name=RoughnessRim }
+                    ParameterInfos[11] = { Name=CameraMaskMultiplier }
+                    ParameterInfos[12] = { Name=ContrastColor }
+                    ParameterInfos[13] = { Name=TanMaskInfluence }
+                    ParameterInfos[14] = { Name=WrinkleTiling }
+                    ParameterInfos[15] = { Name=SkinMoisture }
+                    ParameterInfos[16] = { Name=GenitalMoisture }
+                    ParameterInfos[17] = { Name=DamageValue }
+                    ParameterInfos[18] = { Name=CameraMaskInfluence }
+                    ParameterInfos[19] = { Name=Specular }
+                    ParameterInfos[20] = { Name=EyeShadowColorAScaleFactor }
+                    ParameterInfos[21] = { Name=DetailNormalScale2 }
+                    ParameterInfos[22] = { Name=PoreNormalWeight2 }
+                    ParameterInfos[23] = { Name=DetailNormalScale }
+                    ParameterInfos[24] = { Name=BulgeRadius1 }
+                    ParameterInfos[25] = { Name=EyeLinerRoughnessMod }
+                    ParameterInfos[26] = { Name=BulgeAmount }
+                    ParameterInfos[27] = { Name=CumWetnessBoost }
+                    ParameterInfos[28] = { Name=RightMouthWrinkles }
+                    ParameterInfos[29] = { Name=LipstickRoughnessMod }
+                    ParameterInfos[30] = { Name=BulgeRadius6 }
+                    ParameterInfos[31] = { Name=LipstickColorBScaleFactor }
+                    ParameterInfos[32] = { Name=PoreBaseWeight }
+                    ParameterInfos[33] = { Name=BulgeRadius4 }
+                    ParameterInfos[34] = { Name=DisplacementDistance }
+                    ParameterInfos[35] = { Name=BulgeRadius3 }
+                    ParameterInfos[36] = { Name=ContrastSaturation }
+                    ParameterInfos[37] = { Name=BulgeRadius5 }
+                    ParameterInfos[38] = { Name=EyeShadowColorVariation }
+                    ParameterInfos[39] = { Name=EyeLinerColorScaleFactor }
+                    ParameterInfos[40] = { Name=LipstickSpecMod }
+                    ParameterInfos[41] = { Name=NormalStrength }
+                    ParameterInfos[42] = { Name=EyeShadowRoughnessMod }
+                    ParameterInfos[43] = { Name=PoreRoughSpec }
+                    ParameterInfos[44] = { Name=DisplacementOffset }
+                    ParameterInfos[45] = { Name=EyeLinerSpecMod }
+                    ParameterInfos[46] = { Name=BacklightExponent }
+                    ParameterInfos[47] = { Name=RoughMin }
+                    ParameterInfos[48] = { Name=LipstickColorAScaleFactor }
+                    ParameterInfos[49] = { Name=CameraMaskExponent }
+                    ParameterInfos[50] = { Name=PubicHairStrength }
+                    ParameterInfos[51] = { Name=Specular_Rim }
+                    ParameterInfos[52] = { Name=BacklightMaskInfluence }
+                    ParameterInfos[53] = { Name=BacklightBrightness }
+                    ParameterInfos[54] = { Name=PoreNormalWeight }
+                    ParameterInfos[55] = { Name=LipstickColorVariation }
+                    ParameterInfos[56] = { Name=InnerDisplacementDistance }
+                    ParameterInfos[57] = { Name=ForeheadWrinkles }
+                    ParameterInfos[58] = { Name=BulgeRadius2 }
+                    ParameterInfos[59] = { Name=EyeWrinkles }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[27] =
+                {
+                    ParameterInfos[0] = { Name=BulgeStartPosition1 }
+                    ParameterInfos[1] = { Name=BulgeEndPosition2 }
+                    ParameterInfos[2] = { Name=Emissive Power }
+                    ParameterInfos[3] = { Name=BulgeStartPosition3 }
+                    ParameterInfos[4] = { Name=AO_Multiply }
+                    ParameterInfos[5] = { Name=BaseColorMul }
+                    ParameterInfos[6] = { Name=PoresColor02 }
+                    ParameterInfos[7] = { Name=EyeShadowColorB }
+                    ParameterInfos[8] = { Name=BulgeStartPosition2 }
+                    ParameterInfos[9] = { Name=EyeShadowColorA }
+                    ParameterInfos[10] = { Name=BulgeStartPosition4 }
+                    ParameterInfos[11] = { Name=PubicHairColor }
+                    ParameterInfos[12] = { Name=CameraMaskVectorScale }
+                    ParameterInfos[13] = { Name=LipstickColorA }
+                    ParameterInfos[14] = { Name=BulgeEndPosition6 }
+                    ParameterInfos[15] = { Name=BulgeStartPosition6 }
+                    ParameterInfos[16] = { Name=BulgeEndPosition5 }
+                    ParameterInfos[17] = { Name=BulgeEndPosition4 }
+                    ParameterInfos[18] = { Name=BacklightColor }
+                    ParameterInfos[19] = { Name=BulgeEndPosition3 }
+                    ParameterInfos[20] = { Name=PeachFuzz }
+                    ParameterInfos[21] = { Name=LipstickColorB }
+                    ParameterInfos[22] = { Name=PoresColor01 }
+                    ParameterInfos[23] = { Name=BulgeStartPosition5 }
+                    ParameterInfos[24] = { Name=DisplacementPoint }
+                    ParameterInfos[25] = { Name=BulgeEndPosition1 }
+                    ParameterInfos[26] = { Name=EyeLinerColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[19] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=PoresMask }
+                    ParameterInfos[2] = { Name=EyeLinerTexture }
+                    ParameterInfos[3] = { Name=BaseColorAlphaRoughness }
+                    ParameterInfos[4] = { Name=GenitalMask }
+                    ParameterInfos[5] = { Name=LipstickTexture }
+                    ParameterInfos[6] = { Name=Normal }
+                    ParameterInfos[7] = { Name=PubicHairMask }
+                    ParameterInfos[8] = { Name=Normal_1 }
+                    ParameterInfos[9] = { Name=WrinkleMask }
+                    ParameterInfos[10] = { Name=AO }
+                    ParameterInfos[11] = { Name=TanMask }
+                    ParameterInfos[12] = { Name=SkinDamage Alpha }
+                    ParameterInfos[13] = { Name=WrinkleMap }
+                    ParameterInfos[14] = { Name=Emissive Color }
+                    ParameterInfos[15] = { Name=EyeShadowTexture }
+                    ParameterInfos[16] = { Name=SkinDamage Normal }
+                    ParameterInfos[17] = { Name=SkinDamage Roughness }
+                    ParameterInfos[18] = { Name=SkinRenderTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[60] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0
+            ScalarValues[2] = -0.1
+            ScalarValues[3] = 0.7
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0.1
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0.33
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0
+            ScalarValues[18] = 1
+            ScalarValues[19] = 0.5
+            ScalarValues[20] = 0.1
+            ScalarValues[21] = 40
+            ScalarValues[22] = 0.5
+            ScalarValues[23] = 40
+            ScalarValues[24] = 5
+            ScalarValues[25] = 0.5
+            ScalarValues[26] = 0
+            ScalarValues[27] = 1
+            ScalarValues[28] = 0
+            ScalarValues[29] = 0
+            ScalarValues[30] = 5
+            ScalarValues[31] = 0.1
+            ScalarValues[32] = 0
+            ScalarValues[33] = 5
+            ScalarValues[34] = 3
+            ScalarValues[35] = 5
+            ScalarValues[36] = 0
+            ScalarValues[37] = 5
+            ScalarValues[38] = 0
+            ScalarValues[39] = 0.1
+            ScalarValues[40] = -0.15
+            ScalarValues[41] = 1
+            ScalarValues[42] = 0.5
+            ScalarValues[43] = 0
+            ScalarValues[44] = 1
+            ScalarValues[45] = -0.2
+            ScalarValues[46] = 0.5
+            ScalarValues[47] = 0
+            ScalarValues[48] = 0.1
+            ScalarValues[49] = 2
+            ScalarValues[50] = 1
+            ScalarValues[51] = 0.5
+            ScalarValues[52] = 0.5
+            ScalarValues[53] = 1.5
+            ScalarValues[54] = 0
+            ScalarValues[55] = 0
+            ScalarValues[56] = 5
+            ScalarValues[57] = 0
+            ScalarValues[58] = 5
+            ScalarValues[59] = 0
+        }
+        VectorValues[27] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=1, G=0, B=0, A=1 }
+            VectorValues[5] = { R=1, G=1, B=1, A=0 }
+            VectorValues[6] = { R=1, G=0.981667, B=0.9, A=1.1 }
+            VectorValues[7] = { R=0.15918, G=0.05697, B=0.3125, A=1 }
+            VectorValues[8] = { R=0, G=0, B=0, A=0 }
+            VectorValues[9] = { R=0.15445, G=0.08952, B=0.15625, A=0.85 }
+            VectorValues[10] = { R=0, G=0, B=0, A=0 }
+            VectorValues[11] = { R=0.010417, G=0.007616, B=0.005425, A=1 }
+            VectorValues[12] = { R=1, G=1, B=0.25, A=1 }
+            VectorValues[13] = { R=0.19608, G=0.03922, B=0.03922, A=1 }
+            VectorValues[14] = { R=0, G=0, B=0, A=0 }
+            VectorValues[15] = { R=0, G=0, B=0, A=0 }
+            VectorValues[16] = { R=0, G=0, B=0, A=0 }
+            VectorValues[17] = { R=0, G=0, B=0, A=0 }
+            VectorValues[18] = { R=1, G=1, B=1, A=1 }
+            VectorValues[19] = { R=0, G=0, B=0, A=0 }
+            VectorValues[20] = { R=1, G=0.981667, B=0.9, A=1.1 }
+            VectorValues[21] = { R=0, G=0, B=0, A=1 }
+            VectorValues[22] = { R=0.78, G=0.321024, B=0.1755, A=1 }
+            VectorValues[23] = { R=0, G=0, B=0, A=0 }
+            VectorValues[24] = { R=0, G=0, B=200, A=0 }
+            VectorValues[25] = { R=0, G=0, B=0, A=0 }
+            VectorValues[26] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[19] =
+        {
+            TextureValues[0] = Texture2D'Textures/Characters/Female/real_female_M.real_female_M'
+            TextureValues[1] = Texture2D'Textures/T_blank_BC.T_blank_BC'
+            TextureValues[2] = Texture2D'Textures/SkinDecals/skindecal_empty.skindecal_empty'
+            TextureValues[3] = Texture2D'Textures/Characters/Female/real_female_D.real_female_D'
+            TextureValues[4] = Texture2D'Textures/Characters/Male/genitalWetnessMaskMale_AM.genitalWetnessMaskMale_AM'
+            TextureValues[5] = Texture2D'Textures/SkinDecals/skindecal_empty.skindecal_empty'
+            TextureValues[6] = Texture2D'Textures/Characters/Female/femaleBody_nm1.femaleBody_nm1'
+            TextureValues[7] = Texture2D'Textures/Characters/Hair/pubicOverlayNone.pubicOverlayNone'
+            TextureValues[8] = Texture2D'Textures/FX/slime2_nm.slime2_nm'
+            TextureValues[9] = Texture2D'Textures/Characters/Skin/T_real_female_wrinkleMask.T_real_female_wrinkleMask'
+            TextureValues[10] = Texture2D'Textures/Characters/Female/skin_female_ao2.skin_female_ao2'
+            TextureValues[11] = Texture2D'Textures/Blank_GS.Blank_GS'
+            TextureValues[13] = Texture2D'Textures/FX/T_NoiseNormal_39.T_NoiseNormal_39'
+            TextureValues[14] = Texture2D'Textures/Characters/Female/blackColor.blackColor'
+            TextureValues[15] = Texture2D'Textures/SkinDecals/skindecal_empty.skindecal_empty'
+            TextureValues[16] = Texture2D'Textures/Characters/Male/sking_dmg_normal.sking_dmg_normal'
+            TextureValues[17] = Texture2D'Textures/Characters/Male/sking_dmg_rough.sking_dmg_rough'
+        }
+    }
+    ReferencedTextures[24] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Characters/Male/sking_dmg_rough.sking_dmg_rough'
+        ReferencedTextures[2] = Texture2D'Textures/Characters/Male/sking_dmg_albedo.sking_dmg_albedo'
+        ReferencedTextures[3] = Texture2D'Textures/Characters/Male/sking_dmg_normal.sking_dmg_normal'
+        ReferencedTextures[4] = Texture2D'Textures/Characters/Skin/T_real_female_wrinkleMask.T_real_female_wrinkleMask'
+        ReferencedTextures[5] = Texture2D'Textures/FX/T_NoiseNormal_39.T_NoiseNormal_39'
+        ReferencedTextures[6] = Texture2D'Textures/FX/slime2_nm.slime2_nm'
+        ReferencedTextures[7] = Texture2D'Textures/Blank_NORM.Blank_NORM'
+        ReferencedTextures[8] = Texture2D'Textures/Characters/Female/blackColor.blackColor'
+        ReferencedTextures[9] = Texture2D'Textures/Characters/Skin/HumanSkinPores_N.HumanSkinPores_N'
+        ReferencedTextures[10] = Texture2D'Textures/Characters/Female/real_female_D.real_female_D'
+        ReferencedTextures[11] = Texture2D'Textures/Characters/Female/real_female_M.real_female_M'
+        ReferencedTextures[12] = Texture2D'Textures/Characters/Female/femaleBody_nm1.femaleBody_nm1'
+        ReferencedTextures[13] = Texture2D'Textures/Characters/Female/skin_female_ao2.skin_female_ao2'
+        ReferencedTextures[14] = Texture2D'Textures/Characters/Skin/HumanSkinPores_S.HumanSkinPores_S'
+        ReferencedTextures[15] = Texture2D'Textures/Characters/Skin/skin02_N.skin02_N'
+        ReferencedTextures[17] = Texture2D'Textures/Characters/Hair/pubicOverlayNone.pubicOverlayNone'
+        ReferencedTextures[19] = Texture2D'Textures/FX/T_Water_droplets_01_4K3.T_Water_droplets_01_4K3'
+        ReferencedTextures[20] = Texture2D'Textures/Characters/Male/genitalWetnessMaskMale_AM.genitalWetnessMaskMale_AM'
+        ReferencedTextures[21] = Texture2D'Textures/SkinDecals/skindecal_empty.skindecal_empty'
+        ReferencedTextures[22] = Texture2D'Textures/Blank_GS.Blank_GS'
+        ReferencedTextures[23] = Texture2D'Textures/T_blank_BC.T_blank_BC'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[19] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Characters/Female/real_female_M.real_female_M'
+        Name = Roughness
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/T_blank_BC.T_blank_BC'
+        Name = PoresMask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/SkinDecals/skindecal_empty.skindecal_empty'
+        Name = EyeLinerTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/Characters/Female/real_female_D.real_female_D'
+        Name = BaseColorAlphaRoughness
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'Textures/Characters/Male/genitalWetnessMaskMale_AM.genitalWetnessMaskMale_AM'
+        Name = GenitalMask
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'Textures/SkinDecals/skindecal_empty.skindecal_empty'
+        Name = LipstickTexture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'Textures/Characters/Female/femaleBody_nm1.femaleBody_nm1'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'Textures/Characters/Hair/pubicOverlayNone.pubicOverlayNone'
+        Name = PubicHairMask
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'Textures/FX/slime2_nm.slime2_nm'
+        Name = Normal_1
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'Textures/Characters/Skin/T_real_female_wrinkleMask.T_real_female_wrinkleMask'
+        Name = WrinkleMask
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'Textures/Characters/Female/skin_female_ao2.skin_female_ao2'
+        Name = AO
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'Textures/Blank_GS.Blank_GS'
+        Name = TanMask
+        Group = None
+    }
+    CollectedTextureParameters[12] = { Texture=None, Name=SkinDamage Alpha, Group=None }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'Textures/FX/T_NoiseNormal_39.T_NoiseNormal_39'
+        Name = WrinkleMap
+        Group = None
+    }
+    CollectedTextureParameters[14] =
+    {
+        Texture = Texture2D'Textures/Characters/Female/blackColor.blackColor'
+        Name = Emissive Color
+        Group = None
+    }
+    CollectedTextureParameters[15] =
+    {
+        Texture = Texture2D'Textures/SkinDecals/skindecal_empty.skindecal_empty'
+        Name = EyeShadowTexture
+        Group = None
+    }
+    CollectedTextureParameters[16] =
+    {
+        Texture = Texture2D'Textures/Characters/Male/sking_dmg_normal.sking_dmg_normal'
+        Name = SkinDamage Normal
+        Group = None
+    }
+    CollectedTextureParameters[17] =
+    {
+        Texture = Texture2D'Textures/Characters/Male/sking_dmg_rough.sking_dmg_rough'
+        Name = SkinDamage Roughness
+        Group = None
+    }
+    CollectedTextureParameters[18] = { Texture=None, Name=SkinRenderTexture, Group=None }
+}
+CollectedScalarParameters[60] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=RoughMax, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=LeftMouthWrinkles, Group=None }
+    CollectedScalarParameters[2] = { Value=-0.1, Name=EyeShadowSpecMod, Group=None }
+    CollectedScalarParameters[3] = { Value=0.7, Name=MaxBuldge, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=PoreRoughWeight, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=DebugView, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=BacklightMultiplier, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0.1
+        Name = EyeShadowColorBScaleFactor
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0, Name=AODiffuse, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=GradientSoftness, Group=None }
+    CollectedScalarParameters[10] = { Value=0.5, Name=RoughnessRim, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=CameraMaskMultiplier, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=ContrastColor, Group=None }
+    CollectedScalarParameters[13] = { Value=0.33, Name=TanMaskInfluence, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=WrinkleTiling, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=SkinMoisture, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=GenitalMoisture, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=DamageValue, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=CameraMaskInfluence, Group=None }
+    CollectedScalarParameters[19] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[20] =
+    {
+        Value = 0.1
+        Name = EyeShadowColorAScaleFactor
+        Group = None
+    }
+    CollectedScalarParameters[21] = { Value=40, Name=DetailNormalScale2, Group=None }
+    CollectedScalarParameters[22] = { Value=0.5, Name=PoreNormalWeight2, Group=None }
+    CollectedScalarParameters[23] = { Value=40, Name=DetailNormalScale, Group=None }
+    CollectedScalarParameters[24] = { Value=5, Name=BulgeRadius1, Group=None }
+    CollectedScalarParameters[25] = { Value=0.5, Name=EyeLinerRoughnessMod, Group=None }
+    CollectedScalarParameters[26] = { Value=0, Name=BulgeAmount, Group=None }
+    CollectedScalarParameters[27] = { Value=1, Name=CumWetnessBoost, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=RightMouthWrinkles, Group=None }
+    CollectedScalarParameters[29] = { Value=0, Name=LipstickRoughnessMod, Group=None }
+    CollectedScalarParameters[30] = { Value=5, Name=BulgeRadius6, Group=None }
+    CollectedScalarParameters[31] =
+    {
+        Value = 0.1
+        Name = LipstickColorBScaleFactor
+        Group = None
+    }
+    CollectedScalarParameters[32] = { Value=0, Name=PoreBaseWeight, Group=None }
+    CollectedScalarParameters[33] = { Value=5, Name=BulgeRadius4, Group=None }
+    CollectedScalarParameters[34] = { Value=3, Name=DisplacementDistance, Group=None }
+    CollectedScalarParameters[35] = { Value=5, Name=BulgeRadius3, Group=None }
+    CollectedScalarParameters[36] = { Value=0, Name=ContrastSaturation, Group=None }
+    CollectedScalarParameters[37] = { Value=5, Name=BulgeRadius5, Group=None }
+    CollectedScalarParameters[38] =
+    {
+        Value = 0
+        Name = EyeShadowColorVariation
+        Group = None
+    }
+    CollectedScalarParameters[39] =
+    {
+        Value = 0.1
+        Name = EyeLinerColorScaleFactor
+        Group = None
+    }
+    CollectedScalarParameters[40] = { Value=-0.15, Name=LipstickSpecMod, Group=None }
+    CollectedScalarParameters[41] = { Value=1, Name=NormalStrength, Group=None }
+    CollectedScalarParameters[42] =
+    {
+        Value = 0.5
+        Name = EyeShadowRoughnessMod
+        Group = None
+    }
+    CollectedScalarParameters[43] = { Value=0, Name=PoreRoughSpec, Group=None }
+    CollectedScalarParameters[44] = { Value=1, Name=DisplacementOffset, Group=None }
+    CollectedScalarParameters[45] = { Value=-0.2, Name=EyeLinerSpecMod, Group=None }
+    CollectedScalarParameters[46] = { Value=0.5, Name=BacklightExponent, Group=None }
+    CollectedScalarParameters[47] = { Value=0, Name=RoughMin, Group=None }
+    CollectedScalarParameters[48] =
+    {
+        Value = 0.1
+        Name = LipstickColorAScaleFactor
+        Group = None
+    }
+    CollectedScalarParameters[49] = { Value=2, Name=CameraMaskExponent, Group=None }
+    CollectedScalarParameters[50] = { Value=1, Name=PubicHairStrength, Group=None }
+    CollectedScalarParameters[51] = { Value=0.5, Name=Specular_Rim, Group=None }
+    CollectedScalarParameters[52] =
+    {
+        Value = 0.5
+        Name = BacklightMaskInfluence
+        Group = None
+    }
+    CollectedScalarParameters[53] = { Value=1.5, Name=BacklightBrightness, Group=None }
+    CollectedScalarParameters[54] = { Value=0, Name=PoreNormalWeight, Group=None }
+    CollectedScalarParameters[55] = { Value=0, Name=LipstickColorVariation, Group=None }
+    CollectedScalarParameters[56] =
+    {
+        Value = 5
+        Name = InnerDisplacementDistance
+        Group = None
+    }
+    CollectedScalarParameters[57] = { Value=0, Name=ForeheadWrinkles, Group=None }
+    CollectedScalarParameters[58] = { Value=5, Name=BulgeRadius2, Group=None }
+    CollectedScalarParameters[59] = { Value=0, Name=EyeWrinkles, Group=None }
+}
+CollectedVectorParameters[27] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BulgeStartPosition1
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BulgeEndPosition2
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Emissive Power
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BulgeStartPosition3
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = AO_Multiply
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = BaseColorMul
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=0.981667, B=0.9, A=1.1 }
+        Name = PoresColor02
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.15918, G=0.05697, B=0.3125, A=1 }
+        Name = EyeShadowColorB
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BulgeStartPosition2
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0.15445, G=0.08952, B=0.15625, A=0.85 }
+        Name = EyeShadowColorA
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BulgeStartPosition4
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0.010417, G=0.007616, B=0.005425, A=1 }
+        Name = PubicHairColor
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=1, B=0.25, A=1 }
+        Name = CameraMaskVectorScale
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0.19608, G=0.03922, B=0.03922, A=1 }
+        Name = LipstickColorA
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BulgeEndPosition6
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BulgeStartPosition6
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BulgeEndPosition5
+        Group = None
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BulgeEndPosition4
+        Group = None
+    }
+    CollectedVectorParameters[18] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BacklightColor
+        Group = None
+    }
+    CollectedVectorParameters[19] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BulgeEndPosition3
+        Group = None
+    }
+    CollectedVectorParameters[20] =
+    {
+        Value = { R=1, G=0.981667, B=0.9, A=1.1 }
+        Name = PeachFuzz
+        Group = None
+    }
+    CollectedVectorParameters[21] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = LipstickColorB
+        Group = None
+    }
+    CollectedVectorParameters[22] =
+    {
+        Value = { R=0.78, G=0.321024, B=0.1755, A=1 }
+        Name = PoresColor01
+        Group = None
+    }
+    CollectedVectorParameters[23] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BulgeStartPosition5
+        Group = None
+    }
+    CollectedVectorParameters[24] =
+    {
+        Value = { R=0, G=0, B=200, A=0 }
+        Name = DisplacementPoint
+        Group = None
+    }
+    CollectedVectorParameters[25] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BulgeEndPosition1
+        Group = None
+    }
+    CollectedVectorParameters[26] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = EyeLinerColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[17] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = blackColor
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Default_White
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = femaleBody_nm1
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = genitalWetnessMaskMale_AM
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 39.9902
+        UVChannelIndex = 0
+        TextureName = HumanSkinPores_N
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = real_female_M
+    }
+    TextureStreamingData[7] =
+    {
+        SamplingScale = 39.9805
+        UVChannelIndex = 0
+        TextureName = skin02_N
+    }
+    TextureStreamingData[8] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = skin_female_ao2
+    }
+    TextureStreamingData[9] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = skindecal_empty
+    }
+    TextureStreamingData[10] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = sking_dmg_albedo
+    }
+    TextureStreamingData[11] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = sking_dmg_normal
+    }
+    TextureStreamingData[12] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = sking_dmg_rough
+    }
+    TextureStreamingData[13] =
+    {
+        SamplingScale = 19.9932
+        UVChannelIndex = 0
+        TextureName = slime2_nm
+    }
+    TextureStreamingData[14] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_blank_BC
+    }
+    TextureStreamingData[15] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_NoiseNormal_39
+    }
+    TextureStreamingData[16] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_real_female_wrinkleMask
+    }
+}

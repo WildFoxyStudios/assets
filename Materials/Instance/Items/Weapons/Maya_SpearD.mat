@@ -1,0 +1,8 @@
+Diffuse=maya_SpearD_BaseColor
+Normal=maya_SpearD_Normal
+Other[0]=maya_SpearD_OcclusionRoughnessMetallic
+Other[1]=fireplace_lp_03___Default_Emissive
+Other[2]=T_A047_Body_BaseColor
+Other[3]=T_A047_Body_Normal
+Other[4]=T_A047_Body_OcclusionRoughnessMetallic
+Other[5]=T_Smoke_Tiled_D

@@ -1,0 +1,112 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Assets/T_Barley_AO.T_Barley_AO'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Assets/T_Barley_D.T_Barley_D'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Assets/T_Barley_DP.T_Barley_DP'
+    ReferencedTextures[3] = Texture2D'Textures/Environment/Assets/T_Barley_N.T_Barley_N'
+    ReferencedTextures[4] = Texture2D'Textures/Environment/Assets/T_Barley_R.T_Barley_R'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=TessellationMultiplier }
+                    ParameterInfos[1] = { Name=DisplacementStrenght }
+                    ParameterInfos[2] = { Name=UVTileMultiplier }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Diffuse }
+                    ParameterInfos[2] = { Name=Normal }
+                    ParameterInfos[3] = { Name=Displacement }
+                    ParameterInfos[4] = { Name=AO }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 0, 0, 1 }
+        VectorValues[0] = {}
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Assets/T_Barley_R.T_Barley_R'
+            TextureValues[1] = Texture2D'Textures/Environment/Assets/T_Barley_D.T_Barley_D'
+            TextureValues[2] = Texture2D'Textures/Environment/Assets/T_Barley_N.T_Barley_N'
+            TextureValues[3] = Texture2D'Textures/Environment/Assets/T_Barley_DP.T_Barley_DP'
+            TextureValues[4] = Texture2D'Textures/Environment/Assets/T_Barley_AO.T_Barley_AO'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Environment/Assets/T_Barley_D.T_Barley_D'
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Assets/T_Barley_R.T_Barley_R'
+        ReferencedTextures[2] = Texture2D'Textures/Environment/Assets/T_Barley_N.T_Barley_N'
+        ReferencedTextures[3] = Texture2D'Textures/Environment/Assets/T_Barley_AO.T_Barley_AO'
+        ReferencedTextures[4] = Texture2D'Textures/Environment/Assets/T_Barley_DP.T_Barley_DP'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Assets/T_Barley_R.T_Barley_R'
+        Name = Roughness
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/Assets/T_Barley_D.T_Barley_D'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Environment/Assets/T_Barley_N.T_Barley_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/Environment/Assets/T_Barley_DP.T_Barley_DP'
+        Name = Displacement
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'Textures/Environment/Assets/T_Barley_AO.T_Barley_AO'
+        Name = AO
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=TessellationMultiplier, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=DisplacementStrenght, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=UVTileMultiplier, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

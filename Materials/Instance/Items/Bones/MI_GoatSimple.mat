@@ -1,0 +1,6 @@
+Diffuse=GoatSkullSimple_BaseColor
+Normal=GoatSkullSimple_Normal
+Other[0]=GoatSkullSimple_RoughnessMetalicAO
+Other[1]=AlienSimple_BaseColor
+Other[2]=AlienSimple_Normal
+Other[3]=AlienSimple_RoughnessMetalicAO

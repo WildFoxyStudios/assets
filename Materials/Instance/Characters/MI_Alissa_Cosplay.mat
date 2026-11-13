@@ -1,0 +1,7 @@
+Diffuse=T_cloth_AlissaCosplay_BC
+Normal=T_cloth_AlissaCosplay_N
+Other[0]=T_cloth_AlissaCosplay_ORM
+Other[1]=fireplace_lp_03___Default_Emissive
+Other[2]=T_A047_Body_BaseColor
+Other[3]=T_A047_Body_Normal
+Other[4]=T_A047_Body_OcclusionRoughnessMetallic

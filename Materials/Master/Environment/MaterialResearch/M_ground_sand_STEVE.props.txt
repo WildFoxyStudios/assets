@@ -1,0 +1,110 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Ground/ground_sand_canyon_A/T_ground_sand_canyon_A_AO.T_ground_sand_canyon_A_AO'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Ground/ground_sand_canyon_A/T_ground_sand_canyon_A_BC.T_ground_sand_canyon_A_BC'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Ground/ground_sand_canyon_A/T_ground_sand_canyon_A_MTSR.T_ground_sand_canyon_A_MTSR'
+    ReferencedTextures[3] = Texture2D'Textures/Environment/Ground/ground_sand_canyon_A/T_ground_sand_canyon_A_N.T_ground_sand_canyon_A_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Edge Specular Contrast }
+                    ParameterInfos[1] = { Name=Edge Specular Ratio }
+                    ParameterInfos[2] = { Name=Far Distance Threshold }
+                    ParameterInfos[3] = { Name=Spec Global Modulation }
+                    ParameterInfos[4] = { Name=RoughnessMultiplier }
+                    ParameterInfos[5] = { Name=Far Distance Blend }
+                    ParameterInfos[6] = { Name=Reduce Specular based on Distance }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 0.3, 0.2, 1500, 1, 1.5, 3000, 0.5 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Environment/Ground/ground_sand_canyon_A/T_ground_sand_canyon_A_MTSR.T_ground_sand_canyon_A_MTSR'
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Ground/ground_sand_canyon_A/T_ground_sand_canyon_A_N.T_ground_sand_canyon_A_N'
+        ReferencedTextures[2] = Texture2D'Textures/Environment/Ground/ground_sand_canyon_A/T_ground_sand_canyon_A_AO.T_ground_sand_canyon_A_AO'
+        ReferencedTextures[3] = Texture2D'Textures/Environment/Ground/ground_sand_canyon_A/T_ground_sand_canyon_A_BC.T_ground_sand_canyon_A_BC'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.3
+        Name = Edge Specular Contrast
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0.2, Name=Edge Specular Ratio, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 1500
+        Name = Far Distance Threshold
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=Spec Global Modulation, Group=None }
+    CollectedScalarParameters[4] = { Value=1.5, Name=RoughnessMultiplier, Group=None }
+    CollectedScalarParameters[5] = { Value=3000, Name=Far Distance Blend, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0.5
+        Name = Reduce Specular based on Distance
+        Group = None
+    }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_ground_sand_canyon_A_AO
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_ground_sand_canyon_A_BC
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_ground_sand_canyon_A_MTSR
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_ground_sand_canyon_A_N
+    }
+}

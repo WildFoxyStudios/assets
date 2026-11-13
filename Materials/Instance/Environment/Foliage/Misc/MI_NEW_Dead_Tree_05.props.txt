@@ -1,0 +1,116 @@
+Parent = MaterialInstanceConstant'Materials/Instance/Environment/Foliage/Misc/MI_NEW_Dead_Tree_00.MI_NEW_Dead_Tree_00'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=ZProject_Roughness_Mul }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=AOHR }
+        ParameterValue = Texture2D'Textures/Environment/Foliage/T_Dead_Tree_05_AOHR.T_Dead_Tree_05_AOHR'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseColor }
+        ParameterValue = Texture2D'Textures/Environment/Foliage/T_Dead_Tree_5_BaseColor.T_Dead_Tree_5_BaseColor'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normal }
+        ParameterValue = Texture2D'Textures/Environment/Foliage/T_Dead_Tree_5_Normal.T_Dead_Tree_5_Normal'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=ZProject_AOHR }
+        ParameterValue = Texture2D'Textures/Environment/Ground/Jungle/NEW/T_ground_moss_jungle_A_AOHR.T_ground_moss_jungle_A_AOHR'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=ZProject_BaseColor }
+        ParameterValue = Texture2D'Textures/Environment/Ground/Jungle/NEW/T_ground_moss_jungle_A_BC.T_ground_moss_jungle_A_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=ZProject_Normal }
+        ParameterValue = Texture2D'Textures/Environment/Ground/Jungle/NEW/T_ground_moss_jungle_A_N.T_ground_moss_jungle_A_N'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.33
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=Wind_Enabled }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=ZProject_Enabled }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Dead_Tree_05_AOHR
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Dead_Tree_5_BaseColor
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Dead_Tree_5_Normal
+    }
+}

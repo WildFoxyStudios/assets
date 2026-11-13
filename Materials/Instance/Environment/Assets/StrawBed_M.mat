@@ -1,0 +1,7 @@
+Diffuse=straw_bed_diff_T
+Normal=straw_bed_normal_T
+Other[0]=straw_bed_gloss_T
+Other[1]=all_details_details_AlbedoTransparency2_T
+Other[2]=all_details_details_Glossiness_T
+Other[3]=all_details_details_MetallicSmoothness_T
+Other[4]=all_details_details_Normal_T

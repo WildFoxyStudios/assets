@@ -1,0 +1,336 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+    ReferencedTextures[1] = Texture2D'Textures/Utility/blank_RAH.blank_RAH'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[46] =
+                {
+                    ParameterInfos[0] = { Name=RoughMax }
+                    ParameterInfos[1] = { Name=BlendWithRVT_Contrast }
+                    ParameterInfos[2] = { Name=BlendWithRVT_Offset }
+                    ParameterInfos[3] = { Name=MossFresnelExponent }
+                    ParameterInfos[4] = { Name=CurvOpacity }
+                    ParameterInfos[5] = { Name=MossTiling }
+                    ParameterInfos[6] = { Name=MossLevel }
+                    ParameterInfos[7] = { Name=MossBorder }
+                    ParameterInfos[8] = { Name=BlendWithRVT_Scale }
+                    ParameterInfos[9] = { Name=MossDirectionContrast }
+                    ParameterInfos[10] = { Name=MossFresnelIntensity }
+                    ParameterInfos[11] = { Name=AOMult }
+                    ParameterInfos[12] = { Name=RoughnessTile }
+                    ParameterInfos[13] = { Name=MossMaskTile }
+                    ParameterInfos[14] = { Name=AOContrast }
+                    ParameterInfos[15] = { Name=ProjContrast }
+                    ParameterInfos[16] = { Name=TextureSize }
+                    ParameterInfos[17] = { Name=BlendWithRVT_EdgeNoise_TilingMultiplier }
+                    ParameterInfos[18] = { Name=MossSelect_AO_Height }
+                    ParameterInfos[19] = { Name=AOIntensityBaked }
+                    ParameterInfos[20] = { Name=Spec }
+                    ParameterInfos[21] = { Name=SpecBreakup }
+                    ParameterInfos[22] = { Name=NormalFlatnessMoss }
+                    ParameterInfos[23] = { Name=BlendWithRVT_Exponent }
+                    ParameterInfos[24] = { Name=AO_BaseCol }
+                    ParameterInfos[25] = { Name=MossDirectionInfluence }
+                    ParameterInfos[26] = { Name=MossContrast }
+                    ParameterInfos[27] = { Name=NormalFlatnessBaked }
+                    ParameterInfos[28] = { Name=MacroVarSize }
+                    ParameterInfos[29] = { Name=AOIntensityTile }
+                    ParameterInfos[30] = { Name=BlendWithRVT_CutVerticalFaces_Contrast }
+                    ParameterInfos[31] = { Name=BlendWithRVT_CutVerticalFaces_Mul }
+                    ParameterInfos[32] = { Name=BlendWithRVT_DistanceFieldContrast }
+                    ParameterInfos[33] = { Name=MossBorderIntensity }
+                    ParameterInfos[34] = { Name=TileBaseColorContrast }
+                    ParameterInfos[35] = { Name=MacroVarOpacity }
+                    ParameterInfos[36] = { Name=RoughMin }
+                    ParameterInfos[37] = { Name=MossBorderContrast }
+                    ParameterInfos[38] = { Name=BlendWithRVT_DistanceFieldExponent }
+                    ParameterInfos[39] = { Name=MossMaskBaked }
+                    ParameterInfos[40] = { Name=SpecMoss }
+                    ParameterInfos[41] = { Name=NormalFlatnessMossBackground }
+                    ParameterInfos[42] = { Name=RoughnessBaked }
+                    ParameterInfos[43] = { Name=NormalFlatnessTile }
+                    ParameterInfos[44] = { Name=BlendWithRVT_DistanceFieldMultiplier }
+                    ParameterInfos[45] = { Name=BlendWithRVT_EdgeNoise_Contrast }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=MossFresnelColor }
+                    ParameterInfos[1] = { Name=MossDirection }
+                    ParameterInfos[2] = { Name=WorldPosOffset }
+                    ParameterInfos[3] = { Name=MossColMult }
+                    ParameterInfos[4] = { Name=ColorMult }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=BakedRAH }
+                    ParameterInfos[1] = { Name=TileNormal }
+                    ParameterInfos[2] = { Name=TileBaseColor }
+                    ParameterInfos[3] = { Name=MossNormal }
+                    ParameterInfos[4] = { Name=MossTex }
+                    ParameterInfos[5] = { Name=MacroVar }
+                    ParameterInfos[6] = { Name=TileRAH }
+                    ParameterInfos[7] = { Name=BakedNormal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=BlendWithRVT_RVTHeightAsset }
+                }
+            }
+        }
+        ScalarValues[46] =
+        {
+            ScalarValues[0] = 0.7
+            ScalarValues[1] = 0
+            ScalarValues[2] = 5
+            ScalarValues[3] = 10
+            ScalarValues[4] = 0.8
+            ScalarValues[5] = 3
+            ScalarValues[6] = 0.55
+            ScalarValues[7] = 0.05
+            ScalarValues[8] = 15
+            ScalarValues[9] = 1
+            ScalarValues[10] = 1
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 300
+            ScalarValues[17] = 400
+            ScalarValues[18] = 0.5
+            ScalarValues[19] = 0.3
+            ScalarValues[20] = 0.5
+            ScalarValues[21] = 0.5
+            ScalarValues[22] = 0.5
+            ScalarValues[23] = 1
+            ScalarValues[24] = 0.5
+            ScalarValues[25] = 0.3
+            ScalarValues[26] = 3.5
+            ScalarValues[27] = 0
+            ScalarValues[28] = 10000
+            ScalarValues[29] = 0.8
+            ScalarValues[30] = 0
+            ScalarValues[31] = 1
+            ScalarValues[32] = 0
+            ScalarValues[33] = 0.6
+            ScalarValues[34] = 0
+            ScalarValues[35] = 0.8
+            ScalarValues[36] = 0.5
+            ScalarValues[37] = 5
+            ScalarValues[38] = 1
+            ScalarValues[39] = 1
+            ScalarValues[40] = 0.01
+            ScalarValues[41] = 0.5
+            ScalarValues[42] = 1
+            ScalarValues[43] = 0.1
+            ScalarValues[44] = 1
+            ScalarValues[45] = 5
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+            VectorValues[1] = { R=0, G=0, B=1, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=0 }
+            VectorValues[4] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[8] =
+        {
+            TextureValues[0] = Texture2D'Textures/Utility/blank_RAH.blank_RAH'
+            TextureValues[6] = Texture2D'Textures/Utility/blank_RAH.blank_RAH'
+        }
+    }
+    ReferencedTextures[15] =
+    {
+        ReferencedTextures[6] = Texture2D'Textures/Utility/blank_RAH.blank_RAH'
+        ReferencedTextures[13] = Texture2D'Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[8] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Utility/blank_RAH.blank_RAH'
+        Name = BakedRAH
+        Group = None
+    }
+    CollectedTextureParameters[1] = { Texture=None, Name=TileNormal, Group=None }
+    CollectedTextureParameters[2] = { Texture=None, Name=TileBaseColor, Group=None }
+    CollectedTextureParameters[3] = { Texture=None, Name=MossNormal, Group=None }
+    CollectedTextureParameters[4] = { Texture=None, Name=MossTex, Group=None }
+    CollectedTextureParameters[5] = { Texture=None, Name=MacroVar, Group=None }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'Textures/Utility/blank_RAH.blank_RAH'
+        Name = TileRAH
+        Group = None
+    }
+    CollectedTextureParameters[7] = { Texture=None, Name=BakedNormal, Group=None }
+}
+CollectedScalarParameters[46] =
+{
+    CollectedScalarParameters[0] = { Value=0.7, Name=RoughMax, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=BlendWithRVT_Contrast, Group=None }
+    CollectedScalarParameters[2] = { Value=5, Name=BlendWithRVT_Offset, Group=None }
+    CollectedScalarParameters[3] = { Value=10, Name=MossFresnelExponent, Group=None }
+    CollectedScalarParameters[4] = { Value=0.8, Name=CurvOpacity, Group=None }
+    CollectedScalarParameters[5] = { Value=3, Name=MossTiling, Group=None }
+    CollectedScalarParameters[6] = { Value=0.55, Name=MossLevel, Group=None }
+    CollectedScalarParameters[7] = { Value=0.05, Name=MossBorder, Group=None }
+    CollectedScalarParameters[8] = { Value=15, Name=BlendWithRVT_Scale, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=MossDirectionContrast, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=MossFresnelIntensity, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=AOMult, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=RoughnessTile, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=MossMaskTile, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=AOContrast, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=ProjContrast, Group=None }
+    CollectedScalarParameters[16] = { Value=300, Name=TextureSize, Group=None }
+    CollectedScalarParameters[17] =
+    {
+        Value = 400
+        Name = BlendWithRVT_EdgeNoise_TilingMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[18] = { Value=0.5, Name=MossSelect_AO_Height, Group=None }
+    CollectedScalarParameters[19] = { Value=0.3, Name=AOIntensityBaked, Group=None }
+    CollectedScalarParameters[20] = { Value=0.5, Name=Spec, Group=None }
+    CollectedScalarParameters[21] = { Value=0.5, Name=SpecBreakup, Group=None }
+    CollectedScalarParameters[22] = { Value=0.5, Name=NormalFlatnessMoss, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=BlendWithRVT_Exponent, Group=None }
+    CollectedScalarParameters[24] = { Value=0.5, Name=AO_BaseCol, Group=None }
+    CollectedScalarParameters[25] =
+    {
+        Value = 0.3
+        Name = MossDirectionInfluence
+        Group = None
+    }
+    CollectedScalarParameters[26] = { Value=3.5, Name=MossContrast, Group=None }
+    CollectedScalarParameters[27] = { Value=0, Name=NormalFlatnessBaked, Group=None }
+    CollectedScalarParameters[28] = { Value=10000, Name=MacroVarSize, Group=None }
+    CollectedScalarParameters[29] = { Value=0.8, Name=AOIntensityTile, Group=None }
+    CollectedScalarParameters[30] =
+    {
+        Value = 0
+        Name = BlendWithRVT_CutVerticalFaces_Contrast
+        Group = None
+    }
+    CollectedScalarParameters[31] =
+    {
+        Value = 1
+        Name = BlendWithRVT_CutVerticalFaces_Mul
+        Group = None
+    }
+    CollectedScalarParameters[32] =
+    {
+        Value = 0
+        Name = BlendWithRVT_DistanceFieldContrast
+        Group = None
+    }
+    CollectedScalarParameters[33] = { Value=0.6, Name=MossBorderIntensity, Group=None }
+    CollectedScalarParameters[34] = { Value=0, Name=TileBaseColorContrast, Group=None }
+    CollectedScalarParameters[35] = { Value=0.8, Name=MacroVarOpacity, Group=None }
+    CollectedScalarParameters[36] = { Value=0.5, Name=RoughMin, Group=None }
+    CollectedScalarParameters[37] = { Value=5, Name=MossBorderContrast, Group=None }
+    CollectedScalarParameters[38] =
+    {
+        Value = 1
+        Name = BlendWithRVT_DistanceFieldExponent
+        Group = None
+    }
+    CollectedScalarParameters[39] = { Value=1, Name=MossMaskBaked, Group=None }
+    CollectedScalarParameters[40] = { Value=0.01, Name=SpecMoss, Group=None }
+    CollectedScalarParameters[41] =
+    {
+        Value = 0.5
+        Name = NormalFlatnessMossBackground
+        Group = None
+    }
+    CollectedScalarParameters[42] = { Value=1, Name=RoughnessBaked, Group=None }
+    CollectedScalarParameters[43] = { Value=0.1, Name=NormalFlatnessTile, Group=None }
+    CollectedScalarParameters[44] =
+    {
+        Value = 1
+        Name = BlendWithRVT_DistanceFieldMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[45] =
+    {
+        Value = 5
+        Name = BlendWithRVT_EdgeNoise_Contrast
+        Group = None
+    }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = MossFresnelColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=1, A=0 }
+        Name = MossDirection
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = WorldPosOffset
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = MossColMult
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = ColorMult
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = DefaultDiffuse
+    }
+}

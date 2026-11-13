@@ -1,0 +1,171 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Clouds.Clouds'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Foliage/MediumBushFrond_A.MediumBushFrond_A'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Foliage/PalmBark_A.PalmBark_A'
+    ReferencedTextures[3] = Texture2D'Textures/Environment/Foliage/PalmBark_C.PalmBark_C'
+    ReferencedTextures[4] = Texture2D'Textures/Environment/Foliage/PalmBark_N.PalmBark_N'
+    ReferencedTextures[5] = Texture2D'Textures/Environment/Moss_A.Moss_A'
+    ReferencedTextures[6] = Texture2D'Textures/Environment/Moss_C.Moss_C'
+    ReferencedTextures[7] = Texture2D'Textures/Environment/Moss_N.Moss_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=Overcast Darkness }
+                    ParameterInfos[1] = { Name=Top Layer Scale }
+                    ParameterInfos[2] = { Name=Vertex AO Contrast }
+                    ParameterInfos[3] = { Name=Specular }
+                    ParameterInfos[4] = { Name=Vertex AO strength }
+                    ParameterInfos[5] = { Name=Vertex Layer Scale }
+                    ParameterInfos[6] = { Name=maskContrast }
+                    ParameterInfos[7] = { Name=Overcast Specular }
+                    ParameterInfos[8] = { Name=NormalCapMoss }
+                    ParameterInfos[9] = { Name=BaseScale }
+                    ParameterInfos[10] = { Name=maskBrightness }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Vertex Layer  Compact }
+                    ParameterInfos[1] = { Name=Bark Compact }
+                    ParameterInfos[2] = { Name=Top Layer Normal }
+                    ParameterInfos[3] = { Name=Top Layer Compact }
+                    ParameterInfos[4] = { Name=Bark BaseColor }
+                    ParameterInfos[5] = { Name=Vertex Layer  BaseColor }
+                    ParameterInfos[6] = { Name=Top Layer BaseColor }
+                    ParameterInfos[7] = { Name=Vertex Layer Normal }
+                    ParameterInfos[8] = { Name=Bark Normals }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] = { 0.560724, 1, 1, 0.5, 1, 1, 1, 0.2, 1, 1, 1 }
+        VectorValues[0] = {}
+        TextureValues[9] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Moss_C.Moss_C'
+            TextureValues[1] = Texture2D'Textures/Environment/Foliage/PalmBark_C.PalmBark_C'
+            TextureValues[2] = Texture2D'Textures/Environment/Moss_N.Moss_N'
+            TextureValues[3] = Texture2D'Textures/Environment/Moss_C.Moss_C'
+            TextureValues[4] = Texture2D'Textures/Environment/Foliage/PalmBark_A.PalmBark_A'
+            TextureValues[5] = Texture2D'Textures/Environment/Moss_A.Moss_A'
+            TextureValues[6] = Texture2D'Textures/Environment/Moss_A.Moss_A'
+            TextureValues[7] = Texture2D'Textures/Environment/Moss_N.Moss_N'
+            TextureValues[8] = Texture2D'Textures/Environment/Foliage/PalmBark_N.PalmBark_N'
+        }
+    }
+    ReferencedTextures[10] =
+    {
+        ReferencedTextures[2] = Texture2D'Textures/Environment/Foliage/MediumBushFrond_A.MediumBushFrond_A'
+        ReferencedTextures[3] = Texture2D'Textures/Environment/Clouds.Clouds'
+        ReferencedTextures[4] = Texture2D'Textures/Environment/Foliage/PalmBark_C.PalmBark_C'
+        ReferencedTextures[5] = Texture2D'Textures/Environment/Foliage/PalmBark_A.PalmBark_A'
+        ReferencedTextures[6] = Texture2D'Textures/Environment/Foliage/PalmBark_N.PalmBark_N'
+        ReferencedTextures[7] = Texture2D'Textures/Environment/Moss_C.Moss_C'
+        ReferencedTextures[8] = Texture2D'Textures/Environment/Moss_A.Moss_A'
+        ReferencedTextures[9] = Texture2D'Textures/Environment/Moss_N.Moss_N'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Moss_C.Moss_C'
+        Name = Vertex Layer  Compact
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/PalmBark_C.PalmBark_C'
+        Name = Bark Compact
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Environment/Moss_N.Moss_N'
+        Name = Top Layer Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/Environment/Moss_C.Moss_C'
+        Name = Top Layer Compact
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/PalmBark_A.PalmBark_A'
+        Name = Bark BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'Textures/Environment/Moss_A.Moss_A'
+        Name = Vertex Layer  BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'Textures/Environment/Moss_A.Moss_A'
+        Name = Top Layer BaseColor
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'Textures/Environment/Moss_N.Moss_N'
+        Name = Vertex Layer Normal
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'Textures/Environment/Foliage/PalmBark_N.PalmBark_N'
+        Name = Bark Normals
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.560724
+        Name = Overcast Darkness
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=Top Layer Scale, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Vertex AO Contrast, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Vertex AO strength, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Vertex Layer Scale, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=maskContrast, Group=None }
+    CollectedScalarParameters[7] = { Value=0.2, Name=Overcast Specular, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=NormalCapMoss, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=BaseScale, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=maskBrightness, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

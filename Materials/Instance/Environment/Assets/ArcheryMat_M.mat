@@ -1,0 +1,6 @@
+Diffuse=archeryMat_tm
+Normal=archeryMat_nm
+Other[0]=all_details_details_AlbedoTransparency2_T
+Other[1]=all_details_details_Glossiness_T
+Other[2]=all_details_details_MetallicSmoothness_T
+Other[3]=all_details_details_Normal_T

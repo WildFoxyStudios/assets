@@ -1,0 +1,6 @@
+Diffuse=t_human_jaw_01_d
+Normal=t_human_jaw_01_n
+Other[0]=t_human_jaw_01_ao
+Other[1]=t_cow_leg_01_ao
+Other[2]=t_cow_leg_01_d
+Other[3]=t_cow_leg_01_n

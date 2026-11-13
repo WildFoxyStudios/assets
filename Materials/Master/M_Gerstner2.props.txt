@@ -1,0 +1,390 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/FX/Water_1_Normal_Tex.Water_1_Normal_Tex'
+    ReferencedTextures[1] = Texture2D'Textures/Heightmap.Heightmap'
+    ReferencedTextures[2] = Texture2D'Textures/T_Simplex2.T_Simplex2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[65] =
+                {
+                    ParameterInfos[0] = { Name=SSS Distance Falloff }
+                    ParameterInfos[1] = { Name=Amplitude_$3 }
+                    ParameterInfos[2] = { Name=Tessellation Quality }
+                    ParameterInfos[3] = { Name=Tessellation Distance }
+                    ParameterInfos[4] = { Name=Speed_$ }
+                    ParameterInfos[5] = { Name=OpacityFadeSmoothness }
+                    ParameterInfos[6] = { Name=Speed_$3 }
+                    ParameterInfos[7] = { Name=CustomDepthMultiplier }
+                    ParameterInfos[8] = { Name=Speed_$1 }
+                    ParameterInfos[9] = { Name=Direction_$4 }
+                    ParameterInfos[10] = { Name=MaxOpacity }
+                    ParameterInfos[11] = { Name=NormalModulationMax }
+                    ParameterInfos[12] = { Name=Refraction Distance Blend }
+                    ParameterInfos[13] = { Name=Wave Normal Speed }
+                    ParameterInfos[14] = { Name=Wavelength_$4 }
+                    ParameterInfos[15] = { Name=NearColorOpacity }
+                    ParameterInfos[16] = { Name=Direction_$1 }
+                    ParameterInfos[17] = { Name=NrmFresnelExp }
+                    ParameterInfos[18] = { Name=Refraction Strenght }
+                    ParameterInfos[19] = { Name=NormalModulationMin }
+                    ParameterInfos[20] = { Name=Tessellation Falloff }
+                    ParameterInfos[21] = { Name=NormalFlatten03 }
+                    ParameterInfos[22] = { Name=WaveHeight }
+                    ParameterInfos[23] = { Name=Amplitude_$ }
+                    ParameterInfos[24] = { Name=Amplitude_$4 }
+                    ParameterInfos[25] = { Name=BlendDistance (S) }
+                    ParameterInfos[26] = { Name=SSS Distance Fade }
+                    ParameterInfos[27] = { Name=Scattering Fade Distance }
+                    ParameterInfos[28] = { Name=fremax }
+                    ParameterInfos[29] = { Name=Wavelength_$2 }
+                    ParameterInfos[30] = { Name=Scattering Scale }
+                    ParameterInfos[31] = { Name=DistanceColorFadeDistance }
+                    ParameterInfos[32] = { Name=Steepness_$4 }
+                    ParameterInfos[33] = { Name=Direction_$ }
+                    ParameterInfos[34] = { Name=PanningNormalsTiling }
+                    ParameterInfos[35] = { Name=Wavelength_$3 }
+                    ParameterInfos[36] = { Name=Direction_$2 }
+                    ParameterInfos[37] = { Name=Steepness_$3 }
+                    ParameterInfos[38] = { Name=Param }
+                    ParameterInfos[39] = { Name=Amplitude_$1 }
+                    ParameterInfos[40] = { Name=NormalFlatten02 }
+                    ParameterInfos[41] = { Name=Steepness_$2 }
+                    ParameterInfos[42] = { Name=BlendPower (S) }
+                    ParameterInfos[43] = { Name=Direction_Offset_$ }
+                    ParameterInfos[44] = { Name=NearFarColorFadeSmoothness }
+                    ParameterInfos[45] = { Name=BlendBias (S) }
+                    ParameterInfos[46] = { Name=Direction_$3 }
+                    ParameterInfos[47] = { Name=Steepness_$1 }
+                    ParameterInfos[48] = { Name=Amplitude_$2 }
+                    ParameterInfos[49] = { Name=NearColorFadeDistance }
+                    ParameterInfos[50] = { Name=Scattering Color Intensity }
+                    ParameterInfos[51] = { Name=Blend-Ocean }
+                    ParameterInfos[52] = { Name=OpacityFadeDistance }
+                    ParameterInfos[53] = { Name=NormalFlatten01 }
+                    ParameterInfos[54] = { Name=Wavelength_$1 }
+                    ParameterInfos[55] = { Name=Speed_$2 }
+                    ParameterInfos[56] = { Name=SSS Softness }
+                    ParameterInfos[57] = { Name=Speed_$4 }
+                    ParameterInfos[58] = { Name=Wave Normal Streght }
+                    ParameterInfos[59] = { Name=OpacityFadeOpacity }
+                    ParameterInfos[60] = { Name=Steepness_$ }
+                    ParameterInfos[61] = { Name=Wavelength_$ }
+                    ParameterInfos[62] = { Name=Wave Normal Tile }
+                    ParameterInfos[63] = { Name=MinOpacity }
+                    ParameterInfos[64] = { Name=SSS Base Height }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=LanscapeHigh }
+                    ParameterInfos[1] = { Name=NearColor }
+                    ParameterInfos[2] = { Name=Scattering Color }
+                    ParameterInfos[3] = { Name=SSSColor }
+                    ParameterInfos[4] = { Name=UnderwaterSceneTint }
+                    ParameterInfos[5] = { Name=FarColor }
+                    ParameterInfos[6] = { Name=LanscapeLow }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Param }
+                    ParameterInfos[1] = { Name=Normal Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=WorldHeightSample }
+                }
+            }
+        }
+        ScalarValues[65] =
+        {
+            ScalarValues[0] = 23000
+            ScalarValues[1] = 5
+            ScalarValues[2] = 3
+            ScalarValues[3] = 23.4774
+            ScalarValues[4] = 800
+            ScalarValues[5] = 2
+            ScalarValues[6] = 100
+            ScalarValues[7] = 0.997
+            ScalarValues[8] = 400
+            ScalarValues[9] = 0.504762
+            ScalarValues[10] = 0.9
+            ScalarValues[11] = 0.8
+            ScalarValues[12] = 4.22
+            ScalarValues[13] = 0.1
+            ScalarValues[14] = 400
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0.371429
+            ScalarValues[17] = 4
+            ScalarValues[18] = 1.3
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0.773623
+            ScalarValues[21] = 0.8
+            ScalarValues[22] = 200
+            ScalarValues[23] = 100
+            ScalarValues[24] = 2
+            ScalarValues[25] = 200
+            ScalarValues[26] = 20000
+            ScalarValues[27] = -1.25
+            ScalarValues[28] = -2.55959
+            ScalarValues[29] = 1000
+            ScalarValues[30] = 6
+            ScalarValues[31] = 0
+            ScalarValues[32] = 3
+            ScalarValues[33] = 0
+            ScalarValues[34] = 250
+            ScalarValues[35] = 600
+            ScalarValues[36] = 0.27619
+            ScalarValues[37] = 5
+            ScalarValues[38] = 0
+            ScalarValues[39] = 25
+            ScalarValues[40] = 0.8
+            ScalarValues[41] = 3
+            ScalarValues[42] = 2.4
+            ScalarValues[43] = 0.4
+            ScalarValues[44] = 2
+            ScalarValues[45] = 50
+            ScalarValues[46] = 0.228571
+            ScalarValues[47] = 3
+            ScalarValues[48] = 5
+            ScalarValues[49] = 100
+            ScalarValues[50] = 50
+            ScalarValues[51] = 1
+            ScalarValues[52] = 1000
+            ScalarValues[53] = 0.7
+            ScalarValues[54] = 2000
+            ScalarValues[55] = 300
+            ScalarValues[56] = 7000
+            ScalarValues[57] = 100
+            ScalarValues[58] = 0.3
+            ScalarValues[59] = 1
+            ScalarValues[60] = 3
+            ScalarValues[61] = 9000
+            ScalarValues[62] = 800
+            ScalarValues[63] = 0.1
+            ScalarValues[64] = -200
+        }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=408000, G=408000, B=43741.8, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0.176416, G=0.572917, B=0.02138, A=0 }
+            VectorValues[3] = { R=0.256638, G=0.760417, B=0.312807, A=0 }
+            VectorValues[4] = { R=0.810822, G=1, B=0.808775, A=0 }
+            VectorValues[5] = { R=0, G=0, B=0, A=0 }
+            VectorValues[6] = { R=-408000, G=-408000, B=-4417, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[1] = Texture2D'Textures/FX/Water_1_Normal_Tex.Water_1_Normal_Tex'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[2] = Texture2D'Textures/Heightmap.Heightmap'
+        ReferencedTextures[5] = Texture2D'Textures/FX/Water_1_Normal_Tex.Water_1_Normal_Tex'
+        ReferencedTextures[8] = Texture2D'Textures/T_Simplex2.T_Simplex2'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=Param, Group=None }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/FX/Water_1_Normal_Tex.Water_1_Normal_Tex'
+        Name = Normal Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[65] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 23000
+        Name = SSS Distance Falloff
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=5, Name=Amplitude_$3, Group=None }
+    CollectedScalarParameters[2] = { Value=3, Name=Tessellation Quality, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 23.4774
+        Name = Tessellation Distance
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=800, Name=Speed_$, Group=None }
+    CollectedScalarParameters[5] = { Value=2, Name=OpacityFadeSmoothness, Group=None }
+    CollectedScalarParameters[6] = { Value=100, Name=Speed_$3, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0.997
+        Name = CustomDepthMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=400, Name=Speed_$1, Group=None }
+    CollectedScalarParameters[9] = { Value=0.504762, Name=Direction_$4, Group=None }
+    CollectedScalarParameters[10] = { Value=0.9, Name=MaxOpacity, Group=None }
+    CollectedScalarParameters[11] = { Value=0.8, Name=NormalModulationMax, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 4.22
+        Name = Refraction Distance Blend
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0.1, Name=Wave Normal Speed, Group=None }
+    CollectedScalarParameters[14] = { Value=400, Name=Wavelength_$4, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=NearColorOpacity, Group=None }
+    CollectedScalarParameters[16] = { Value=0.371429, Name=Direction_$1, Group=None }
+    CollectedScalarParameters[17] = { Value=4, Name=NrmFresnelExp, Group=None }
+    CollectedScalarParameters[18] = { Value=1.3, Name=Refraction Strenght, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=NormalModulationMin, Group=None }
+    CollectedScalarParameters[20] =
+    {
+        Value = 0.773623
+        Name = Tessellation Falloff
+        Group = None
+    }
+    CollectedScalarParameters[21] = { Value=0.8, Name=NormalFlatten03, Group=None }
+    CollectedScalarParameters[22] = { Value=200, Name=WaveHeight, Group=None }
+    CollectedScalarParameters[23] = { Value=100, Name=Amplitude_$, Group=None }
+    CollectedScalarParameters[24] = { Value=2, Name=Amplitude_$4, Group=None }
+    CollectedScalarParameters[25] = { Value=200, Name=BlendDistance (S), Group=None }
+    CollectedScalarParameters[26] = { Value=20000, Name=SSS Distance Fade, Group=None }
+    CollectedScalarParameters[27] =
+    {
+        Value = -1.25
+        Name = Scattering Fade Distance
+        Group = None
+    }
+    CollectedScalarParameters[28] = { Value=-2.55959, Name=fremax, Group=None }
+    CollectedScalarParameters[29] = { Value=1000, Name=Wavelength_$2, Group=None }
+    CollectedScalarParameters[30] = { Value=6, Name=Scattering Scale, Group=None }
+    CollectedScalarParameters[31] =
+    {
+        Value = 0
+        Name = DistanceColorFadeDistance
+        Group = None
+    }
+    CollectedScalarParameters[32] = { Value=3, Name=Steepness_$4, Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=Direction_$, Group=None }
+    CollectedScalarParameters[34] = { Value=250, Name=PanningNormalsTiling, Group=None }
+    CollectedScalarParameters[35] = { Value=600, Name=Wavelength_$3, Group=None }
+    CollectedScalarParameters[36] = { Value=0.27619, Name=Direction_$2, Group=None }
+    CollectedScalarParameters[37] = { Value=5, Name=Steepness_$3, Group=None }
+    CollectedScalarParameters[38] = { Value=0, Name=Param, Group=None }
+    CollectedScalarParameters[39] = { Value=25, Name=Amplitude_$1, Group=None }
+    CollectedScalarParameters[40] = { Value=0.8, Name=NormalFlatten02, Group=None }
+    CollectedScalarParameters[41] = { Value=3, Name=Steepness_$2, Group=None }
+    CollectedScalarParameters[42] = { Value=2.4, Name=BlendPower (S), Group=None }
+    CollectedScalarParameters[43] = { Value=0.4, Name=Direction_Offset_$, Group=None }
+    CollectedScalarParameters[44] =
+    {
+        Value = 2
+        Name = NearFarColorFadeSmoothness
+        Group = None
+    }
+    CollectedScalarParameters[45] = { Value=50, Name=BlendBias (S), Group=None }
+    CollectedScalarParameters[46] = { Value=0.228571, Name=Direction_$3, Group=None }
+    CollectedScalarParameters[47] = { Value=3, Name=Steepness_$1, Group=None }
+    CollectedScalarParameters[48] = { Value=5, Name=Amplitude_$2, Group=None }
+    CollectedScalarParameters[49] =
+    {
+        Value = 100
+        Name = NearColorFadeDistance
+        Group = None
+    }
+    CollectedScalarParameters[50] =
+    {
+        Value = 50
+        Name = Scattering Color Intensity
+        Group = None
+    }
+    CollectedScalarParameters[51] = { Value=1, Name=Blend-Ocean, Group=None }
+    CollectedScalarParameters[52] = { Value=1000, Name=OpacityFadeDistance, Group=None }
+    CollectedScalarParameters[53] = { Value=0.7, Name=NormalFlatten01, Group=None }
+    CollectedScalarParameters[54] = { Value=2000, Name=Wavelength_$1, Group=None }
+    CollectedScalarParameters[55] = { Value=300, Name=Speed_$2, Group=None }
+    CollectedScalarParameters[56] = { Value=7000, Name=SSS Softness, Group=None }
+    CollectedScalarParameters[57] = { Value=100, Name=Speed_$4, Group=None }
+    CollectedScalarParameters[58] = { Value=0.3, Name=Wave Normal Streght, Group=None }
+    CollectedScalarParameters[59] = { Value=1, Name=OpacityFadeOpacity, Group=None }
+    CollectedScalarParameters[60] = { Value=3, Name=Steepness_$, Group=None }
+    CollectedScalarParameters[61] = { Value=9000, Name=Wavelength_$, Group=None }
+    CollectedScalarParameters[62] = { Value=800, Name=Wave Normal Tile, Group=None }
+    CollectedScalarParameters[63] = { Value=0.1, Name=MinOpacity, Group=None }
+    CollectedScalarParameters[64] = { Value=-200, Name=SSS Base Height, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=408000, G=408000, B=43741.8, A=1 }
+        Name = LanscapeHigh
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = NearColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.176416, G=0.572917, B=0.02138, A=0 }
+        Name = Scattering Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.256638, G=0.760417, B=0.312807, A=0 }
+        Name = SSSColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.810822, G=1, B=0.808775, A=0 }
+        Name = UnderwaterSceneTint
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = FarColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=-408000, G=-408000, B=-4417, A=1 }
+        Name = LanscapeLow
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,6 @@
+Diffuse=T_FineWood_01_baseColor
+Normal=T_FineWood_01_normal
+Other[0]=T_FineWood_01_OcclusionRoughnessHeight
+Other[1]=T_Empty_BaseColor
+Other[2]=T_Empty_LinearRGB
+Other[3]=T_Empty_normal

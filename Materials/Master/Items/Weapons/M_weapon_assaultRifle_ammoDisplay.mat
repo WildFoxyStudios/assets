@@ -1,0 +1,5 @@
+Diffuse=T_weapon_assaultRifle_ammoDisplay_BC
+Normal=T_weapon_assaultRifle_ammoDisplay_N
+Emissive=T_weapon_assaultRifle_ammoDisplay_E
+Other[0]=T_weapon_assaultRifle_ammoDisplay_Numbers_MK
+Other[1]=T_weapon_assaultRifle_ammoDisplay_ORM

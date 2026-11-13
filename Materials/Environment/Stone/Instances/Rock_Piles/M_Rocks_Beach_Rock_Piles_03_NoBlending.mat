@@ -1,0 +1,10 @@
+Diffuse=Rock_Surface_Rough_INST_basecolor
+Normal=Rock_Surface_Rough_INST_normal
+Other[0]=T_ground_sand_beach_A_BC
+Other[1]=Rock_Surface_Rough_INST_RAH
+Other[2]=Rock_Cliff_Sharp_INST_basecolor
+Other[3]=Rock_Cliff_Sharp_INST_normal
+Other[4]=Rock_Cliff_Sharp_INST_RAH
+Other[5]=T_forest_rock_moss_d
+Other[6]=T_Perlin_Noise_M
+Other[7]=blank_RAH

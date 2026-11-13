@@ -1,0 +1,328 @@
+Parent = Material3'Materials/Environment/Stone/Master/M_EnvironmentRock_Master.M_EnvironmentRock_Master'
+ScalarParameterValues[33] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=BlendWithRVT_EdgeNoise_Contrast }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=BlendWithRVT_EdgeNoise_TilingMultiplier }
+        ParameterValue = 1000
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=BlendWithRVT_Exponent }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=BlendWithRVT_Offset }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=BlendWithRVT_Scale }
+        ParameterValue = 30
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=AOIntensityBaked }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=AOIntensityTile }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=CurvOpacity }
+        ParameterValue = 0.714286
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=MacroVarOpacity }
+        ParameterValue = 0.628572
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=MacroVarSize }
+        ParameterValue = 10000
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=MossContrast }
+        ParameterValue = 20
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=MossDirectionContrast }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=MossDirectionInfluence }
+        ParameterValue = 0.9
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=MossLevel }
+        ParameterValue = 0.52381
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=MossMaskBaked }
+        ParameterValue = 0.9
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=MossMaskTile }
+        ParameterValue = 0.247619
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=MossSelect_AO_Height }
+        ParameterValue = 0.619047
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=MossTiling }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=NormalFlatnessBaked }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=NormalFlatnessMoss }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=NormalFlatnessMossBackground }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=NormalFlatnessTile }
+        ParameterValue = 0.542857
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=ProjContrast }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=RoughMax }
+        ParameterValue = 0.9
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=RoughMin }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=RoughnessBaked }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=RoughnessTile }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=Spec }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=SpecBreakup }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=SpecMoss }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=TextureSize }
+        ParameterValue = 300
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=TileBaseColorContrast }
+        ParameterValue = -0.085715
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[8] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BakedNormal }
+        ParameterValue = Texture2D'Textures/Environment/Stone/T_Rock_Block_Small_A_Normal.T_Rock_Block_Small_A_Normal'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BakedRAH }
+        ParameterValue = Texture2D'Textures/Environment/Stone/T_Rock_Block_Small_A_RAH.T_Rock_Block_Small_A_RAH'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=MacroVar }
+        ParameterValue = None
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=MossNormal }
+        ParameterValue = Texture2D'Textures/Environment/Ground/Jungle/NEW/T_ground_moss_jungle_A_N.T_ground_moss_jungle_A_N'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=MossTex }
+        ParameterValue = Texture2D'Textures/Environment/Ground/Jungle/NEW/T_ground_moss_jungle_A_BC.T_ground_moss_jungle_A_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=TileBaseColor }
+        ParameterValue = Texture2D'Textures/Environment/Stone/Generic/Rock_Surface_Rough_INST_basecolor.Rock_Surface_Rough_INST_basecolor'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=TileNormal }
+        ParameterValue = Texture2D'Textures/Environment/Stone/Generic/Rock_Surface_Rough_INST_normal.Rock_Surface_Rough_INST_normal'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=TileRAH }
+        ParameterValue = Texture2D'Textures/Environment/Stone/Generic/Rock_Surface_Rough_INST_RAH.Rock_Surface_Rough_INST_RAH'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=ColorMult }
+        ParameterValue = { R=0.369792, G=0.319588, B=0.238824, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=MossColMult }
+        ParameterValue = { R=1, G=1, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=MossDirection }
+        ParameterValue = { R=0, G=0, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=WorldPosOffset }
+        ParameterValue = { R=326.326, G=1486.28, B=-3005.77, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=BlendWithRVT_Enabled }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=BlendWithRVT_EdgeNoise_Enabled }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 5
+        UVChannelIndex = 0
+        TextureName = T_ground_moss_jungle_A_BC
+    }
+}

@@ -1,0 +1,106 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/FX/Ballistics/T_Environment_Materials_Wet_FluidNormal02.T_Environment_Materials_Wet_FluidNormal02'
+    ReferencedTextures[1] = Texture2D'Textures/FX/Ballistics/T_SplashMesh_02_N.T_SplashMesh_02_N'
+    ReferencedTextures[2] = TextureCube4'Textures/FX/Ballistics/CubeNearFalls.CubeNearFalls'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Alpha }
+                    ParameterInfos[1] = { Name=Tiling }
+                    ParameterInfos[2] = { Name=ColorExponent }
+                    ParameterInfos[3] = { Name=RefractExponent }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=BaseColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] =
+                    {
+                        Name = MaterialExpressionTextureSampleParameterCube_0
+                    }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 1, 8, 2, 1.25 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.5, G=0.5, B=0.5, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'Textures/FX/Ballistics/T_SplashMesh_02_N.T_SplashMesh_02_N'
+            TextureValues[1] = TextureCube4'Textures/FX/Ballistics/CubeNearFalls.CubeNearFalls'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/FX/Ballistics/T_Environment_Materials_Wet_FluidNormal02.T_Environment_Materials_Wet_FluidNormal02'
+        ReferencedTextures[1] = TextureCube4'Textures/FX/Ballistics/CubeNearFalls.CubeNearFalls'
+        ReferencedTextures[2] = Texture2D'Textures/FX/Ballistics/T_SplashMesh_02_N.T_SplashMesh_02_N'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/FX/Ballistics/T_SplashMesh_02_N.T_SplashMesh_02_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = TextureCube4'Textures/FX/Ballistics/CubeNearFalls.CubeNearFalls'
+        Name = MaterialExpressionTextureSampleParameterCube_0
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Alpha, Group=None }
+    CollectedScalarParameters[1] = { Value=8, Name=Tiling, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=ColorExponent, Group=None }
+    CollectedScalarParameters[3] = { Value=1.25, Name=RefractExponent, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

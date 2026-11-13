@@ -1,0 +1,182 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Assets/T_Cloth_01_Mask.T_Cloth_01_Mask'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Assets/T_Cloth_Mask_01.T_Cloth_Mask_01'
+    ReferencedTextures[2] = Texture2D'Textures/Environment/Assets/T_Empty_BaseColor.T_Empty_BaseColor'
+    ReferencedTextures[3] = Texture2D'Textures/Environment/Assets/T_Empty_normal.T_Empty_normal'
+    ReferencedTextures[4] = Texture2D'Textures/Environment/Assets/T_Empty_OcclusionRoughnessHeight.T_Empty_OcclusionRoughnessHeight'
+    ReferencedTextures[5] = Texture2D'Textures/Environment/Assets/T_UV.T_UV'
+    ReferencedTextures[6] = Texture2D'Textures/Environment/Assets/T_Waves.T_Waves'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[16] =
+                {
+                    ParameterInfos[0] = { Name=Bump_Offset_Ratio }
+                    ParameterInfos[1] = { Name=Opacity Paint Mask Range }
+                    ParameterInfos[2] = { Name=Desaturation }
+                    ParameterInfos[3] = { Name=Specular }
+                    ParameterInfos[4] = { Name=WaveHeight }
+                    ParameterInfos[5] = { Name=X_Tile }
+                    ParameterInfos[6] = { Name=HueShift }
+                    ParameterInfos[7] = { Name=WaveSpeed }
+                    ParameterInfos[8] = { Name=Subsurface Intensity }
+                    ParameterInfos[9] = { Name=Scale }
+                    ParameterInfos[10] = { Name=Y_Tile }
+                    ParameterInfos[11] = { Name=SubOpacity }
+                    ParameterInfos[12] = { Name=Roughness Multiply }
+                    ParameterInfos[13] = { Name=Opacity Mask Scale }
+                    ParameterInfos[14] = { Name=X_Offset }
+                    ParameterInfos[15] = { Name=Y_Offset }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Base_Color_Multiply }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Base Color }
+                    ParameterInfos[1] = { Name=Occlusion Roughness Height }
+                    ParameterInfos[2] = { Name=Mask }
+                    ParameterInfos[3] = { Name=Normal Map }
+                    ParameterInfos[4] = { Name=Opacity Paint Mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[16] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0.3
+            ScalarValues[4] = 3
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0.15
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0.85
+            ScalarValues[12] = 1
+            ScalarValues[13] = 2
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'Textures/Environment/Assets/T_Empty_BaseColor.T_Empty_BaseColor'
+            TextureValues[1] = Texture2D'Textures/Environment/Assets/T_Empty_OcclusionRoughnessHeight.T_Empty_OcclusionRoughnessHeight'
+            TextureValues[2] = Texture2D'Textures/Environment/Assets/T_Cloth_Mask_01.T_Cloth_Mask_01'
+            TextureValues[3] = Texture2D'Textures/Environment/Assets/T_Empty_normal.T_Empty_normal'
+            TextureValues[4] = Texture2D'Textures/Environment/Assets/T_Cloth_Mask_01.T_Cloth_Mask_01'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Environment/Assets/T_Empty_normal.T_Empty_normal'
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Assets/T_Empty_BaseColor.T_Empty_BaseColor'
+        ReferencedTextures[2] = Texture2D'Textures/Environment/Assets/T_Empty_OcclusionRoughnessHeight.T_Empty_OcclusionRoughnessHeight'
+        ReferencedTextures[3] = Texture2D'Textures/Environment/Assets/T_Waves.T_Waves'
+        ReferencedTextures[4] = Texture2D'Textures/Environment/Assets/T_Cloth_Mask_01.T_Cloth_Mask_01'
+        ReferencedTextures[5] = Texture2D'Textures/Environment/Assets/T_Cloth_01_Mask.T_Cloth_01_Mask'
+        ReferencedTextures[7] = Texture2D'Textures/Environment/Assets/T_UV.T_UV'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.6
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Environment/Assets/T_Empty_BaseColor.T_Empty_BaseColor'
+        Name = Base Color
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Environment/Assets/T_Empty_OcclusionRoughnessHeight.T_Empty_OcclusionRoughnessHeight'
+        Name = Occlusion Roughness Height
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Environment/Assets/T_Cloth_Mask_01.T_Cloth_Mask_01'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/Environment/Assets/T_Empty_normal.T_Empty_normal'
+        Name = Normal Map
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'Textures/Environment/Assets/T_Cloth_Mask_01.T_Cloth_Mask_01'
+        Name = Opacity Paint Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[16] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Bump_Offset_Ratio, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = Opacity Paint Mask Range
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0, Name=Desaturation, Group=None }
+    CollectedScalarParameters[3] = { Value=0.3, Name=Specular, Group=None }
+    CollectedScalarParameters[4] = { Value=3, Name=WaveHeight, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=X_Tile, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=HueShift, Group=None }
+    CollectedScalarParameters[7] = { Value=0.15, Name=WaveSpeed, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Subsurface Intensity, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Scale, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Y_Tile, Group=None }
+    CollectedScalarParameters[11] = { Value=0.85, Name=SubOpacity, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Roughness Multiply, Group=None }
+    CollectedScalarParameters[13] = { Value=2, Name=Opacity Mask Scale, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=X_Offset, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Y_Offset, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Base_Color_Multiply
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

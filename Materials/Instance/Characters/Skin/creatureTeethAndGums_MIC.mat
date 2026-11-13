@@ -1,0 +1,11 @@
+Diffuse=creatureMouth_tm
+Normal=skin02_N
+SpecPower=HumanSkinPores_S
+Opacity=creatureMouth_tm
+Other[0]=creatureMouth_ao
+Other[1]=blackColor
+Other[2]=femaleBody_nm1
+Other[3]=real_female_D
+Other[4]=real_female_M
+Other[5]=skin_female_ao2
+Other[6]=HumanSkinPores_N

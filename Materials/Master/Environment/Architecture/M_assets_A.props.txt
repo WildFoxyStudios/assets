@@ -1,0 +1,285 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/T_blank_AOHR.T_blank_AOHR'
+    ReferencedTextures[1] = Texture2D'Textures/T_blank_BC.T_blank_BC'
+    ReferencedTextures[2] = Texture2D'Textures/T_blank_E.T_blank_E'
+    ReferencedTextures[3] = Texture2D'Textures/T_blank_N.T_blank_N'
+    ReferencedTextures[4] = Texture2D'Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=BlendWithRVT_Contrast }
+                    ParameterInfos[1] = { Name=BlendWithRVT_Offset }
+                    ParameterInfos[2] = { Name=BlendWithRVT_Scale }
+                    ParameterInfos[3] = { Name=Emissive_Mul }
+                    ParameterInfos[4] = { Name=Desaturation }
+                    ParameterInfos[5] = { Name=SecondaryAO_Exp }
+                    ParameterInfos[6] = { Name=Roughness_Mul }
+                    ParameterInfos[7] = { Name=BlendWithRVT_EdgeNoise_TilingMultiplier }
+                    ParameterInfos[8] = { Name=BlendWithRVT_Exponent }
+                    ParameterInfos[9] = { Name=BlendWithRVT_CutVerticalFaces_Contrast }
+                    ParameterInfos[10] = { Name=BlendWithRVT_CutVerticalFaces_Mul }
+                    ParameterInfos[11] = { Name=BlendWithRVT_DistanceFieldContrast }
+                    ParameterInfos[12] = { Name=BlendWithRVT_DistanceFieldExponent }
+                    ParameterInfos[13] = { Name=Specular_Mul }
+                    ParameterInfos[14] = { Name=BlendWithRVT_DistanceFieldMultiplier }
+                    ParameterInfos[15] = { Name=UV_Tiling }
+                    ParameterInfos[16] = { Name=BlendWithRVT_EdgeNoise_Contrast }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Emissive_TintColor }
+                    ParameterInfos[1] = { Name=TintMask_A_Color }
+                    ParameterInfos[2] = { Name=TintColor_Base }
+                    ParameterInfos[3] = { Name=TintMask_B_Color }
+                    ParameterInfos[4] = { Name=TintMask_C_Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=SecondaryOpacity }
+                    ParameterInfos[2] = { Name=Emissive }
+                    ParameterInfos[3] = { Name=SecondaryAO }
+                    ParameterInfos[4] = { Name=AOHR }
+                    ParameterInfos[5] = { Name=TintMasks }
+                    ParameterInfos[6] = { Name=BC }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=BlendWithRVT_RVTHeightAsset }
+                }
+            }
+        }
+        ScalarValues[17] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 5
+            ScalarValues[2] = 15
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 400
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0.5
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 5
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'Textures/T_blank_N.T_blank_N'
+            TextureValues[1] = Texture2D'Textures/T_blank_BC.T_blank_BC'
+            TextureValues[2] = Texture2D'Textures/T_blank_E.T_blank_E'
+            TextureValues[3] = Texture2D'Textures/T_blank_BC.T_blank_BC'
+            TextureValues[4] = Texture2D'Textures/T_blank_AOHR.T_blank_AOHR'
+            TextureValues[5] = Texture2D'Textures/T_blank_E.T_blank_E'
+            TextureValues[6] = Texture2D'Textures/T_blank_BC.T_blank_BC'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/T_blank_AOHR.T_blank_AOHR'
+        ReferencedTextures[1] = Texture2D'Textures/T_blank_N.T_blank_N'
+        ReferencedTextures[2] = Texture2D'Textures/T_blank_BC.T_blank_BC'
+        ReferencedTextures[3] = Texture2D'Textures/T_blank_E.T_blank_E'
+        ReferencedTextures[5] = Texture2D'Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/T_blank_N.T_blank_N'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/T_blank_BC.T_blank_BC'
+        Name = SecondaryOpacity
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/T_blank_E.T_blank_E'
+        Name = Emissive
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/T_blank_BC.T_blank_BC'
+        Name = SecondaryAO
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'Textures/T_blank_AOHR.T_blank_AOHR'
+        Name = AOHR
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'Textures/T_blank_E.T_blank_E'
+        Name = TintMasks
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'Textures/T_blank_BC.T_blank_BC'
+        Name = BC
+        Group = None
+    }
+}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=BlendWithRVT_Contrast, Group=None }
+    CollectedScalarParameters[1] = { Value=5, Name=BlendWithRVT_Offset, Group=None }
+    CollectedScalarParameters[2] = { Value=15, Name=BlendWithRVT_Scale, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Emissive_Mul, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Desaturation, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=SecondaryAO_Exp, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Roughness_Mul, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 400
+        Name = BlendWithRVT_EdgeNoise_TilingMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=1, Name=BlendWithRVT_Exponent, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0
+        Name = BlendWithRVT_CutVerticalFaces_Contrast
+        Group = None
+    }
+    CollectedScalarParameters[10] =
+    {
+        Value = 1
+        Name = BlendWithRVT_CutVerticalFaces_Mul
+        Group = None
+    }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0
+        Name = BlendWithRVT_DistanceFieldContrast
+        Group = None
+    }
+    CollectedScalarParameters[12] =
+    {
+        Value = 1
+        Name = BlendWithRVT_DistanceFieldExponent
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0.5, Name=Specular_Mul, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 1
+        Name = BlendWithRVT_DistanceFieldMultiplier
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=1, Name=UV_Tiling, Group=None }
+    CollectedScalarParameters[16] =
+    {
+        Value = 5
+        Name = BlendWithRVT_EdgeNoise_Contrast
+        Group = None
+    }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Emissive_TintColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = TintMask_A_Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = TintColor_Base
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = TintMask_B_Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = TintMask_C_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_blank_AOHR
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_blank_BC
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_blank_N
+    }
+}

@@ -1,0 +1,7 @@
+Diffuse=T_filao_bark_diffuse
+Normal=T_filao_bark_normal
+SpecPower=T_filao_bark_masks
+Other[0]=T_coconut_bark_diffuse
+Other[1]=T_coconut_bark_masks
+Other[2]=T_coconut_bark_normal
+Other[3]=T_WindAnimation

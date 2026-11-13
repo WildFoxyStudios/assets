@@ -1,0 +1,5 @@
+Diffuse=beard_tm2
+Opacity=beard_om
+Other[0]=ShiftTexture
+Other[1]=DiffuseTexture
+Other[2]=GlitterTexture

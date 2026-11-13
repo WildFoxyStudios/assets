@@ -1,0 +1,5 @@
+Diffuse=T_bone_generic_A_AO
+Normal=T_bone_generic_A_N
+Other[0]=T_bone_generic_A_BC
+Other[1]=T_bone_generic_A_H
+Other[2]=T_bone_generic_A_MTSR

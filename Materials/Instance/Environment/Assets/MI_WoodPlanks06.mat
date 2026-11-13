@@ -1,0 +1,6 @@
+Diffuse=T_WoodPlanks06_baseColor
+Normal=T_WoodPlanks06_normal
+Other[0]=T_WoodPlanks06_OcclusionRoughnessHeight
+Other[1]=T_Empty_BaseColor
+Other[2]=T_Empty_LinearRGB
+Other[3]=T_Empty_normal

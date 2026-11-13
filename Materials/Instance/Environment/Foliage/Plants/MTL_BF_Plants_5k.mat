@@ -1,0 +1,9 @@
+Diffuse=TEX_BF_PlantGroundB_col
+Normal=TEX_BF_PlantGroundB_nrm
+Other[0]=TEX_BF_RGBMaskA_msk
+Other[1]=TEX_BF_RGBMaskB_msk
+Other[2]=TEX_MW_Temp_Checker
+Other[3]=TEX_MW_Temp_col
+Other[4]=TEX_MW_Winter_msk
+Other[5]=TEX_MW_Winter_msk2
+Other[6]=TEX_MW_Winter_nrm

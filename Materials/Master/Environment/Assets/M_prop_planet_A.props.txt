@@ -1,0 +1,119 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/DebugTextures/T_StillFlowmap.T_StillFlowmap'
+    ReferencedTextures[1] = Texture2D'Textures/Items/Food/Apple02_Normal.Apple02_Normal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Light_Exp }
+                    ParameterInfos[1] = { Name=HueShift }
+                    ParameterInfos[2] = { Name=Intensoty }
+                    ParameterInfos[3] = { Name=Light_Mul }
+                    ParameterInfos[4] = { Name=Speed }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=TintColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=PlanetTexture }
+                    ParameterInfos[1] = { Name=Flowmap }
+                    ParameterInfos[2] = { Name=PlanetTextureNormal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 2, 0, 1, 2, 1 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[1] = Texture2D'Textures/DebugTextures/T_StillFlowmap.T_StillFlowmap'
+            TextureValues[2] = Texture2D'Textures/Items/Food/Apple02_Normal.Apple02_Normal'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[5] = Texture2D'Textures/Items/Food/Apple02_Normal.Apple02_Normal'
+        ReferencedTextures[6] = Texture2D'Textures/DebugTextures/T_StillFlowmap.T_StillFlowmap'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=PlanetTexture, Group=None }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/DebugTextures/T_StillFlowmap.T_StillFlowmap'
+        Name = Flowmap
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Items/Food/Apple02_Normal.Apple02_Normal'
+        Name = PlanetTextureNormal
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=Light_Exp, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=HueShift, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Intensoty, Group=None }
+    CollectedScalarParameters[3] = { Value=2, Name=Light_Mul, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Speed, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = TintColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = DefaultTexture
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_StillFlowmap
+    }
+}

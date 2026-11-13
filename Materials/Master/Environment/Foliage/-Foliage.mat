@@ -1,0 +1,6 @@
+Diffuse=Blank_Albedo
+Normal=Blank_Normal
+Opacity=Clouds_A
+Other[0]=Blank_Compact
+Other[1]=Clouds
+Other[2]=MediumBushFrond_A

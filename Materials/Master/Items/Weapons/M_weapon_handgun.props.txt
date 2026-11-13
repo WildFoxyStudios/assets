@@ -1,0 +1,141 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_AO.T_weapon_handgun_partA_AO'
+    ReferencedTextures[1] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_BC.T_weapon_handgun_partA_BC'
+    ReferencedTextures[2] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_M.T_weapon_handgun_partA_M'
+    ReferencedTextures[3] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_N.T_weapon_handgun_partA_N'
+    ReferencedTextures[4] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_RGS.T_weapon_handgun_partA_RGS'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=SpecularStrength }
+                    ParameterInfos[1] = { Name=EmissivePower }
+                    ParameterInfos[2] = { Name=MetalicStrength }
+                    ParameterInfos[3] = { Name=RoughnessBrightness }
+                    ParameterInfos[4] = { Name=DiffuseBrightness }
+                    ParameterInfos[5] = { Name=MetalicPower }
+                    ParameterInfos[6] = { Name=AODarkness }
+                    ParameterInfos[7] = { Name=RoughnessAmount }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Diffuse }
+                    ParameterInfos[1] = { Name=RoughnessMap }
+                    ParameterInfos[2] = { Name=NormalMap }
+                    ParameterInfos[3] = { Name=MetalMap }
+                    ParameterInfos[4] = { Name=EmissiveMap }
+                    ParameterInfos[5] = { Name=AOMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0.5, 1, 1, 0, 1, 1, 1, 1 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_BC.T_weapon_handgun_partA_BC'
+            TextureValues[1] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_RGS.T_weapon_handgun_partA_RGS'
+            TextureValues[2] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_N.T_weapon_handgun_partA_N'
+            TextureValues[3] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_M.T_weapon_handgun_partA_M'
+            TextureValues[5] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_AO.T_weapon_handgun_partA_AO'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_N.T_weapon_handgun_partA_N'
+        ReferencedTextures[1] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_AO.T_weapon_handgun_partA_AO'
+        ReferencedTextures[2] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_BC.T_weapon_handgun_partA_BC'
+        ReferencedTextures[3] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_M.T_weapon_handgun_partA_M'
+        ReferencedTextures[4] = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_RGS.T_weapon_handgun_partA_RGS'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_BC.T_weapon_handgun_partA_BC'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_RGS.T_weapon_handgun_partA_RGS'
+        Name = RoughnessMap
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_N.T_weapon_handgun_partA_N'
+        Name = NormalMap
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_M.T_weapon_handgun_partA_M'
+        Name = MetalMap
+        Group = None
+    }
+    CollectedTextureParameters[4] = { Texture=None, Name=EmissiveMap, Group=None }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'Textures/Items/Weapons/T_weapon_handgun_partA_AO.T_weapon_handgun_partA_AO'
+        Name = AOMap
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=SpecularStrength, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=EmissivePower, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=MetalicStrength, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=RoughnessBrightness, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=DiffuseBrightness, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=MetalicPower, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=AODarkness, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=RoughnessAmount, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = EmissiveColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,74 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Animal/wild_boar_col10.wild_boar_col10'
+    ReferencedTextures[1] = Texture2D'Textures/Animal/wild_boar_gloss3.wild_boar_gloss3'
+    ReferencedTextures[2] = Texture2D'Textures/Animal/wild_boar_nrml10_inverted.wild_boar_nrml10_inverted'
+    ReferencedTextures[3] = Texture2D'Textures/Animal/wild_boar_spec2.wild_boar_spec2'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Animal/wild_boar_col10.wild_boar_col10'
+        ReferencedTextures[1] = Texture2D'Textures/Animal/wild_boar_spec2.wild_boar_spec2'
+        ReferencedTextures[2] = Texture2D'Textures/Animal/wild_boar_gloss3.wild_boar_gloss3'
+        ReferencedTextures[3] = Texture2D'Textures/Animal/wild_boar_nrml10_inverted.wild_boar_nrml10_inverted'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = wild_boar_col10
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = wild_boar_gloss3
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = wild_boar_nrml10_inverted
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = wild_boar_spec2
+    }
+}

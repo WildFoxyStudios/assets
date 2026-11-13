@@ -1,0 +1,10 @@
+Diffuse=Body1_BaseColor
+Normal=Engineer_Clothes_Normal_DirectX
+Other[0]=Engineer_Clothes_Base_Color
+Other[1]=Engineer_Clothes_Height
+Other[2]=Engineer_Clothes_Metallic
+Other[3]=Engineer_Clothes_Roughness
+Other[4]=Body1_Height
+Other[5]=Body1_Metallic
+Other[6]=Body1_Normal
+Other[7]=Body1_Roughness

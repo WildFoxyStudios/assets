@@ -1,0 +1,105 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/Environment/Foliage/T_GrassBillboard_BC.T_GrassBillboard_BC'
+    ReferencedTextures[1] = Texture2D'Textures/Environment/Foliage/T_GrassBillboard_N.T_GrassBillboard_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=LandscapeColors_Intensity }
+                    ParameterInfos[1] = { Name=LandscapeColors_Offset }
+                    ParameterInfos[2] = { Name=Param_1 }
+                    ParameterInfos[3] = { Name=LandscapeColors_Scale }
+                    ParameterInfos[4] = { Name=Param }
+                    ParameterInfos[5] = { Name=Param_2 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Param }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=LandscapeColors_RVTTextureAsset }
+                }
+            }
+        }
+        ScalarValues[6] = { 1, 0, 0.15, 20, 1.4, 0 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.875, G=0.592103, B=0, A=0 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/Environment/Foliage/T_GrassBillboard_N.T_GrassBillboard_N'
+        ReferencedTextures[1] = Texture2D'Textures/Environment/Foliage/T_GrassBillboard_BC.T_GrassBillboard_BC'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 1
+        Name = LandscapeColors_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0, Name=LandscapeColors_Offset, Group=None }
+    CollectedScalarParameters[2] = { Value=0.15, Name=Param_1, Group=None }
+    CollectedScalarParameters[3] = { Value=20, Name=LandscapeColors_Scale, Group=None }
+    CollectedScalarParameters[4] = { Value=1.4, Name=Param, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Param_2, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.875, G=0.592103, B=0, A=0 }
+        Name = Param
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_GrassBillboard_BC
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_GrassBillboard_N
+    }
+}

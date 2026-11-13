@@ -1,0 +1,127 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Textures/D.D'
+    ReferencedTextures[1] = Texture2D'Textures/DA.DA'
+    ReferencedTextures[2] = Texture2D'Textures/N.N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Metallic_Power }
+                    ParameterInfos[1] = { Name=Normal_Strength }
+                    ParameterInfos[2] = { Name=DiffuseStrength }
+                    ParameterInfos[3] = { Name=Specular }
+                    ParameterInfos[4] = { Name=Roughness_Min }
+                    ParameterInfos[5] = { Name=Emmissive_Amount_1 }
+                    ParameterInfos[6] = { Name=Roughness_Max }
+                    ParameterInfos[7] = { Name=AO_Power }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=EmmissiveTint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Spec }
+                    ParameterInfos[2] = { Name=ARME }
+                    ParameterInfos[3] = { Name=BaseColor }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 1, 1, 1, 0.5, 0.1, 100, 0.9, 1 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.5, G=0.5, B=0.5, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'Textures/N.N'
+            TextureValues[1] = Texture2D'Textures/D.D'
+            TextureValues[2] = Texture2D'Textures/DA.DA'
+            TextureValues[3] = Texture2D'Textures/D.D'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'Textures/D.D'
+        ReferencedTextures[1] = Texture2D'Textures/N.N'
+        ReferencedTextures[2] = Texture2D'Textures/DA.DA'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Textures/N.N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Textures/D.D'
+        Name = Spec
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Textures/DA.DA'
+        Name = ARME
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Textures/D.D'
+        Name = BaseColor
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Metallic_Power, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Normal_Strength, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=DiffuseStrength, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[4] = { Value=0.1, Name=Roughness_Min, Group=None }
+    CollectedScalarParameters[5] = { Value=100, Name=Emmissive_Amount_1, Group=None }
+    CollectedScalarParameters[6] = { Value=0.9, Name=Roughness_Max, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=AO_Power, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = EmmissiveTint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

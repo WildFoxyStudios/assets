@@ -1,0 +1,5 @@
+Diffuse=fiber_Haircard_ACRD
+Normal=fiber_Haircards_N
+Opacity=fiber_Haircard_ACRD
+Other[0]=ShiftTexture
+Other[1]=GlitterTexture

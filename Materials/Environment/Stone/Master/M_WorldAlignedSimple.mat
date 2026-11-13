@@ -1,0 +1,6 @@
+Diffuse=T_forest_rock_moss_d
+Normal=Rock_Cliff_Sharp_INST_normal
+Other[0]=Rock_Cliff_Sharp_INST_basecolor
+Other[1]=Rock_Cliff_Sharp_INST_RAH
+Other[2]=T_Perlin_Noise_M
+Other[3]=blank_RAH

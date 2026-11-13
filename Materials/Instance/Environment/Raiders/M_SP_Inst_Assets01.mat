@@ -1,0 +1,12 @@
+Diffuse=Asset01_Raiders_LP_Assets01_Raider_BaseColor
+Normal=Asset01_Raiders_LP_Assets01_Raider_Normal
+Other[0]=Asset01_Raiders_LP_Assets01_Raider_OcclusionRoughnessMetallic
+Other[1]=fireplace_lp_03___Default_Emissive
+Other[2]=T_A047_Body_BaseColor
+Other[3]=T_A047_Body_Normal
+Other[4]=T_A047_Body_OcclusionRoughnessMetallic
+Other[5]=T_ground_dirt_canyon_C_AOHR
+Other[6]=T_ground_dirt_canyon_C_BC
+Other[7]=T_ground_dirt_canyon_C_N
+Other[8]=T_clouds_C_MK
+Other[9]=T_Smoke_Tiled_D

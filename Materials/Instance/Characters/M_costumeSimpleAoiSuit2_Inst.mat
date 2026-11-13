@@ -1,0 +1,9 @@
+Diffuse=Body1_BaseColor
+Normal=Body2_Normal
+Other[0]=Body2_BaseColor
+Other[1]=Body2_Metallic
+Other[2]=Body2_Roughness
+Other[3]=Body1_Height
+Other[4]=Body1_Metallic
+Other[5]=Body1_Normal
+Other[6]=Body1_Roughness

@@ -1,0 +1,6 @@
+Diffuse=CrowSkullSimple_BaseColor
+Normal=CrowSkullSimple_Normal
+Other[0]=CrowSkullSimple_RoughnessMetalicAO
+Other[1]=AlienSimple_BaseColor
+Other[2]=AlienSimple_Normal
+Other[3]=AlienSimple_RoughnessMetalicAO
