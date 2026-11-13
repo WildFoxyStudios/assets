@@ -1,0 +1,320 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'WL_Hair/TestContent/T_HairClump02_Alpha.T_HairClump02_Alpha'
+    ReferencedTextures[1] = Texture2D'WL_Hair/TestContent/T_HairClump02_Depth.T_HairClump02_Depth'
+    ReferencedTextures[2] = Texture2D'WL_Hair/Textures/Haircards_ACRD_0001_noAlpha.Haircards_ACRD_0001_noAlpha'
+    ReferencedTextures[3] = Texture2D'WL_Hair/Textures/T_Black_Linear.T_Black_Linear'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[43] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=RootTipColorContrast }
+                    ParameterInfos[2] = { Name=HairWindVariationDiv }
+                    ParameterInfos[3] = { Name=Specular }
+                    ParameterInfos[4] = { Name=AO_FacingExponent }
+                    ParameterInfos[5] = { Name=TipPower }
+                    ParameterInfos[6] = { Name=VertexColorStrength }
+                    ParameterInfos[7] = { Name=VisibilityMinDist }
+                    ParameterInfos[8] = { Name=VisibilityMax }
+                    ParameterInfos[9] = { Name=LowQualityScatter }
+                    ParameterInfos[10] = { Name=BlendHairContrast }
+                    ParameterInfos[11] = { Name=SpecMaskMipBias }
+                    ParameterInfos[12] = { Name=Visibility }
+                    ParameterInfos[13] = { Name=AODepthMasking }
+                    ParameterInfos[14] = { Name=SpecMaskMax }
+                    ParameterInfos[15] = { Name=HairWindInt }
+                    ParameterInfos[16] = { Name=PixelDepthOffset_Root }
+                    ParameterInfos[17] = { Name=RootTipColorOffset }
+                    ParameterInfos[18] = { Name=RandomValueVariation }
+                    ParameterInfos[19] = { Name=HairWindIntensityMin }
+                    ParameterInfos[20] = { Name=SpecMaskMin }
+                    ParameterInfos[21] = { Name=AO_Max }
+                    ParameterInfos[22] = { Name=Scatter }
+                    ParameterInfos[23] = { Name=SpecRandom }
+                    ParameterInfos[24] = { Name=RandomHueVariation }
+                    ParameterInfos[25] = { Name=OcclusionAmtRootTip }
+                    ParameterInfos[26] = { Name=AO_DepthMax }
+                    ParameterInfos[27] = { Name=AO_Min }
+                    ParameterInfos[28] = { Name=OcclusionAmtRoot }
+                    ParameterInfos[29] = { Name=PixelDepthOffset }
+                    ParameterInfos[30] = { Name=Noisetiling }
+                    ParameterInfos[31] = { Name=HairMax }
+                    ParameterInfos[32] = { Name=VisibilityMaxDist }
+                    ParameterInfos[33] = { Name=Opacity }
+                    ParameterInfos[34] = { Name=HairMin }
+                    ParameterInfos[35] = { Name=WindAdveFreq }
+                    ParameterInfos[36] = { Name=EdgeMaskContrast }
+                    ParameterInfos[37] = { Name=MipBias }
+                    ParameterInfos[38] = { Name=EdgeMaskMin }
+                    ParameterInfos[39] = { Name=VisibilityMin }
+                    ParameterInfos[40] = { Name=AO_power }
+                    ParameterInfos[41] = { Name=BlendHairColor }
+                    ParameterInfos[42] = { Name=HairWindWeight }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=TangentA }
+                    ParameterInfos[1] = { Name=TangentB }
+                    ParameterInfos[2] = { Name=Tangent }
+                    ParameterInfos[3] = { Name=RootColorBlended }
+                    ParameterInfos[4] = { Name=TipColor }
+                    ParameterInfos[5] = { Name=TipColorBlended }
+                    ParameterInfos[6] = { Name=RootColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=ID_Depth_Root }
+                    ParameterInfos[1] = { Name=FlowMapTexture }
+                    ParameterInfos[2] = { Name=Diffuse }
+                    ParameterInfos[3] = { Name=T_HairWindVariation }
+                    ParameterInfos[4] = { Name=Alpha }
+                    ParameterInfos[5] = { Name=AO_2ndUV }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[43] =
+        {
+            ScalarValues[0] = 0.38
+            ScalarValues[1] = 0
+            ScalarValues[2] = 18
+            ScalarValues[3] = 0.5
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 10
+            ScalarValues[8] = 5
+            ScalarValues[9] = 0.2
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0.7
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0.33
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0
+            ScalarValues[19] = -0.33
+            ScalarValues[20] = 0
+            ScalarValues[21] = 1
+            ScalarValues[22] = 0.2
+            ScalarValues[23] = 0
+            ScalarValues[24] = 0
+            ScalarValues[25] = 0.8
+            ScalarValues[26] = 1
+            ScalarValues[27] = 0
+            ScalarValues[28] = 0
+            ScalarValues[29] = 1
+            ScalarValues[30] = 24
+            ScalarValues[31] = 1.2
+            ScalarValues[32] = 400
+            ScalarValues[33] = 0
+            ScalarValues[34] = 0.8
+            ScalarValues[35] = 0.1
+            ScalarValues[36] = 1
+            ScalarValues[37] = -1
+            ScalarValues[38] = 0
+            ScalarValues[39] = 1
+            ScalarValues[40] = 1
+            ScalarValues[41] = 0
+            ScalarValues[42] = 0.1
+        }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0.3, A=1 }
+            VectorValues[1] = { R=0, G=0, B=-0.3, A=1 }
+            VectorValues[2] = { R=0, G=-1, B=0, A=1 }
+            VectorValues[3] = { R=0.109804, G=0.07451, B=0.047059, A=1 }
+            VectorValues[4] = { R=0.109804, G=0.0745098, B=0.0509804, A=1 }
+            VectorValues[5] = { R=0.109804, G=0.07451, B=0.05098, A=1 }
+            VectorValues[6] = { R=0.109804, G=0.0745098, B=0.0470588, A=1 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'WL_Hair/Textures/Haircards_ACRD_0001_noAlpha.Haircards_ACRD_0001_noAlpha'
+            TextureValues[1] = Texture2D'WL_Hair/Textures/T_Black_Linear.T_Black_Linear'
+            TextureValues[4] = Texture2D'WL_Hair/TestContent/T_HairClump02_Alpha.T_HairClump02_Alpha'
+            TextureValues[5] = Texture2D'WL_Hair/TestContent/T_HairClump02_Depth.T_HairClump02_Depth'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[1] = Texture2D'WL_Hair/TestContent/T_HairClump02_Alpha.T_HairClump02_Alpha'
+        ReferencedTextures[2] = Texture2D'WL_Hair/Textures/T_Black_Linear.T_Black_Linear'
+        ReferencedTextures[4] = Texture2D'WL_Hair/TestContent/T_HairClump02_Depth.T_HairClump02_Depth'
+        ReferencedTextures[5] = Texture2D'WL_Hair/Textures/Haircards_ACRD_0001_noAlpha.Haircards_ACRD_0001_noAlpha'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'WL_Hair/Textures/Haircards_ACRD_0001_noAlpha.Haircards_ACRD_0001_noAlpha'
+        Name = ID_Depth_Root
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'WL_Hair/Textures/T_Black_Linear.T_Black_Linear'
+        Name = FlowMapTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] = { Texture=None, Name=Diffuse, Group=None }
+    CollectedTextureParameters[3] =
+    {
+        Texture = None
+        Name = T_HairWindVariation
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'WL_Hair/TestContent/T_HairClump02_Alpha.T_HairClump02_Alpha'
+        Name = Alpha
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'WL_Hair/TestContent/T_HairClump02_Depth.T_HairClump02_Depth'
+        Name = AO_2ndUV
+        Group = None
+    }
+}
+CollectedScalarParameters[43] =
+{
+    CollectedScalarParameters[0] = { Value=0.38, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=RootTipColorContrast, Group=None }
+    CollectedScalarParameters[2] = { Value=18, Name=HairWindVariationDiv, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=AO_FacingExponent, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=TipPower, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=VertexColorStrength, Group=None }
+    CollectedScalarParameters[7] = { Value=10, Name=VisibilityMinDist, Group=None }
+    CollectedScalarParameters[8] = { Value=5, Name=VisibilityMax, Group=None }
+    CollectedScalarParameters[9] = { Value=0.2, Name=LowQualityScatter, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=BlendHairContrast, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=SpecMaskMipBias, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Visibility, Group=None }
+    CollectedScalarParameters[13] = { Value=0.7, Name=AODepthMasking, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=SpecMaskMax, Group=None }
+    CollectedScalarParameters[15] = { Value=0.33, Name=HairWindInt, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=PixelDepthOffset_Root, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=RootTipColorOffset, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=RandomValueVariation, Group=None }
+    CollectedScalarParameters[19] =
+    {
+        Value = -0.33
+        Name = HairWindIntensityMin
+        Group = None
+    }
+    CollectedScalarParameters[20] = { Value=0, Name=SpecMaskMin, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=AO_Max, Group=None }
+    CollectedScalarParameters[22] = { Value=0.2, Name=Scatter, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=SpecRandom, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=RandomHueVariation, Group=None }
+    CollectedScalarParameters[25] = { Value=0.8, Name=OcclusionAmtRootTip, Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=AO_DepthMax, Group=None }
+    CollectedScalarParameters[27] = { Value=0, Name=AO_Min, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=OcclusionAmtRoot, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=PixelDepthOffset, Group=None }
+    CollectedScalarParameters[30] = { Value=24, Name=Noisetiling, Group=None }
+    CollectedScalarParameters[31] = { Value=1.2, Name=HairMax, Group=None }
+    CollectedScalarParameters[32] = { Value=400, Name=VisibilityMaxDist, Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=Opacity, Group=None }
+    CollectedScalarParameters[34] = { Value=0.8, Name=HairMin, Group=None }
+    CollectedScalarParameters[35] = { Value=0.1, Name=WindAdveFreq, Group=None }
+    CollectedScalarParameters[36] = { Value=1, Name=EdgeMaskContrast, Group=None }
+    CollectedScalarParameters[37] = { Value=-1, Name=MipBias, Group=None }
+    CollectedScalarParameters[38] = { Value=0, Name=EdgeMaskMin, Group=None }
+    CollectedScalarParameters[39] = { Value=1, Name=VisibilityMin, Group=None }
+    CollectedScalarParameters[40] = { Value=1, Name=AO_power, Group=None }
+    CollectedScalarParameters[41] = { Value=0, Name=BlendHairColor, Group=None }
+    CollectedScalarParameters[42] = { Value=0.1, Name=HairWindWeight, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0.3, A=1 }
+        Name = TangentA
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=-0.3, A=1 }
+        Name = TangentB
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=-1, B=0, A=1 }
+        Name = Tangent
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.109804, G=0.07451, B=0.047059, A=1 }
+        Name = RootColorBlended
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.109804, G=0.0745098, B=0.0509804, A=1 }
+        Name = TipColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.109804, G=0.07451, B=0.05098, A=1 }
+        Name = TipColorBlended
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.109804, G=0.0745098, B=0.0470588, A=1 }
+        Name = RootColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Haircards_ACRD_0001_noAlpha
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_HairClump02_Alpha
+    }
+}

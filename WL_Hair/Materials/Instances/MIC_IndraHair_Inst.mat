@@ -1,0 +1,9 @@
+Diffuse=T_HairClump02_Depth
+Normal=Haircards_ACRD_0001_noAlpha
+Opacity=CurlHair__ALPHA
+Other[0]=CurlHair__DIRC
+Other[1]=CurlHair__ACDR
+Other[2]=Haircards_DIRC0001
+Other[3]=Haircards_0001_Opac
+Other[4]=T_HairClump02_Alpha
+Other[5]=T_Black_Linear
