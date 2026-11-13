@@ -1,0 +1,136 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1590",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "caves_cliff_village_cave_cliff_village_10",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "M_cave_rock_canyon_A",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4,
+            "TEXCOORD_1" : 5,
+            "TEXCOORD_2" : 6
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "caves_cliff_village_cave_cliff_village_10"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "caves_cliff_village_cave_cliff_village_10.bin",
+      "byteLength" : 91408
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 8976
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 8976,
+      "byteLength" : 15456
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 24432,
+      "byteLength" : 15456
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 39888,
+      "byteLength" : 20608
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 60496,
+      "byteLength" : 10304
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 70800,
+      "byteLength" : 10304
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 81104,
+      "byteLength" : 10304
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 4488,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ 14.7848, -2.87498, -58.9574 ],
+      "max" : [ 42.014, 8.3655, 29.9802 ],
+      "componentType" : 5126,
+      "count" : 1288,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 1288,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 1288,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 1288,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5126,
+      "count" : 1288,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 6,
+      "componentType" : 5126,
+      "count" : 1288,
+      "type" : "VEC2"
+    }
+  ]
+}

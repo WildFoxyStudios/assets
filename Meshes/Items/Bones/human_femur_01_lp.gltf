@@ -1,0 +1,124 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1590",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "human_femur_01_lp",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "mi_combo_01",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4,
+            "TEXCOORD_1" : 5
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "human_femur_01_lp"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "human_femur_01_lp.bin",
+      "byteLength" : 23068
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 3300
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 3300,
+      "byteLength" : 4236
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 7536,
+      "byteLength" : 4236
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 11772,
+      "byteLength" : 5648
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 17420,
+      "byteLength" : 2824
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 20244,
+      "byteLength" : 2824
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 1650,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -0.046526, -0.00505598, -0.311174 ],
+      "max" : [ 0.0705917, 0.101026, 0.289015 ],
+      "componentType" : 5126,
+      "count" : 353,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 353,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 353,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 353,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5126,
+      "count" : 353,
+      "type" : "VEC2"
+    }
+  ]
+}

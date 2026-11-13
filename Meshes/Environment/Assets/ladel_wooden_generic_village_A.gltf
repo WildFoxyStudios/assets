@@ -1,0 +1,148 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1590",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "ladel_wooden_generic_village_A",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "M_wood_essentials_village",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4,
+            "TEXCOORD_1" : 5,
+            "TEXCOORD_2" : 6,
+            "TEXCOORD_3" : 7
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "ladel_wooden_generic_village_A"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "ladel_wooden_generic_village_A.bin",
+      "byteLength" : 102264
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 12192
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 12192,
+      "byteLength" : 15012
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 27204,
+      "byteLength" : 15012
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 42216,
+      "byteLength" : 20016
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 62232,
+      "byteLength" : 10008
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 72240,
+      "byteLength" : 10008
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 82248,
+      "byteLength" : 10008
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 92256,
+      "byteLength" : 10008
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 6096,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -0.392563, -0.462018, -0.0753393 ],
+      "max" : [ 0.154169, 1.06595, 0.264139 ],
+      "componentType" : 5126,
+      "count" : 1251,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 1251,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 1251,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 1251,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5126,
+      "count" : 1251,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 6,
+      "componentType" : 5126,
+      "count" : 1251,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 1251,
+      "type" : "VEC2"
+    }
+  ]
+}
